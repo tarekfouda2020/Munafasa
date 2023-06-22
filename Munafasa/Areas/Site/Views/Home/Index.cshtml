@@ -1,0 +1,236 @@
+﻿@using Munafasa.Models.ViewModels
+@model SettingViewModel
+@{
+    ViewData["Title"] = "Home";
+}
+
+<header id="header">
+    <div class="container">
+        <div class="d-flex justify-content-between align-items-center">
+            <a href="" class="the_logo"><img src="~/css/site/imgs/Munafasa logo 1.png"></a>
+            <ul class="nav_bar">
+                <li><a href="#header"><i class="fas fa-home" placement="top"></i> <span>Home</span></a></li>
+                <li><a href="#services"><i class="far fa-user" placement="top"></i> <span>Services</span></a></li>
+                <li><a href="#helpCenter"><i class="fas fa-server" placement="top"></i> <span>Help Center</span></a></li>
+            </ul>
+            <div class="d-flex align-items-center">
+                    @*<ul class="top_link">
+                        <li>
+                            <button type="button" class="btn-main btn-lang" (click)="changeCurentLang(lang === 'ar' ? 'en' : 'ar')">{{lang === 'ar' ? 'en' : 'ar'}}</button>
+                        </li>
+                    </ul>*@
+                </div>
+        </div>
+    </div>
+</header>
+
+
+<section class="sec-marg">
+    <div class="container">
+        <div class="row justify-content-between">
+            <div class="col-lg-5">
+                <div class="mb-3">
+                    <h1 class="f-b mb-4">Munafasa for cleaning and maintenance</h1>
+                    <p class="mb-3 gray-color">@Html.Raw(Model.CompanyInfoEn)</p>
+                </div>
+            </div>
+            <div class="col-lg-5">
+                <div class="imgIntroduction">
+                    <img src="~/@Model.Image" class="img1">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="sec-marg" id="aboutUs">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <div>
+                    <h6 class="f-b mb-3 text-center">About Us</h6>
+                    <p class="gray-color mb-3 text-center">@Html.Raw(Model.AboutEn)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <span class="mouse"></span>
+
+</section>
+
+
+<section class="sec-marg po_R" id="rateUs">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="boxRateUs-1">
+                    <img src="~/css/site/imgs/Group 26.png" alt="">
+                    <h6 class="f-b">Our Vision</h6>
+                    <p>@Html.Raw(Model.VisionEn)</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="boxRateUs-1">
+                    <img src="~/css/site/imgs/Group 26 (1).png" alt="">
+                    <h6 class="f-b">Our Mission</h6>
+                    <p>@Html.Raw(Model.MissionEn)</p>
+                </div>
+            </div>
+        </div>
+        @*<div class="row justify-content-center my-5">
+            <div class="col-lg-7">
+                <div class="mb-4">
+                    <h6 class="f-b mb-3 text-center">Our Morals</h6>
+                </div>
+            </div>
+        </div>
+
+        <swiper class="config">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    @foreach (var moral in Model.Morals)
+                    {
+                        <div class="boxRateUs-2">
+                            <img src="~/@moral.Image" />
+                            <h6 class="f-b m-0">@moral.NameEn</h6>
+                            <p class="gray-color">@moral.DesEn</p>
+                        </div>
+                    }
+
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </swiper>*@
+    </div>
+</section>
+
+
+
+<section class="sec-marg" id="services">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-7">
+                <div class="mb-4">
+                    <h5 class="f-b mb-3 text-center">Our Services</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="allserveses">
+            <div class="row align-items-center flex-wrap-reverse">
+                @for (int i = 0; i < Model.Services.Count; i++)
+                {
+                    if (i % 2 == 0)
+                    {
+                        <div class="col-lg-6">
+                            <div>
+                                <h6 class="f-b mb-3">@Model.Services[i].NameEn</h6>
+                                <p>@Html.Raw(Model.Services[i].DesEn)</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6" style="margin-top:40px">
+                            <img src="~/@Model.Services[i].ImageUrl" style="max-height: 300px; border-radius: 20px" alt="" class="img-fluid">
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="col-lg-6" style="margin-top:40px">
+                            <img src="~/@Model.Services[i].ImageUrl" style="max-height: 300px; border-radius: 20px" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-lg-6">
+                            <div>
+                                <h6 class="f-b mb-3">@Model.Services[i].NameEn</h6>
+                                <p>@Html.Raw(Model.Services[i].DesEn)</p>
+                            </div>
+                        </div>
+
+                    }
+                }
+
+            </div>
+
+                    </div>
+
+    </div>
+</section>
+
+
+<section class="sec-marg" id="helpCenter">
+
+    <div class="sec-padd pb-0 po_R" id="askService">
+        <img src="~/css/site/imgs/contact us En.png" class="imgcontentcover">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="py-3 text-white">
+                        <h2>Book your service now!</h2>
+                        <h4>And get all kinds of solutions from the competing company</h4>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="form-content form-call">
+                        <div class="mb-4">
+                            <h5 class="mb-2">Book your service now!</h5>
+                            <p>
+                                We are happy to help you. If you have an inquiry, you can contact us and book your service, and our team will respond as soon as possible
+                            </p>
+                        </div>
+                        <form method="post" asp-action="Index">
+                            <div class="form-group mt-3">
+                                <label asp-for="ContactUs.Name"></label>
+                                <input type="text" asp-for="ContactUs.Name" class="form-control mt-2" >
+                                <span asp-validation-for="ContactUs.Name" class="text-danger"></span>
+                            </div>
+
+
+                            <div class="form-group mt-3">
+                                <label asp-for="ContactUs.Email"></label>
+                                <input type="text" asp-for="ContactUs.Email" class="form-control mt-2">
+                                <span asp-validation-for="ContactUs.Email" class="text-danger"></span>
+                            </div>
+
+                            <div class="form-group mt-3">
+                                <label asp-for="ContactUs.Message"></label>
+                                <textarea class="form-control mt-2" asp-for="ContactUs.Message"></textarea>
+                                <span asp-validation-for="ContactUs.Message" class="text-danger"></span>
+                            </div>
+
+
+                            <button type="submit" class="btn-main btn-main-w mb-0">
+                               Send
+                            </button>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+<footer>
+    <div class="layear"><span></span></div>
+    <div class="container">
+        <div class="infoFooter">
+            <div class="d-flex align-items-center">
+                <a href="#" class="the_logo"><img src="~/css/site/imgs/Munafasa logo 1.png"></a>
+                <!-- <ul class="LinkFooter d-flex">
+                  <li><a href="">{{'terms' | translate}}</a></li>
+                  <li><a href="">{{'policy' | translate}}</a></li>
+                </ul> -->
+            </div>
+            <p class="gray-color">Terms and Conditions<a [routerLink]="['/index']"></a></p>
+            <p class="gray-color">Privacy Policy<a [routerLink]="['/index']"></a></p>
+            <p class="gray-color">Right reserved to<a href="#"> MUNAFASA</a></p>
+            <ul class="socialMedia">
+                <li><a href="https://api.whatsapp.com/send?phone=@Model.Phone" target="_blank" placement="top" ><i class="fab fa-whatsapp"></i></a></li>
+                 <li><a href="mailto:@Model.Email" target="_blank" placement="top" ><i class="fa-regular fa-envelope"></i></a></li>
+                <li><a href="tel:@Model.Phone" target="_blank" placement="top" ><i class="fa-regular fa-phone"></i></a></li>
+            </ul>
+        </div>
+    </div>
+</footer>

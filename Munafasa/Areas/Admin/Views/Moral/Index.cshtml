@@ -1,0 +1,74 @@
+﻿@using Munafasa.Models.Tables
+@model IEnumerable<Moral>
+@{
+    ViewData["Title"] = "Morals";
+    ViewData["PageSlug"] = "Moral";
+    ViewData["Back"] = "/Admin/Dashboard";
+}
+
+
+
+<div class="card">
+    <div class="card-header header-elements-inline">
+        <h5 class="card-title">Morals</h5>
+        <div class="header-elements">
+            <a class="btn btn-success" asp-area="Admin" asp-controller="Moral" asp-action="Upsert">Create Moral</a>
+        </div>
+    </div>
+
+
+
+    <table class="table datatable-show-all">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Image</th>
+                <th>Arabic Name</th>
+                <th>English Name</th>
+                <th>Created At</th>
+                <th class="text-center">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            @foreach (var service in Model)
+            {
+                <tr>
+                    <td>@service.Id</td>
+                    <td>
+                        <img src="~/@service.Image" width="80px" height="80px" />
+                    </td>
+                    <td>@service.NameAr</td>
+                    <td>@service.NameEn</td>
+                    <td>@service.CreatedAt</td>
+                    <td class="text-center">
+                        <div class="list-icons">
+                            <div class="dropdown">
+                                <a href="#" class="list-icons-item" data-toggle="dropdown">
+                                    <i class="icon-menu9"></i>
+                                </a>
+
+                                <div class="dropdown-menu dropdown-menu-right">
+                                    <a asp-area="Admin" asp-action="Upsert" asp-route-moralId="@service.Id" class="dropdown-item"><i class="icon-pencil5"></i> Edit</a>
+                                    <a asp-action="Delete" asp-route-moralId="@service.Id" class="dropdown-item"><i class="icon-trash"></i> Remove</a>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+</div>
+
+
+
+
+@section AdminScripts{
+
+    <script src="\js\adminJs\plugins\tables\datatables\datatables.min.js"></script>
+    <script src="\js\adminJs\plugins\forms\selects\select2.min.js"></script>
+    <script src="\js\adminJs\demo_pages\datatables_advanced.js"></script>
+
+}

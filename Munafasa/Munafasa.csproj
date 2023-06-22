@@ -1,0 +1,88 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>aspnet-Munafasa-f15210bf-f115-4c99-9909-21abe33edcf3</UserSecretsId>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'https' " />
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="7.0.7" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.7" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="7.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.7"><IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+<PrivateAssets>all</PrivateAssets>
+</PackageReference>
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="7.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.7" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.31.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Munafasa.Data\Munafasa.Data.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+    <ProjectReference Include="..\Munafasa.Models\Munafasa.Models.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+    <ProjectReference Include="..\Munafasa.Utilities\Munafasa.Utilities.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Areas\Site\" />
+    <None Remove="Areas\Admin\" />
+    <None Remove="Areas\Admin\Controllers\" />
+    <None Remove="Areas\Admin\Views\" />
+    <None Remove="Areas\Site\Controllers\" />
+    <None Remove="Areas\Site\Views\" />
+    <None Remove="Areas\Site\Views\Home\" />
+    <None Remove="Areas\Admin\Views\Admin\" />
+    <None Remove="Areas\Admin\Views\Service\" />
+    <None Remove="Areas\Admin\Views\Moral\" />
+    <None Remove="Areas\Admin\Views\Contact\" />
+    <None Remove="Areas\Admin\Views\Setting\" />
+    <None Remove="Areas\API\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Areas\Site\" />
+    <Folder Include="Areas\Admin\" />
+    <Folder Include="Areas\Admin\Controllers\" />
+    <Folder Include="Areas\Admin\Views\" />
+    <Folder Include="Areas\Site\Controllers\" />
+    <Folder Include="Areas\Site\Views\" />
+    <Folder Include="Areas\Site\Views\Home\" />
+    <Folder Include="Areas\Admin\Views\Dashboard\" />
+    <Folder Include="Areas\Admin\Views\Admin\" />
+    <Folder Include="Areas\Admin\Views\Service\" />
+    <Folder Include="wwwroot\Images\" />
+    <Folder Include="wwwroot\Images\Services\" />
+    <Folder Include="Areas\Admin\Views\Moral\" />
+    <Folder Include="Areas\Admin\Views\Contact\" />
+    <Folder Include="Areas\Admin\Views\Setting\" />
+    <Folder Include="wwwroot\global_assets\" />
+    <Folder Include="wwwroot\global_assets\css\" />
+    <Folder Include="wwwroot\global_assets\css\icons\" />
+    <Folder Include="wwwroot\Images\Setting\" />
+    <Folder Include="wwwroot\Images\Morals\" />
+    <Folder Include="wwwroot\css\site\" />
+    <Folder Include="wwwroot\css\adminCss\icons\" />
+    <Folder Include="Areas\API\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\Images\" />
+    <Content Remove="wwwroot\Images\Services\" />
+    <Content Remove="wwwroot\global_assets\" />
+    <Content Remove="wwwroot\global_assets\css\" />
+    <Content Remove="wwwroot\global_assets\css\icons\" />
+    <Content Remove="wwwroot\Images\Setting\" />
+    <Content Remove="wwwroot\Images\Morals\" />
+    <Content Remove="wwwroot\css\site\" />
+    <Content Remove="wwwroot\css\adminCss\icons\" />
+  </ItemGroup>
+</Project>

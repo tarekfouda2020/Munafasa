@@ -1,0 +1,2525 @@
+{
+  "Files": [
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/obj/Release/net7.0/scopedcss/projectbundle/Munafasa.bundle.scp.css",
+      "PackagePath": "staticwebassets/Munafasa.bundle.scp.css"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/Images/Morals/27927c85-f88d-44b9-be2f-c7892a9ea8f3.png",
+      "PackagePath": "staticwebassets/Images/Morals/27927c85-f88d-44b9-be2f-c7892a9ea8f3.png"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/Images/Morals/cd4e4370-8732-41e3-b1a1-3539f4c0df41.png",
+      "PackagePath": "staticwebassets/Images/Morals/cd4e4370-8732-41e3-b1a1-3539f4c0df41.png"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/Images/Morals/ee64750d-7651-424a-bc9f-23f1e4afea0d.png",
+      "PackagePath": "staticwebassets/Images/Morals/ee64750d-7651-424a-bc9f-23f1e4afea0d.png"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/Images/Services/25cdfead-d3ce-4642-bb34-f59123e742a8.png",
+      "PackagePath": "staticwebassets/Images/Services/25cdfead-d3ce-4642-bb34-f59123e742a8.png"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/Images/Services/492b5d51-e73c-4908-b6ce-5b4ba6037275.webp",
+      "PackagePath": "staticwebassets/Images/Services/492b5d51-e73c-4908-b6ce-5b4ba6037275.webp"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/Images/Services/4ae3927e-89e6-4b88-8981-184520848ff2.png",
+      "PackagePath": "staticwebassets/Images/Services/4ae3927e-89e6-4b88-8981-184520848ff2.png"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/Images/Services/5ca76f85-df7f-4be8-ab39-c55d19ac399e.png",
+      "PackagePath": "staticwebassets/Images/Services/5ca76f85-df7f-4be8-ab39-c55d19ac399e.png"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/Images/Services/6bdd5944-c311-4ae0-a1b6-cd6c8795b729.png",
+      "PackagePath": "staticwebassets/Images/Services/6bdd5944-c311-4ae0-a1b6-cd6c8795b729.png"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/Images/Services/7b83aded-7b47-489f-bf4e-4f43c1f6030e.png",
+      "PackagePath": "staticwebassets/Images/Services/7b83aded-7b47-489f-bf4e-4f43c1f6030e.png"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/Images/Services/8cf10085-41a6-4182-9cf5-d4a1805aa6f3.jpg",
+      "PackagePath": "staticwebassets/Images/Services/8cf10085-41a6-4182-9cf5-d4a1805aa6f3.jpg"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/Images/Services/994d4351-5aa9-4ca8-bcee-d12eea276b5c.png",
+      "PackagePath": "staticwebassets/Images/Services/994d4351-5aa9-4ca8-bcee-d12eea276b5c.png"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/Images/Services/a05a17d9-35af-4e5d-9d67-f7e37a5fd733.png",
+      "PackagePath": "staticwebassets/Images/Services/a05a17d9-35af-4e5d-9d67-f7e37a5fd733.png"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/Images/Services/d17e112c-bb7e-4a40-9f7a-517e538a716b.png",
+      "PackagePath": "staticwebassets/Images/Services/d17e112c-bb7e-4a40-9f7a-517e538a716b.png"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/Images/Services/f3a7be80-b465-45a4-8bd6-bbde96a100de.png",
+      "PackagePath": "staticwebassets/Images/Services/f3a7be80-b465-45a4-8bd6-bbde96a100de.png"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/Images/Setting/6714430f-7e67-4b73-b03a-64d976e4ca08.png",
+      "PackagePath": "staticwebassets/Images/Setting/6714430f-7e67-4b73-b03a-64d976e4ca08.png"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/.DS_Store",
+      "PackagePath": "staticwebassets/css/.DS_Store"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/adminCss/.DS_Store",
+      "PackagePath": "staticwebassets/css/adminCss/.DS_Store"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/adminCss/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/css/adminCss/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/adminCss/css/bootstrap_limitless.min.css",
+      "PackagePath": "staticwebassets/css/adminCss/css/bootstrap_limitless.min.css"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/adminCss/css/colors.min.css",
+      "PackagePath": "staticwebassets/css/adminCss/css/colors.min.css"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/adminCss/css/components.min.css",
+      "PackagePath": "staticwebassets/css/adminCss/css/components.min.css"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/adminCss/css/layout.min.css",
+      "PackagePath": "staticwebassets/css/adminCss/css/layout.min.css"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/adminCss/extras/animate.min.css",
+      "PackagePath": "staticwebassets/css/adminCss/extras/animate.min.css"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/site/.DS_Store",
+      "PackagePath": "staticwebassets/css/site/.DS_Store"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/site/fonts/Kalligraaf.ttf",
+      "PackagePath": "staticwebassets/css/site/fonts/Kalligraaf.ttf"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/site/imgs/Component-1.png",
+      "PackagePath": "staticwebassets/css/site/imgs/Component-1.png"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/site/imgs/Component-2.png",
+      "PackagePath": "staticwebassets/css/site/imgs/Component-2.png"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/site/imgs/Component-3.png",
+      "PackagePath": "staticwebassets/css/site/imgs/Component-3.png"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/site/imgs/Frame1.png",
+      "PackagePath": "staticwebassets/css/site/imgs/Frame1.png"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/site/imgs/Frame2.png",
+      "PackagePath": "staticwebassets/css/site/imgs/Frame2.png"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/site/imgs/Group 26 (1).png",
+      "PackagePath": "staticwebassets/css/site/imgs/Group 26 (1).png"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/site/imgs/Group 26.png",
+      "PackagePath": "staticwebassets/css/site/imgs/Group 26.png"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/site/imgs/Munafasa logo 1.png",
+      "PackagePath": "staticwebassets/css/site/imgs/Munafasa logo 1.png"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/site/imgs/Munafasa logo.jpg",
+      "PackagePath": "staticwebassets/css/site/imgs/Munafasa logo.jpg"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/site/imgs/aln.png",
+      "PackagePath": "staticwebassets/css/site/imgs/aln.png"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/site/imgs/angular.png",
+      "PackagePath": "staticwebassets/css/site/imgs/angular.png"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/site/imgs/anood.png",
+      "PackagePath": "staticwebassets/css/site/imgs/anood.png"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/site/imgs/arman.png",
+      "PackagePath": "staticwebassets/css/site/imgs/arman.png"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/site/imgs/contact us En.png",
+      "PackagePath": "staticwebassets/css/site/imgs/contact us En.png"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/site/imgs/kanto.png",
+      "PackagePath": "staticwebassets/css/site/imgs/kanto.png"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/site/imgs/logo.png",
+      "PackagePath": "staticwebassets/css/site/imgs/logo.png"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/site/imgs/logoSmall.png",
+      "PackagePath": "staticwebassets/css/site/imgs/logoSmall.png"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/site/imgs/naqlah.png",
+      "PackagePath": "staticwebassets/css/site/imgs/naqlah.png"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/site/imgs/rease1.png",
+      "PackagePath": "staticwebassets/css/site/imgs/rease1.png"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/site/imgs/rease2.png",
+      "PackagePath": "staticwebassets/css/site/imgs/rease2.png"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/site/imgs/servese1.png",
+      "PackagePath": "staticwebassets/css/site/imgs/servese1.png"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/site/imgs/servese2.png",
+      "PackagePath": "staticwebassets/css/site/imgs/servese2.png"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/site/imgs/servese3.png",
+      "PackagePath": "staticwebassets/css/site/imgs/servese3.png"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/site/imgs/servicerequestbanner.png",
+      "PackagePath": "staticwebassets/css/site/imgs/servicerequestbanner.png"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/site/site.css",
+      "PackagePath": "staticwebassets/css/site/site.css"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/global_assets/css/icons/fontawesome/fonts/fa-brands-400-1.eot",
+      "PackagePath": "staticwebassets/global_assets/css/icons/fontawesome/fonts/fa-brands-400-1.eot"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/global_assets/css/icons/fontawesome/fonts/fa-brands-400-1.txt",
+      "PackagePath": "staticwebassets/global_assets/css/icons/fontawesome/fonts/fa-brands-400-1.txt"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/global_assets/css/icons/fontawesome/fonts/fa-brands-400-2.txt",
+      "PackagePath": "staticwebassets/global_assets/css/icons/fontawesome/fonts/fa-brands-400-2.txt"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/global_assets/css/icons/fontawesome/fonts/fa-brands-400.eot",
+      "PackagePath": "staticwebassets/global_assets/css/icons/fontawesome/fonts/fa-brands-400.eot"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/global_assets/css/icons/fontawesome/fonts/fa-brands-400.svg",
+      "PackagePath": "staticwebassets/global_assets/css/icons/fontawesome/fonts/fa-brands-400.svg"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/global_assets/css/icons/fontawesome/fonts/fa-brands-400.txt",
+      "PackagePath": "staticwebassets/global_assets/css/icons/fontawesome/fonts/fa-brands-400.txt"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/global_assets/css/icons/fontawesome/fonts/fa-regular-400-1.eot",
+      "PackagePath": "staticwebassets/global_assets/css/icons/fontawesome/fonts/fa-regular-400-1.eot"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/global_assets/css/icons/fontawesome/fonts/fa-regular-400-1.txt",
+      "PackagePath": "staticwebassets/global_assets/css/icons/fontawesome/fonts/fa-regular-400-1.txt"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/global_assets/css/icons/fontawesome/fonts/fa-regular-400-2.txt",
+      "PackagePath": "staticwebassets/global_assets/css/icons/fontawesome/fonts/fa-regular-400-2.txt"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/global_assets/css/icons/fontawesome/fonts/fa-regular-400.eot",
+      "PackagePath": "staticwebassets/global_assets/css/icons/fontawesome/fonts/fa-regular-400.eot"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/global_assets/css/icons/fontawesome/fonts/fa-regular-400.svg",
+      "PackagePath": "staticwebassets/global_assets/css/icons/fontawesome/fonts/fa-regular-400.svg"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/global_assets/css/icons/fontawesome/fonts/fa-regular-400.txt",
+      "PackagePath": "staticwebassets/global_assets/css/icons/fontawesome/fonts/fa-regular-400.txt"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/global_assets/css/icons/fontawesome/fonts/fa-solid-900-1.eot",
+      "PackagePath": "staticwebassets/global_assets/css/icons/fontawesome/fonts/fa-solid-900-1.eot"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/global_assets/css/icons/fontawesome/fonts/fa-solid-900-1.txt",
+      "PackagePath": "staticwebassets/global_assets/css/icons/fontawesome/fonts/fa-solid-900-1.txt"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/global_assets/css/icons/fontawesome/fonts/fa-solid-900-2.txt",
+      "PackagePath": "staticwebassets/global_assets/css/icons/fontawesome/fonts/fa-solid-900-2.txt"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/global_assets/css/icons/fontawesome/fonts/fa-solid-900.eot",
+      "PackagePath": "staticwebassets/global_assets/css/icons/fontawesome/fonts/fa-solid-900.eot"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/global_assets/css/icons/fontawesome/fonts/fa-solid-900.svg",
+      "PackagePath": "staticwebassets/global_assets/css/icons/fontawesome/fonts/fa-solid-900.svg"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/global_assets/css/icons/fontawesome/fonts/fa-solid-900.txt",
+      "PackagePath": "staticwebassets/global_assets/css/icons/fontawesome/fonts/fa-solid-900.txt"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/global_assets/css/icons/fontawesome/styles.min.css",
+      "PackagePath": "staticwebassets/global_assets/css/icons/fontawesome/styles.min.css"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/global_assets/css/icons/icomoon/fonts/icomoon-1.eot",
+      "PackagePath": "staticwebassets/global_assets/css/icons/icomoon/fonts/icomoon-1.eot"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/global_assets/css/icons/icomoon/fonts/icomoon-1.txt",
+      "PackagePath": "staticwebassets/global_assets/css/icons/icomoon/fonts/icomoon-1.txt"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/global_assets/css/icons/icomoon/fonts/icomoon.eot",
+      "PackagePath": "staticwebassets/global_assets/css/icons/icomoon/fonts/icomoon.eot"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/global_assets/css/icons/icomoon/fonts/icomoon.svg",
+      "PackagePath": "staticwebassets/global_assets/css/icons/icomoon/fonts/icomoon.svg"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/global_assets/css/icons/icomoon/fonts/icomoon.txt",
+      "PackagePath": "staticwebassets/global_assets/css/icons/icomoon/fonts/icomoon.txt"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/global_assets/css/icons/icomoon/styles.min.css",
+      "PackagePath": "staticwebassets/global_assets/css/icons/icomoon/styles.min.css"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/global_assets/css/icons/material/fonts/material-icons-1.txt",
+      "PackagePath": "staticwebassets/global_assets/css/icons/material/fonts/material-icons-1.txt"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/global_assets/css/icons/material/fonts/material-icons.svg",
+      "PackagePath": "staticwebassets/global_assets/css/icons/material/fonts/material-icons.svg"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/global_assets/css/icons/material/fonts/material-icons.txt",
+      "PackagePath": "staticwebassets/global_assets/css/icons/material/fonts/material-icons.txt"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/global_assets/css/icons/material/styles.min.css",
+      "PackagePath": "staticwebassets/global_assets/css/icons/material/styles.min.css"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/global_assets/css/icons/summernote/summernote-1.eot",
+      "PackagePath": "staticwebassets/global_assets/css/icons/summernote/summernote-1.eot"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/global_assets/css/icons/summernote/summernote-1.txt",
+      "PackagePath": "staticwebassets/global_assets/css/icons/summernote/summernote-1.txt"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/global_assets/css/icons/summernote/summernote.eot",
+      "PackagePath": "staticwebassets/global_assets/css/icons/summernote/summernote.eot"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/global_assets/css/icons/summernote/summernote.txt",
+      "PackagePath": "staticwebassets/global_assets/css/icons/summernote/summernote.txt"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/.DS_Store",
+      "PackagePath": "staticwebassets/js/.DS_Store"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/alpaca_advanced.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/alpaca_advanced.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/alpaca_basic.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/alpaca_basic.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/alpaca_controls.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/alpaca_controls.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/animations_css3.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/animations_css3.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/animations_velocity_basic.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/animations_velocity_basic.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/animations_velocity_examples.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/animations_velocity_examples.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/animations_velocity_ui.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/animations_velocity_ui.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/blog_single.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/blog_single.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/c3/c3_advanced.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/c3/c3_advanced.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/c3/c3_axis.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/c3/c3_axis.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/c3/c3_bars_pies.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/c3/c3_bars_pies.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/c3/c3_grid.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/c3/c3_grid.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/c3/c3_lines_areas.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/c3/c3_lines_areas.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/d3/bars/bars_advanced_hierarchical.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/d3/bars/bars_advanced_hierarchical.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/d3/bars/bars_advanced_histogram.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/d3/bars/bars_advanced_histogram.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/d3/bars/bars_advanced_simple_interaction.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/d3/bars/bars_advanced_simple_interaction.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/d3/bars/bars_advanced_sortable_horizontal.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/d3/bars/bars_advanced_sortable_horizontal.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/d3/bars/bars_advanced_sortable_vertical.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/d3/bars/bars_advanced_sortable_vertical.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/d3/bars/bars_advanced_stacked_multiple.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/d3/bars/bars_advanced_stacked_multiple.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/d3/bars/bars_basic_grouped.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/d3/bars/bars_basic_grouped.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/d3/bars/bars_basic_horizontal.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/d3/bars/bars_basic_horizontal.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/d3/bars/bars_basic_stacked.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/d3/bars/bars_basic_stacked.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/d3/bars/bars_basic_stacked_normalized.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/d3/bars/bars_basic_stacked_normalized.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/d3/bars/bars_basic_tooltip.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/d3/bars/bars_basic_tooltip.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/d3/bars/bars_basic_vertical.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/d3/bars/bars_basic_vertical.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/d3/chords/chord_arcs.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/d3/chords/chord_arcs.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/d3/chords/chord_basic.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/d3/chords/chord_basic.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/d3/chords/chord_chart.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/d3/chords/chord_chart.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/d3/chords/chord_tweens.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/d3/chords/chord_tweens.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/d3/lines/lines_advanced_difference.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/d3/lines/lines_advanced_difference.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/d3/lines/lines_advanced_missing.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/d3/lines/lines_advanced_missing.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/d3/lines/lines_advanced_small_multiples.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/d3/lines/lines_advanced_small_multiples.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/d3/lines/lines_advanced_spline_transition.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/d3/lines/lines_advanced_spline_transition.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/d3/lines/lines_advanced_transitions.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/d3/lines/lines_advanced_transitions.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/d3/lines/lines_advanced_zoom.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/d3/lines/lines_advanced_zoom.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/d3/lines/lines_basic.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/d3/lines/lines_basic.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/d3/lines/lines_basic_area.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/d3/lines/lines_basic_area.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/d3/lines/lines_basic_bivariate.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/d3/lines/lines_basic_bivariate.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/d3/lines/lines_basic_gradient.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/d3/lines/lines_basic_gradient.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/d3/lines/lines_basic_multi_series.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/d3/lines/lines_basic_multi_series.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/d3/lines/lines_basic_stacked.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/d3/lines/lines_basic_stacked.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/d3/lines/lines_basic_stacked_nest.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/d3/lines/lines_basic_stacked_nest.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/d3/other/bubbles.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/d3/other/bubbles.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/d3/other/streamgraph.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/d3/other/streamgraph.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/d3/other/treemap.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/d3/other/treemap.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/d3/other/waterfall.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/d3/other/waterfall.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/d3/pies/donut_arc_tween.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/d3/pies/donut_arc_tween.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/d3/pies/donut_basic.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/d3/pies/donut_basic.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/d3/pies/donut_entry_animation.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/d3/pies/donut_entry_animation.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/d3/pies/donut_multiple.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/d3/pies/donut_multiple.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/d3/pies/donut_multiple_nesting.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/d3/pies/donut_multiple_nesting.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/d3/pies/donut_update.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/d3/pies/donut_update.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/d3/pies/pie_arc_tween.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/d3/pies/pie_arc_tween.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/d3/pies/pie_basic.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/d3/pies/pie_basic.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/d3/pies/pie_entry_animation.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/d3/pies/pie_entry_animation.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/d3/pies/pie_multiple.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/d3/pies/pie_multiple.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/d3/pies/pie_multiple_nesting.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/d3/pies/pie_multiple_nesting.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/d3/pies/pie_update.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/d3/pies/pie_update.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/d3/sunburst/sunburst_basic.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/d3/sunburst/sunburst_basic.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/d3/sunburst/sunburst_combined.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/d3/sunburst/sunburst_combined.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/d3/sunburst/sunburst_distortion.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/d3/sunburst/sunburst_distortion.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/d3/sunburst/sunburst_zoom.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/d3/sunburst/sunburst_zoom.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/d3/tree/tree_basic.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/d3/tree/tree_basic.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/d3/tree/tree_bracket.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/d3/tree/tree_bracket.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/d3/tree/tree_collapsible.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/d3/tree/tree_collapsible.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/d3/tree/tree_dendrogram.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/d3/tree/tree_dendrogram.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/d3/tree/tree_dendrogram_radial.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/d3/tree/tree_dendrogram_radial.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/d3/tree/tree_radial.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/d3/tree/tree_radial.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/d3/venn/venn_basic.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/d3/venn/venn_basic.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/d3/venn/venn_colors.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/d3/venn/venn_colors.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/d3/venn/venn_interactive.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/d3/venn/venn_interactive.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/d3/venn/venn_rings.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/d3/venn/venn_rings.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/d3/venn/venn_tooltip.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/d3/venn/venn_tooltip.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/d3/venn/venn_weighted.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/d3/venn/venn_weighted.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/dimple/area/area_horizontal.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/dimple/area/area_horizontal.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/dimple/area/area_horizontal_grouped.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/dimple/area/area_horizontal_grouped.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/dimple/area/area_horizontal_stacked.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/dimple/area/area_horizontal_stacked.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/dimple/area/area_horizontal_stacked_grouped.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/dimple/area/area_horizontal_stacked_grouped.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/dimple/area/area_horizontal_stacked_normalized.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/dimple/area/area_horizontal_stacked_normalized.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/dimple/area/area_vertical.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/dimple/area/area_vertical.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/dimple/area/area_vertical_grouped.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/dimple/area/area_vertical_grouped.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/dimple/area/area_vertical_stacked.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/dimple/area/area_vertical_stacked.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/dimple/area/area_vertical_stacked_grouped.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/dimple/area/area_vertical_stacked_grouped.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/dimple/area/area_vertical_stacked_normalized.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/dimple/area/area_vertical_stacked_normalized.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/dimple/bars/bar_horizontal.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/dimple/bars/bar_horizontal.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/dimple/bars/bar_horizontal_grouped.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/dimple/bars/bar_horizontal_grouped.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/dimple/bars/bar_horizontal_stacked.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/dimple/bars/bar_horizontal_stacked.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/dimple/bars/bar_horizontal_stacked_grouped.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/dimple/bars/bar_horizontal_stacked_grouped.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/dimple/bars/bar_horizontal_stacked_normalized.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/dimple/bars/bar_horizontal_stacked_normalized.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/dimple/bars/bar_vertical.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/dimple/bars/bar_vertical.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/dimple/bars/bar_vertical_grouped.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/dimple/bars/bar_vertical_grouped.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/dimple/bars/bar_vertical_stacked.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/dimple/bars/bar_vertical_stacked.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/dimple/bars/bar_vertical_stacked_grouped.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/dimple/bars/bar_vertical_stacked_grouped.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/dimple/bars/bar_vertical_stacked_normalized.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/dimple/bars/bar_vertical_stacked_normalized.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/dimple/bubble/bubble_basic.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/dimple/bubble/bubble_basic.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/dimple/bubble/bubble_horizontal_lollipop.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/dimple/bubble/bubble_horizontal_lollipop.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/dimple/bubble/bubble_lollipop_grouped.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/dimple/bubble/bubble_lollipop_grouped.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/dimple/bubble/bubble_matrix.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/dimple/bubble/bubble_matrix.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/dimple/bubble/bubble_vertical_lollipop.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/dimple/bubble/bubble_vertical_lollipop.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/dimple/lines/line_horizontal_multiple.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/dimple/lines/line_horizontal_multiple.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/dimple/lines/line_horizontal_multiple_grouped.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/dimple/lines/line_horizontal_multiple_grouped.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/dimple/lines/line_horizontal_single.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/dimple/lines/line_horizontal_single.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/dimple/lines/line_horizontal_single_grouped.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/dimple/lines/line_horizontal_single_grouped.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/dimple/lines/line_vertical_multiple.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/dimple/lines/line_vertical_multiple.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/dimple/lines/line_vertical_multiple_grouped.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/dimple/lines/line_vertical_multiple_grouped.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/dimple/lines/line_vertical_single.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/dimple/lines/line_vertical_single.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/dimple/lines/line_vertical_single_grouped.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/dimple/lines/line_vertical_single_grouped.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/dimple/pies/pie_basic.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/dimple/pies/pie_basic.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/dimple/pies/pie_bubble.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/dimple/pies/pie_bubble.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/dimple/pies/pie_legend.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/dimple/pies/pie_legend.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/dimple/pies/pie_lollipop.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/dimple/pies/pie_lollipop.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/dimple/pies/pie_matrix.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/dimple/pies/pie_matrix.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/dimple/pies/pie_scatter.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/dimple/pies/pie_scatter.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/dimple/rings/ring_basic.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/dimple/rings/ring_basic.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/dimple/rings/ring_bubble.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/dimple/rings/ring_bubble.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/dimple/rings/ring_concentric.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/dimple/rings/ring_concentric.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/dimple/rings/ring_lollipop.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/dimple/rings/ring_lollipop.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/dimple/rings/ring_matrix.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/dimple/rings/ring_matrix.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/dimple/rings/ring_scatter.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/dimple/rings/ring_scatter.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/dimple/scatter/scatter_basic.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/dimple/scatter/scatter_basic.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/dimple/scatter/scatter_horizontal_lollipop.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/dimple/scatter/scatter_horizontal_lollipop.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/dimple/scatter/scatter_lollipop_grouped.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/dimple/scatter/scatter_lollipop_grouped.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/dimple/scatter/scatter_matrix.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/dimple/scatter/scatter_matrix.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/dimple/scatter/scatter_vertical_lollipop.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/dimple/scatter/scatter_vertical_lollipop.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/dimple/step/step_horizontal_multiple.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/dimple/step/step_horizontal_multiple.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/dimple/step/step_horizontal_multiple_grouped.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/dimple/step/step_horizontal_multiple_grouped.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/dimple/step/step_horizontal_single.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/dimple/step/step_horizontal_single.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/dimple/step/step_horizontal_single_grouped.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/dimple/step/step_horizontal_single_grouped.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/dimple/step/step_vertical_multiple.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/dimple/step/step_vertical_multiple.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/dimple/step/step_vertical_multiple_grouped.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/dimple/step/step_vertical_multiple_grouped.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/dimple/step/step_vertical_single.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/dimple/step/step_vertical_single.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/dimple/step/step_vertical_single_grouped.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/dimple/step/step_vertical_single_grouped.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/echarts/areas.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/echarts/areas.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/echarts/bars_tornados.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/echarts/bars_tornados.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/echarts/candlesticks_others.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/echarts/candlesticks_others.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/echarts/columns_waterfalls.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/echarts/columns_waterfalls.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/echarts/funnels_calendars.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/echarts/funnels_calendars.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/echarts/lines.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/echarts/lines.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/echarts/pies_donuts.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/echarts/pies_donuts.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/echarts/scatter.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/echarts/scatter.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/google/bars/bar.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/google/bars/bar.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/google/bars/bar_stacked.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/google/bars/bar_stacked.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/google/bars/column.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/google/bars/column.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/google/bars/column_stacked.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/google/bars/column_stacked.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/google/bars/combo.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/google/bars/combo.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/google/bars/histogram.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/google/bars/histogram.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/google/bubbles/bubble.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/google/bubbles/bubble.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/google/bubbles/bubble_gradient.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/google/bubbles/bubble_gradient.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/google/lines/area.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/google/lines/area.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/google/lines/area_intervals.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/google/lines/area_intervals.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/google/lines/area_stacked.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/google/lines/area_stacked.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/google/lines/area_stepped.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/google/lines/area_stepped.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/google/lines/line_intervals.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/google/lines/line_intervals.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/google/lines/lines.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/google/lines/lines.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/google/other/candlestick.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/google/other/candlestick.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/google/other/diff.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/google/other/diff.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/google/other/geo.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/google/other/geo.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/google/other/sankey.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/google/other/sankey.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/google/other/trendline.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/google/other/trendline.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/google/pies/3d_exploded.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/google/pies/3d_exploded.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/google/pies/donut.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/google/pies/donut.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/google/pies/donut_exploded.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/google/pies/donut_exploded.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/google/pies/donut_rotate.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/google/pies/donut_rotate.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/google/pies/pie.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/google/pies/pie.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/google/pies/pie_3d.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/google/pies/pie_3d.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/google/pies/pie_diff_border.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/google/pies/pie_diff_border.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/google/pies/pie_diff_invert.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/google/pies/pie_diff_invert.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/google/pies/pie_diff_opacity.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/google/pies/pie_diff_opacity.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/google/pies/pie_diff_radius.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/google/pies/pie_diff_radius.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/google/pies/pie_exploded.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/google/pies/pie_exploded.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/google/pies/pie_rotate.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/google/pies/pie_rotate.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/google/scatter/scatter.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/google/scatter/scatter.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/charts/google/scatter/scatter_diff.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/charts/google/scatter/scatter_diff.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/chat_layouts.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/chat_layouts.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/colors_blue.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/colors_blue.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/colors_brown.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/colors_brown.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/colors_danger.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/colors_danger.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/colors_green.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/colors_green.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/colors_grey.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/colors_grey.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/colors_indigo.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/colors_indigo.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/colors_info.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/colors_info.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/colors_orange.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/colors_orange.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/colors_pink.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/colors_pink.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/colors_primary.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/colors_primary.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/colors_purple.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/colors_purple.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/colors_slate.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/colors_slate.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/colors_success.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/colors_success.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/colors_teal.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/colors_teal.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/colors_violet.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/colors_violet.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/colors_warning.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/colors_warning.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/components_buttons.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/components_buttons.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/components_collapsible.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/components_collapsible.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/components_dropdowns.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/components_dropdowns.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/components_media.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/components_media.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/components_modals.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/components_modals.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/components_pagination.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/components_pagination.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/components_popups.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/components_popups.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/components_progress.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/components_progress.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/components_scrollspy.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/components_scrollspy.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/content_cards_content.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/content_cards_content.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/content_cards_draggable.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/content_cards_draggable.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/content_cards_footer.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/content_cards_footer.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/content_cards_header.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/content_cards_header.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/content_page_header.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/content_page_header.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/dashboard.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/dashboard.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/dashboard_boxed.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/dashboard_boxed.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/datatables_advanced.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/datatables_advanced.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/datatables_api.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/datatables_api.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/datatables_basic.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/datatables_basic.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/datatables_data_sources.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/datatables_data_sources.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/datatables_extension_autofill.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/datatables_extension_autofill.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/datatables_extension_buttons_flash.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/datatables_extension_buttons_flash.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/datatables_extension_buttons_html5.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/datatables_extension_buttons_html5.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/datatables_extension_buttons_init.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/datatables_extension_buttons_init.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/datatables_extension_buttons_print.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/datatables_extension_buttons_print.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/datatables_extension_colvis.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/datatables_extension_colvis.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/datatables_extension_fixed_columns.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/datatables_extension_fixed_columns.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/datatables_extension_fixed_header.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/datatables_extension_fixed_header.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/datatables_extension_key_table.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/datatables_extension_key_table.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/datatables_extension_reorder.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/datatables_extension_reorder.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/datatables_extension_row_reorder.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/datatables_extension_row_reorder.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/datatables_extension_scroller.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/datatables_extension_scroller.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/datatables_extension_select.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/datatables_extension_select.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/datatables_responsive.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/datatables_responsive.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/datatables_sorting.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/datatables_sorting.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/ecommerce_customers.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/ecommerce_customers.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/ecommerce_orders_history.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/ecommerce_orders_history.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/ecommerce_product_list.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/ecommerce_product_list.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/editor_ckeditor.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/editor_ckeditor.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/editor_ckeditor_rtl.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/editor_ckeditor_rtl.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/editor_code.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/editor_code.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/editor_summernote.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/editor_summernote.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/editor_trumbowyg.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/editor_trumbowyg.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/extension_blockui.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/extension_blockui.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/extension_dnd.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/extension_dnd.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/extension_image_cropper.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/extension_image_cropper.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/extra_context_menu.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/extra_context_menu.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/extra_fab.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/extra_fab.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/extra_idle_timeout.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/extra_idle_timeout.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/extra_jgrowl_noty.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/extra_jgrowl_noty.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/extra_pnotify.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/extra_pnotify.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/extra_session_timeout.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/extra_session_timeout.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/extra_sliders_ion.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/extra_sliders_ion.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/extra_sliders_noui.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/extra_sliders_noui.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/extra_sweetalert.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/extra_sweetalert.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/extra_trees.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/extra_trees.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/form_actions.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/form_actions.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/form_checkboxes_radios.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/form_checkboxes_radios.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/form_controls_extended.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/form_controls_extended.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/form_dual_listboxes.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/form_dual_listboxes.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/form_floating_labels.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/form_floating_labels.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/form_input_groups.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/form_input_groups.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/form_inputs.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/form_inputs.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/form_layouts.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/form_layouts.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/form_multiselect.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/form_multiselect.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/form_select2.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/form_select2.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/form_tags_input.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/form_tags_input.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/form_validation.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/form_validation.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/form_wizard.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/form_wizard.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/form_wizard_rtl.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/form_wizard_rtl.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/fullcalendar_advanced.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/fullcalendar_advanced.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/fullcalendar_basic.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/fullcalendar_basic.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/fullcalendar_formats.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/fullcalendar_formats.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/fullcalendar_styling.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/fullcalendar_styling.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/gallery.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/gallery.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/gallery_library.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/gallery_library.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/handsontable_ac_password.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/handsontable_ac_password.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/handsontable_advanced.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/handsontable_advanced.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/handsontable_basic.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/handsontable_basic.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/handsontable_cells.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/handsontable_cells.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/handsontable_cols.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/handsontable_cols.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/handsontable_context.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/handsontable_context.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/handsontable_custom_checks.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/handsontable_custom_checks.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/handsontable_search.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/handsontable_search.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/handsontable_types.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/handsontable_types.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/internationalization_callbacks.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/internationalization_callbacks.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/internationalization_fallback.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/internationalization_fallback.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/internationalization_switch_direct.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/internationalization_switch_direct.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/internationalization_switch_query.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/internationalization_switch_query.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/invoice_archive.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/invoice_archive.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/invoice_grid.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/invoice_grid.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/invoice_template.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/invoice_template.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/job_apply.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/job_apply.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/job_list.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/job_list.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/jqueryui_components.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/jqueryui_components.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/jqueryui_forms.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/jqueryui_forms.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/jqueryui_interactions.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/jqueryui_interactions.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/jqueryui_navigation.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/jqueryui_navigation.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/jqueryui_sliders.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/jqueryui_sliders.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/layout_fixed_sidebar_custom.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/layout_fixed_sidebar_custom.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/learning.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/learning.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/learning_detailed.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/learning_detailed.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/login.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/login.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/login_validation.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/login_validation.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/mail_list.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/mail_list.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/mail_list_read.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/mail_list_read.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/mail_list_write.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/mail_list_write.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/maps/google/basic/basic.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/maps/google/basic/basic.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/maps/google/basic/click_event.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/maps/google/basic/click_event.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/maps/google/basic/coordinates.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/maps/google/basic/coordinates.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/maps/google/basic/geolocation.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/maps/google/basic/geolocation.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/maps/google/controls/adding_controls.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/maps/google/controls/adding_controls.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/maps/google/controls/control_options.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/maps/google/controls/control_options.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/maps/google/controls/control_positioning.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/maps/google/controls/control_positioning.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/maps/google/controls/disable_ui.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/maps/google/controls/disable_ui.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/maps/google/drawings/circles.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/maps/google/drawings/circles.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/maps/google/drawings/polygons.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/maps/google/drawings/polygons.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/maps/google/drawings/polylines.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/maps/google/drawings/polylines.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/maps/google/drawings/rectangles.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/maps/google/drawings/rectangles.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/maps/google/layers/bicycling.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/maps/google/layers/bicycling.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/maps/google/layers/fusion_tables.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/maps/google/layers/fusion_tables.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/maps/google/layers/traffic.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/maps/google/layers/traffic.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/maps/google/layers/transit.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/maps/google/layers/transit.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/maps/google/markers/animation.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/maps/google/markers/animation.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/maps/google/markers/simple.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/maps/google/markers/simple.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/maps/google/markers/symbols_custom.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/maps/google/markers/symbols_custom.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/maps/google/markers/symbols_predefined.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/maps/google/markers/symbols_predefined.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/maps/vector/vector_maps_demo.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/maps/vector/vector_maps_demo.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/navbar_components.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/navbar_components.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/navbar_hideable.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/navbar_hideable.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/navbar_multiple.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/navbar_multiple.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/navbar_multiple_sticky.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/navbar_multiple_sticky.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/navbar_multiple_sticky_fab.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/navbar_multiple_sticky_fab.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/navigation_horizontal_mega.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/navigation_horizontal_mega.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/picker_color.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/picker_color.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/picker_date.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/picker_date.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/picker_date_rtl.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/picker_date_rtl.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/picker_location.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/picker_location.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/sidebar_components.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/sidebar_components.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/sidebar_secondary.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/sidebar_secondary.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/table_elements.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/table_elements.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/table_responsive.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/table_responsive.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/task_manager_detailed.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/task_manager_detailed.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/task_manager_grid.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/task_manager_grid.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/task_manager_list.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/task_manager_list.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/timelines.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/timelines.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/uploader_bootstrap.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/uploader_bootstrap.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/uploader_dropzone.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/uploader_dropzone.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/uploader_plupload.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/uploader_plupload.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/user_pages_profile.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/user_pages_profile.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/user_pages_profile_tabbed.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/user_pages_profile_tabbed.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/widgets_content.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/widgets_content.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/widgets_stats.js",
+      "PackagePath": "staticwebassets/js/adminJs/demo_pages/widgets_stats.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/js/app.js",
+      "PackagePath": "staticwebassets/js/adminJs/js/app.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/main/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/main/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/main/jquery.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/main/jquery.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/buttons/hover_dropdown.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/buttons/hover_dropdown.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/buttons/ladda.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/buttons/ladda.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/buttons/spin.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/buttons/spin.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/editors/ace/ace.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/editors/ace/ace.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/editors/ckeditor/ckeditor.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/editors/ckeditor/ckeditor.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/editors/summernote/summernote.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/editors/summernote/summernote.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/editors/trumbowyg/plugins/base64/trumbowyg.base64.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/editors/trumbowyg/plugins/base64/trumbowyg.base64.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/editors/trumbowyg/plugins/cleanpaste/trumbowyg.cleanpaste.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/editors/trumbowyg/plugins/cleanpaste/trumbowyg.cleanpaste.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/editors/trumbowyg/plugins/colors/trumbowyg.colors.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/editors/trumbowyg/plugins/colors/trumbowyg.colors.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/editors/trumbowyg/plugins/insertaudio/trumbowyg.insertaudio.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/editors/trumbowyg/plugins/insertaudio/trumbowyg.insertaudio.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/editors/trumbowyg/plugins/noembed/trumbowyg.noembed.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/editors/trumbowyg/plugins/noembed/trumbowyg.noembed.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/editors/trumbowyg/plugins/pasteimage/trumbowyg.pasteimage.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/editors/trumbowyg/plugins/pasteimage/trumbowyg.pasteimage.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/editors/trumbowyg/plugins/preformatted/trumbowyg.preformatted.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/editors/trumbowyg/plugins/preformatted/trumbowyg.preformatted.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/editors/trumbowyg/plugins/template/trumbowyg.template.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/editors/trumbowyg/plugins/template/trumbowyg.template.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/editors/trumbowyg/plugins/upload/trumbowyg.upload.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/editors/trumbowyg/plugins/upload/trumbowyg.upload.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/editors/trumbowyg/trumbowyg.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/editors/trumbowyg/trumbowyg.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/extensions/contextmenu.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/extensions/contextmenu.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/extensions/cookie.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/extensions/cookie.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/extensions/jquery_ui/core.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/extensions/jquery_ui/core.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/extensions/jquery_ui/effects.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/extensions/jquery_ui/effects.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/extensions/jquery_ui/globalize/cultures/globalize.culture.de-DE.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/extensions/jquery_ui/globalize/cultures/globalize.culture.de-DE.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/extensions/jquery_ui/globalize/cultures/globalize.culture.ja-JP.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/extensions/jquery_ui/globalize/cultures/globalize.culture.ja-JP.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/extensions/jquery_ui/globalize/globalize.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/extensions/jquery_ui/globalize/globalize.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/extensions/jquery_ui/interactions.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/extensions/jquery_ui/interactions.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/extensions/jquery_ui/slider.rtl.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/extensions/jquery_ui/slider.rtl.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/extensions/jquery_ui/touch.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/extensions/jquery_ui/touch.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/extensions/jquery_ui/widgets.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/extensions/jquery_ui/widgets.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/extensions/mousewheel.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/extensions/mousewheel.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/extensions/rowlink.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/extensions/rowlink.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/extensions/session_timeout.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/extensions/session_timeout.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/forms/inputs/alpaca/alpaca.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/forms/inputs/alpaca/alpaca.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/forms/inputs/alpaca/price_format.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/forms/inputs/alpaca/price_format.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/forms/inputs/autosize.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/forms/inputs/autosize.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/forms/inputs/duallistbox/duallistbox.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/forms/inputs/duallistbox/duallistbox.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/forms/inputs/duallistbox/duallistbox_rtl.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/forms/inputs/duallistbox/duallistbox_rtl.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/forms/inputs/formatter.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/forms/inputs/formatter.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/forms/inputs/inputmask.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/forms/inputs/inputmask.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/forms/inputs/maxlength.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/forms/inputs/maxlength.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/forms/inputs/passy.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/forms/inputs/passy.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/forms/inputs/touchspin.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/forms/inputs/touchspin.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/forms/inputs/typeahead/handlebars.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/forms/inputs/typeahead/handlebars.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/forms/inputs/typeahead/typeahead.bundle.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/forms/inputs/typeahead/typeahead.bundle.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/forms/selects/bootstrap_multiselect.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/forms/selects/bootstrap_multiselect.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/forms/selects/select2.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/forms/selects/select2.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/forms/styling/switch.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/forms/styling/switch.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/forms/styling/switchery.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/forms/styling/switchery.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/forms/styling/uniform.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/forms/styling/uniform.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/forms/tags/tagsinput.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/forms/tags/tagsinput.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/forms/tags/tokenfield.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/forms/tags/tokenfield.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/forms/validation/validate.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/forms/validation/validate.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/forms/wizards/steps.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/forms/wizards/steps.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/internationalization/i18next.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/internationalization/i18next.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/internationalization/i18nextBrowserLanguageDetector.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/internationalization/i18nextBrowserLanguageDetector.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/internationalization/i18nextXHRBackend.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/internationalization/i18nextXHRBackend.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/internationalization/jquery-i18next.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/internationalization/jquery-i18next.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/loaders/blockui.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/loaders/blockui.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/loaders/progressbar.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/loaders/progressbar.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/maps/jvectormap/jvectormap.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/maps/jvectormap/jvectormap.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/maps/jvectormap/map_files/countries/germany.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/maps/jvectormap/map_files/countries/germany.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/maps/jvectormap/map_files/countries/usa.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/maps/jvectormap/map_files/countries/usa.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/maps/jvectormap/map_files/world.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/maps/jvectormap/map_files/world.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/media/cropper.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/media/cropper.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/media/fancybox.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/media/fancybox.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/notifications/bootbox.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/notifications/bootbox.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/notifications/jgrowl.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/notifications/jgrowl.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/notifications/noty.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/notifications/noty.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/notifications/pnotify.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/notifications/pnotify.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/notifications/sweet_alert.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/notifications/sweet_alert.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/pagination/bs_pagination.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/pagination/bs_pagination.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/pickers/anytime.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/pickers/anytime.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/pickers/color/spectrum.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/pickers/color/spectrum.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/pickers/daterangepicker.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/pickers/daterangepicker.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/pickers/location/autocomplete_addresspicker.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/pickers/location/autocomplete_addresspicker.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/pickers/location/location.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/pickers/location/location.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/pickers/location/typeahead_addresspicker.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/pickers/location/typeahead_addresspicker.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/pickers/pickadate/legacy.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/pickers/pickadate/legacy.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/pickers/pickadate/picker.date.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/pickers/pickadate/picker.date.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/pickers/pickadate/picker.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/pickers/pickadate/picker.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/pickers/pickadate/picker.time.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/pickers/pickadate/picker.time.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/sliders/ion_rangeslider.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/sliders/ion_rangeslider.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/sliders/nouislider.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/sliders/nouislider.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/sliders/slider_pips.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/sliders/slider_pips.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/sliders/slider_pips.rtl.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/sliders/slider_pips.rtl.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/tables/datatables/datatables.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/tables/datatables/datatables.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/tables/datatables/extensions/autofill.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/tables/datatables/extensions/autofill.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/tables/datatables/extensions/buttons.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/tables/datatables/extensions/buttons.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/tables/datatables/extensions/col_reorder.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/tables/datatables/extensions/col_reorder.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/tables/datatables/extensions/fixed_columns.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/tables/datatables/extensions/fixed_columns.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/tables/datatables/extensions/fixed_header.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/tables/datatables/extensions/fixed_header.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/tables/datatables/extensions/jszip/jszip.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/tables/datatables/extensions/jszip/jszip.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/tables/datatables/extensions/key_table.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/tables/datatables/extensions/key_table.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/tables/datatables/extensions/natural_sort.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/tables/datatables/extensions/natural_sort.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/tables/datatables/extensions/pdfmake/pdfmake.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/tables/datatables/extensions/pdfmake/pdfmake.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/tables/datatables/extensions/pdfmake/vfs_fonts.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/tables/datatables/extensions/pdfmake/vfs_fonts.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/tables/datatables/extensions/responsive.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/tables/datatables/extensions/responsive.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/tables/datatables/extensions/row_reorder.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/tables/datatables/extensions/row_reorder.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/tables/datatables/extensions/scroller.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/tables/datatables/extensions/scroller.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/tables/datatables/extensions/select.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/tables/datatables/extensions/select.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/tables/footable/footable.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/tables/footable/footable.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/tables/handsontable/handsontable.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/tables/handsontable/handsontable.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/tables/handsontable/languages.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/tables/handsontable/languages.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/tables/handsontable/sheetclip.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/tables/handsontable/sheetclip.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/trees/fancytree_all.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/trees/fancytree_all.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/trees/fancytree_childcounter.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/trees/fancytree_childcounter.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/ui/dragula.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/ui/dragula.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/ui/fab.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/ui/fab.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/ui/fullcalendar/core/locales-all.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/ui/fullcalendar/core/locales-all.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/ui/fullcalendar/core/locales/ar.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/ui/fullcalendar/core/locales/ar.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/ui/fullcalendar/core/main.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/ui/fullcalendar/core/main.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/ui/fullcalendar/daygrid/main.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/ui/fullcalendar/daygrid/main.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/ui/fullcalendar/interaction/main.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/ui/fullcalendar/interaction/main.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/ui/fullcalendar/list/main.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/ui/fullcalendar/list/main.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/ui/fullcalendar/timegrid/main.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/ui/fullcalendar/timegrid/main.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/ui/headroom.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/ui/headroom.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/ui/moment/moment.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/ui/moment/moment.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/ui/moment/moment_locales.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/ui/moment/moment_locales.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/ui/perfect_scrollbar.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/ui/perfect_scrollbar.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/ui/prism.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/ui/prism.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/ui/ripple.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/ui/ripple.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/ui/slinky.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/ui/slinky.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/ui/sticky.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/ui/sticky.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/uploaders/dropzone.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/uploaders/dropzone.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/uploaders/fileinput/fileinput.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/uploaders/fileinput/fileinput.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/uploaders/fileinput/plugins/purify.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/uploaders/fileinput/plugins/purify.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/uploaders/fileinput/plugins/sortable.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/uploaders/fileinput/plugins/sortable.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/uploaders/plupload/plupload.full.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/uploaders/plupload/plupload.full.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/uploaders/plupload/plupload.queue.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/uploaders/plupload/plupload.queue.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/velocity/velocity.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/velocity/velocity.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/velocity/velocity.ui.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/velocity/velocity.ui.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/visualization/c3/c3.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/visualization/c3/c3.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/visualization/d3/d3.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/visualization/d3/d3.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/visualization/d3/d3_tooltip.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/visualization/d3/d3_tooltip.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/visualization/d3/venn.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/visualization/d3/venn.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/visualization/dimple/dimple.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/visualization/dimple/dimple.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/plugins/visualization/echarts/echarts.min.js",
+      "PackagePath": "staticwebassets/js/adminJs/plugins/visualization/echarts/echarts.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "obj/Release/net7.0/staticwebassets/msbuild.Munafasa.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Release/net7.0/staticwebassets/msbuild.build.Munafasa.props",
+      "PackagePath": "build\\Munafasa.props"
+    },
+    {
+      "Id": "obj/Release/net7.0/staticwebassets/msbuild.buildMultiTargeting.Munafasa.props",
+      "PackagePath": "buildMultiTargeting\\Munafasa.props"
+    },
+    {
+      "Id": "obj/Release/net7.0/staticwebassets/msbuild.buildTransitive.Munafasa.props",
+      "PackagePath": "buildTransitive\\Munafasa.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

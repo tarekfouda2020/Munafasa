@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <title>@ViewBag.Title</title>
+    <link rel="icon" type="image/x-icon" href="~/css/site/imgs/logoSmall.png">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Global stylesheets -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
+    <link href="\global_assets\css\icons\icomoon\styles.min.css" rel="stylesheet" type="text/css">
+    <link href="\css\adminCss\css\bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="\css\adminCss\css\bootstrap_limitless.min.css" rel="stylesheet" type="text/css">
+    <link href="\css\adminCss\css\layout.min.css" rel="stylesheet" type="text/css">
+    <link href="\css\adminCss\css\components.min.css" rel="stylesheet" type="text/css">
+    <link href="\css\adminCss\css\colors.min.css" rel="stylesheet" type="text/css">
+    <!-- /global stylesheets -->
+    <!-- Core JS files -->
+    <script src="\js\adminJs\main\jquery.min.js"></script>
+    <script src="\js\adminJs\main\bootstrap.bundle.min.js"></script>
+    <script src="\js\adminJs\plugins\loaders\blockui.min.js"></script>
+    <!-- /core JSfiles -->
+    <!-- Theme JSfiles -->
+    <script src="\js\adminJs\plugins\visualization\d3\d3.min.js"></script>
+    <script src="\js\adminJs\plugins\visualization\d3\d3_tooltip.js"></script>
+    <script src="\js\adminJs\plugins\forms\styling\switchery.min.js"></script>
+    <script src="\js\adminJs\plugins\forms\selects\bootstrap_multiselect.js"></script>
+    <script src="\js\adminJs\plugins\ui\moment\moment.min.js"></script>
+    <script src="\js\adminJs\plugins\pickers\daterangepicker.js"></script>
+
+    <script src="\js\adminJs\js\app.js"></script>
+    <script src="\js\adminJs\demo_pages\dashboard.js"></script>
+    <script src=".\js\adminJs\demo_pages\content_page_header.js"></script>
+    <!-- /theme JS files -->
+    @await RenderSectionAsync("AdminScripts", required: false)
+
+</head>
+<body>
+    <partial name="_AdminNavBar" />
+
+    <div class="page-content">
+        <partial name="_MainSideBar" />
+
+        <div class="content-wrapper">
+
+            <partial name="_AdminHeader" />
+            <div class="content">
+                <partial name="_Notification" />
+                @RenderBody()
+            </div>
+
+            <partial name="_AdminFooter" />
+
+        </div>
+    </div>
+</body>
+</html>
+

@@ -1,0 +1,25 @@
+﻿	<!-- Page header -->
+<div class="page-header page-header-light">
+    <div class="page-header-content header-elements-md-inline">
+        <div class="d-flex">
+            <div class="breadcrumb">
+                <a href="@ViewData["Back"]" class=" @(ViewData["Back"] != null ?"breadcrumb-item" :"") "><i class="icon-home2 mr-2"></i> @(ViewData["Back"]?.ToString()?.Split("/").Last() ?? ViewData["Title"])</a>
+
+                @if (ViewData["Back"] != null)
+                {
+                    <span class="breadcrumb-item active">@ViewData["Title"]</span>
+                }
+
+            </div>
+
+        </div>
+        <div class="header-elements d-none">
+            <div class="d-flex justify-content-center">
+                <a href="#" class="btn btn-link btn-float text-default"><i class="icon-gear text-primary"></i><span>Settings</span></a>
+                <a href="#" class="btn btn-link btn-float text-default"><i class="icon-archive text-primary"></i> <span>Requests</span></a>
+                <a href="#" class="btn btn-link btn-float text-default"><i class="icon-connection text-primary"></i> <span>Reports</span></a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /page header -->

@@ -1,0 +1,17 @@
+/Volumes/Data/asp/Munafasa/Munafasa.Data/bin/Debug/net7.0/Munafasa.Data.deps.json
+/Volumes/Data/asp/Munafasa/Munafasa.Data/bin/Debug/net7.0/Munafasa.Data.dll
+/Volumes/Data/asp/Munafasa/Munafasa.Data/bin/Debug/net7.0/Munafasa.Data.pdb
+/Volumes/Data/asp/Munafasa/Munafasa.Data/bin/Debug/net7.0/Munafasa.Models.dll
+/Volumes/Data/asp/Munafasa/Munafasa.Data/bin/Debug/net7.0/Munafasa.Utilities.dll
+/Volumes/Data/asp/Munafasa/Munafasa.Data/bin/Debug/net7.0/Munafasa.Models.pdb
+/Volumes/Data/asp/Munafasa/Munafasa.Data/bin/Debug/net7.0/Munafasa.Utilities.pdb
+/Volumes/Data/asp/Munafasa/Munafasa.Data/obj/Debug/net7.0/Munafasa.Data.csproj.AssemblyReference.cache
+/Volumes/Data/asp/Munafasa/Munafasa.Data/obj/Debug/net7.0/Munafasa.Data.GeneratedMSBuildEditorConfig.editorconfig
+/Volumes/Data/asp/Munafasa/Munafasa.Data/obj/Debug/net7.0/Munafasa.Data.AssemblyInfoInputs.cache
+/Volumes/Data/asp/Munafasa/Munafasa.Data/obj/Debug/net7.0/Munafasa.Data.AssemblyInfo.cs
+/Volumes/Data/asp/Munafasa/Munafasa.Data/obj/Debug/net7.0/Munafasa.Data.csproj.CoreCompileInputs.cache
+/Volumes/Data/asp/Munafasa/Munafasa.Data/obj/Debug/net7.0/Munafasa.Data.csproj.CopyComplete
+/Volumes/Data/asp/Munafasa/Munafasa.Data/obj/Debug/net7.0/Munafasa.Data.dll
+/Volumes/Data/asp/Munafasa/Munafasa.Data/obj/Debug/net7.0/refint/Munafasa.Data.dll
+/Volumes/Data/asp/Munafasa/Munafasa.Data/obj/Debug/net7.0/Munafasa.Data.pdb
+/Volumes/Data/asp/Munafasa/Munafasa.Data/obj/Debug/net7.0/ref/Munafasa.Data.dll

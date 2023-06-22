@@ -1,0 +1,78 @@
+﻿@using Munafasa.Models.ViewModels
+@model AdminViewModel
+@{
+    var title = Model.Id == null ? "Create" : "Update";
+    ViewData["Title"] = title + " Admin";
+    ViewData["PageSlug"] = "Admins";
+    ViewData["Back"] = "/Admin/Admin";
+}
+
+
+<div class="card">
+    <div class="card-header header-elements-inline">
+        <h4 class="card-title"> @title Admin</h4>
+    </div>
+
+    <div class="card-body">
+        <form asp-action="Upsert">
+            <input hidden asp-for="Id" />
+            <fieldset class="mb-3">
+                <div class="form-group row">
+                    <label class="col-form-label col-lg-2" asp-for="Name"></label>
+                    <div class="col-lg-10">
+                        <input type="text" asp-for="Name" class="form-control">
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-form-label col-lg-2" asp-for="Email"></label>
+                    <div class="col-lg-10">
+                        <input type="text" asp-for="Email" class="form-control">
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-form-label col-lg-2" asp-for="PhoneNumber"></label>
+                    <div class="col-lg-10">
+                        <input type="text" asp-for="PhoneNumber" class="form-control">
+                        <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                    </div>
+                </div>
+                @if (Model.Id == null)
+                 {
+                    <div class="form-group row">
+                        <label class="col-form-label col-lg-2" asp-for="Password"></label>
+                        <div class="col-lg-10">
+                            <input type="text" asp-for="Password" class="form-control">
+                            <span asp-validation-for="Password" class="text-danger"></span>
+                        </div>
+                    </div>
+                 }
+                 else
+                 {
+                    <input hidden asp-for="Password" class="form-control">
+                 }
+
+            </fieldset>
+            <span asp-validation-for="Errors" class="text-danger"></span>
+
+            <div class="text-right">
+                <button type="submit" class="btn btn-primary">Submit <i class="icon-paperplane ml-2"></i></button>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+
+
+
+
+@section AdminScripts{  @{
+        <partial name="_ValidationScriptsPartial" />
+}
+
+<script src="\js\adminJs\plugins\forms\styling\uniform.min.js"></script>
+<script src="\js\adminJs\demo_pages\form_inputs.js"></script>
+}

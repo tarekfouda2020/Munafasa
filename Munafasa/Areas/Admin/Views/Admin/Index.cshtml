@@ -1,0 +1,81 @@
+﻿@using Munafasa.Models.Tables
+@using Munafasa.Utilities
+@model IEnumerable<ApplicationUser>
+@{
+    ViewData["Title"] = "Admins";
+    ViewData["PageSlug"] = "Admins";
+    ViewData["Back"] = "/Admin/Dashboard";
+}
+
+
+
+<div class="card">
+    <div class="card-header header-elements-inline">
+        <h5 class="card-title">Admins</h5>
+        <div class="header-elements">
+            <a class="btn btn-success" asp-area="Admin" asp-controller="Admin" asp-action="Upsert">Create Admin</a>
+        </div>
+    </div>
+
+
+
+    <table class="table datatable-show-all">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone Numer</th>
+                <th>Created At</th>
+                <th>Status</th>
+                <th class="text-center">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            @foreach (var user in Model)
+            {
+                <tr>
+                    <td>@user.Name</td>
+                    <td>@user.Email</td>
+                    <td>@user.PhoneNumber</td>
+                    <td>@user.CreatedAt</td>
+                    <td><span class="badge @(user.Status == (int)AdminStatusEnumeration.active?"badge-success":"badge-danger")"> @(user.Status == (int)AdminStatusEnumeration.active?"Active": "Suspended")</span></td>
+                    <td class="text-center">
+                        <div class="list-icons">
+                            <div class="dropdown">
+                                <a href="#" class="list-icons-item" data-toggle="dropdown">
+                                    <i class="icon-menu9"></i>
+                                </a>
+
+                                <div class="dropdown-menu dropdown-menu-right">
+                                    <a asp-area="Admin" asp-controller="Admin" asp-action="Upsert" asp-route-userId="@user.Id" class="dropdown-item"><i class="icon-pencil5"></i> Edit</a>
+                                    <a asp-action="Delete" asp-route-userId="@user.Id" class="dropdown-item"><i class="icon-trash"></i> Remove</a>
+                                    @if (user.Status == (int)AdminStatusEnumeration.active)
+                                    {
+                                        <a asp-action="ChangeStatus" asp-route-userId="@user.Id" class="dropdown-item"><i class="icon-user-cancel"></i> Suspended</a>
+                                    }
+                                    else
+                                    {
+                                        <a asp-action="ChangeStatus" asp-route-userId="@user.Id" class="dropdown-item"><i class="icon-user-check"></i> Active</a>
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+</div>
+
+
+
+
+@section AdminScripts{
+
+    <script src="\js\adminJs\plugins\tables\datatables\datatables.min.js"></script>
+    <script src="\js\adminJs\plugins\forms\selects\select2.min.js"></script>
+    <script src="\js\adminJs\demo_pages\datatables_advanced.js"></script>
+
+}
