@@ -1,0 +1,81 @@
+﻿@using Munafasa.Models.Tables
+@model IEnumerable<Contract>
+@{
+    ViewData["Title"] = "Contracts";
+    ViewData["PageSlug"] = "Contract";
+    ViewData["Back"] = "/Admin/Dashboard";
+}
+
+
+
+<div class="card">
+    <div class="card-header header-elements-inline">
+        <h5 class="card-title">Contracts</h5>
+        <div class="header-elements">
+            <a class="btn btn-success" asp-area="Admin" asp-controller="Contract" asp-action="Upsert">Create Contract</a>
+        </div>
+    </div>
+
+
+
+    <table class="table datatable-show-all">
+        <thead>
+            <tr>
+                <th>Contract Number</th>
+                <th>English Name</th>
+                <th>Arabic Name</th>
+                <th>Contract Price</th>
+                <th>Max Spare Price</th>
+                <th>Start Date</th>
+                <th>End Date</th>
+                <th>Owner</th>
+                <th class="text-center">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.ContractNumber</td>
+                    <td>@item.NameAr</td>
+                    <td>@item.NameEn</td>
+                    <td>@item.ContractPrice.ToString("C")</td>
+                    <td>@item.MaxSparePrice.ToString("C")</td>
+                    <td>@item.FromDate.ToString("MM/dd/yyyy")</td>
+                    <td>@item.ToDate.ToString("MM/dd/yyyy")</td>
+                    <td>@item.Owner.UserName</td>
+                    <td class="text-center">
+                        <div class="list-icons">
+                            <div class="dropdown">
+                                <a href="#" class="list-icons-item" data-toggle="dropdown">
+                                    <i class="icon-menu9"></i>
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-right">
+                                    <a asp-area="Admin" asp-action="Upsert" asp-route-contractId="@item.Id" class="dropdown-item"><i class="icon-pencil5"></i> Edit</a>
+                                    <a asp-action="Delete" asp-route-contractId="@item.Id" class="dropdown-item"><i class="icon-trash"></i> Remove</a>
+                                    <a asp-area="Admin" asp-controller="Cheque" asp-action="Index" asp-route-contractId="@item.Id" class="dropdown-item"><i class="icon-pencil5"></i> Cheques</a>
+                                    <a asp-area="Admin" asp-controller="Request" asp-action="Index" asp-route-contractId="@item.Id" class="dropdown-item"><i class="icon-pencil5"></i> Requests</a>
+                                    <a asp-area="Admin" asp-controller="Clinet" asp-action="Index" asp-route-contractId="@item.Id" class="dropdown-item"><i class="icon-pencil5"></i> Clients</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+</div>
+
+
+
+
+@section AdminScripts{
+
+    <script src="\js\adminJs\plugins\tables\datatables\datatables.min.js"></script>
+    <script src="\js\adminJs\plugins\forms\selects\select2.min.js"></script>
+    <script src="\js\adminJs\demo_pages\datatables_advanced.js"></script>
+
+}

@@ -1,0 +1,108 @@
+﻿@using Munafasa.Models.ViewModels
+@model TechnicianViewModel
+@{
+    var title = Model.Technician?.Id == 0 ? "Create" : "Update";
+    ViewData["Title"] = title + " Technician";
+    ViewData["PageSlug"] = "Technicians";
+    ViewData["Back"] = "/Admin/Technician";
+}
+
+
+<div class="card">
+    <div class="card-header header-elements-inline">
+        <h4 class="card-title"> @title Technician</h4>
+    </div>
+
+    <div class="card-body">
+        <form asp-action="Upsert" enctype="multipart/form-data">
+            <input type="hidden" asp-for="Technician.Id" value="@(Model.Technician?.Id)" />
+            <input type="hidden" asp-for="Technician.ProfileImage" />
+            <input type="hidden" asp-for="Technician.PassportImage" />
+
+            <fieldset class="mb-3">
+                <div class="form-group row">
+                    <label class="col-form-label col-lg-2" asp-for="Technician.UserName"></label>
+                    <div class="col-lg-10">
+                        <input type="text" asp-for="Technician.UserName" class="form-control">
+                        <span asp-validation-for="Technician.UserName" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-form-label col-lg-2" asp-for="Technician.Email"></label>
+                    <div class="col-lg-10">
+                        <input type="text" asp-for="Technician.Email" class="form-control">
+                        <span asp-validation-for="Technician.Email" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-form-label col-lg-2" asp-for="Technician.Phone"></label>
+                    <div class="col-lg-10">
+                        <input type="text" asp-for="Technician.Phone" class="form-control">
+                        <span asp-validation-for="Technician.Phone" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-form-label col-lg-2" asp-for="Technician.Salary"></label>
+                    <div class="col-lg-10">
+                        <input type="text" asp-for="Technician.Salary" class="form-control">
+                        <span asp-validation-for="Technician.Salary" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-form-label col-lg-2" asp-for="Technician.JoinDate"></label>
+                    <div class="col-lg-10">
+                        <input type="date" asp-for="Technician.JoinDate" class="form-control">
+                        <span asp-validation-for="Technician.JoinDate" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-form-label col-lg-2" asp-for="TechServices"></label>
+                    <div class="col-lg-10">
+                        <select asp-for="TechServices" asp-items="@Model.Services" multiple="multiple" class="form-control multiselect">
+                        </select>
+                        <span asp-validation-for="TechServices" class="text-danger"></span>
+                    </div>
+
+                </div>
+
+                <div class="form-group row">
+                    <label class="col-form-label col-lg-2" asp-for="Technician.PassportImage"></label>
+                    <div class="col-lg-10">
+                        <input type="file" class="form-control-uniform" asp-for="Technician.PassportImage" name="PassportImage">
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label class="col-form-label col-lg-2" asp-for="Technician.Password"></label>
+                    <div class="col-lg-10">
+                        <input type="text" asp-for="Technician.Password" class="form-control">
+                        <span asp-validation-for="Technician.Password" class="text-danger"></span>
+                    </div>
+                </div>
+
+            </fieldset>
+            <span asp-validation-for="Errors" class="text-danger"></span>
+            <div asp-validation-summary="All"></div>
+
+            <div class="text-right">
+                <button type="submit" class="btn btn-primary">Submit <i class="icon-paperplane ml-2"></i></button>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+
+
+
+
+@section AdminScripts{  @{
+        <partial name="_ValidationScriptsPartial" />
+}
+
+<script src="\js\adminJs\plugins\forms\styling\uniform.min.js"></script>
+<script src="\js\adminJs\demo_pages\form_inputs.js"></script>
+<script src="\js\adminJs\plugins\forms\selects\bootstrap_multiselect.js"></script>
+<script src="\js\adminJs\demo_pages\form_multiselect.js"></script>
+}

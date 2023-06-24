@@ -17,6 +17,9 @@ namespace Munafasa.Data.Repositories
             Client = new ClinetRepository(db);
             Technicain = new TechnicainRepository(db);
             Owner = new OwnerRepository(db);
+            Contract = new ContractRepository(db);
+            ContractAttachment = new ContractAttachmentsRepository(db);
+            TechServices = new TechServicesRepository(db);
         }
 
         //Repositories
@@ -36,6 +39,12 @@ namespace Munafasa.Data.Repositories
         public ITechnicainRepository Technicain { get; private set; }
 
         public IOwnerRepository Owner { get; private set; }
+
+        public IContractRepository Contract { get; private set; }
+
+        public IContractAttachmentsRepository ContractAttachment { get; private set; }
+
+        public ITechServicesRepository TechServices { get; private set; }
 
         public void Save()
         {

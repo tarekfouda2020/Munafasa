@@ -39,6 +39,31 @@ namespace Munafasa.Utilities
             return @"" + path + "" + fileName;
         }
 
-	}
+        public void DeleteFiles( List<string> paths)
+        {
+            var rootPath = _hostEnvironment.WebRootPath;
+            //check if there is old image to remove the old one
+            foreach (var item in paths)
+            {
+                var oldPath = Path.Combine(rootPath, item);
+                if (File.Exists(oldPath))
+                {
+                    File.Delete(oldPath);
+                }
+            }
+
+        }
+
+        public void DeleteFile(string path)
+        {
+            var rootPath = _hostEnvironment.WebRootPath;
+            var oldPath = Path.Combine(rootPath, path);
+            if (File.Exists(oldPath))
+            {
+                File.Delete(oldPath);
+            }
+
+        }
+    }
 }
 

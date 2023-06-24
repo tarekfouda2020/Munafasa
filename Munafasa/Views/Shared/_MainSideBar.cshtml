@@ -1,6 +1,6 @@
 ﻿@{
     string pageSlug = ViewData["PageSlug"]?.ToString()??"";
-    bool isUser = pageSlug == "Admins" || pageSlug == "Owners" || pageSlug == "Clients" || pageSlug == "Tecnicians";
+    bool isUser = pageSlug == "Admins" || pageSlug == "Owners" || pageSlug == "Clients" || pageSlug == "Technicians";
     bool isSetting = pageSlug == "About" || pageSlug == "Vision" || pageSlug == "Mission" || pageSlug == "SitInfo";
 
 }
@@ -61,9 +61,9 @@
 
                     <ul class="nav nav-group-sub" data-submenu-title="Layouts" style="display:@(isUser?"block":"none")">
                         <li class="nav-item"><a asp-area="Admin" asp-controller="Admin" asp-action="Index" class="nav-link @(pageSlug == "Admins"?"active":"")">Admins</a></li>
-                        <li class="nav-item"><a href="..\..\..\..\layout_2\LTR\default\full\index.html" class="nav-link @(pageSlug == "Owners"?"active":"")">Owners</a></li>
-                        <li class="nav-item"><a href="..\..\..\..\layout_3\LTR\default\full\index.html" class="nav-link @(pageSlug == "Clients"?"active":"")">Clients</a></li>
-                        <li class="nav-item"><a href="..\..\..\..\layout_4\LTR\default\full\index.html" class="nav-link @(pageSlug == "Tecnicians"?"active":"")">Tecnicians</a></li>
+                        <li class="nav-item"><a asp-area="Admin" asp-controller="Owner" asp-action="Index"class="nav-link @(pageSlug == "Owners"?"active":"")">Owners</a></li>
+                        <li class="nav-item"><a asp-area="Admin" asp-controller="Client" asp-action="Index" class="nav-link @(pageSlug == "Clients"?"active":"")">Clients</a></li>
+                        <li class="nav-item"><a asp-area="Admin" asp-controller="Technician" asp-action="Index"  class="nav-link @(pageSlug == "Technicians"?"active":"")">Tecnicians</a></li>
                     </ul>
                 </li>
 
@@ -93,6 +93,15 @@
                         <i class="icon-stack2"></i>
                         <span>
                             Morals
+                        </span>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a asp-area="Admin" asp-controller="Contract" asp-action="Index" class="nav-link @(pageSlug == "Contract"?"active":"")">
+                        <i class="icon-file-text2"></i>
+                        <span>
+                            Contracts
                         </span>
                     </a>
                 </li>

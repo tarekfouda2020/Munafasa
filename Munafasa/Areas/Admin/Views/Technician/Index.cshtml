@@ -1,0 +1,79 @@
+﻿@using Munafasa.Models.Tables
+@model IEnumerable<Technician>
+@{
+    ViewData["Title"] = "Technicians";
+    ViewData["PageSlug"] = "Technicians";
+    ViewData["Back"] = "/Admin/Dashboard";
+}
+
+
+
+<div class="card">
+    <div class="card-header header-elements-inline">
+        <h5 class="card-title">Technicians</h5>
+        <div class="header-elements">
+            <a class="btn btn-success" asp-area="Admin" asp-controller="Technician" asp-action="Upsert">Create Technician</a>
+        </div>
+    </div>
+
+
+
+    <table class="table datatable-show-all">
+        <thead>
+            <tr>
+                <th>Image</th>
+                <th>Passport</th>
+                <th>User Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Salary</th>
+                <th>Join Date</th>
+                <th class="text-center">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        <img src="~/@item.ProfileImage" width="50px" height="50px" />
+                    </td>
+                    <td>
+                        <img src="~/@item.PassportImage" width="50px" height="50px" />
+                    </td>
+                    <td>@item.UserName</td>
+                    <td>@item.Email</td>
+                    <td>@item.Phone</td>
+                    <td>@item.Salary.ToString("C")</td>
+                    <td>@item.JoinDate.ToString("MM/dd/yyyy")</td>
+                    <td class="text-center">
+                        <div class="list-icons">
+                            <div class="dropdown">
+                                <a href="#" class="list-icons-item" data-toggle="dropdown">
+                                    <i class="icon-menu9"></i>
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-right">
+                                    <a asp-area="Admin" asp-action="Upsert" asp-route-techId="@item.Id" class="dropdown-item"><i class="icon-pencil5"></i> Edit</a>
+                                    <a asp-action="Delete" asp-route-techId="@item.Id" class="dropdown-item"><i class="icon-trash"></i> Remove</a>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+</div>
+
+
+
+
+@section AdminScripts{
+
+    <script src="\js\adminJs\plugins\tables\datatables\datatables.min.js"></script>
+    <script src="\js\adminJs\plugins\forms\selects\select2.min.js"></script>
+    <script src="\js\adminJs\demo_pages\datatables_advanced.js"></script>
+
+}

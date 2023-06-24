@@ -19,6 +19,11 @@ namespace Munafasa.Data.IRepositories
 
         public IOwnerRepository Owner { get; }
 
+        public IContractRepository Contract { get; }
+
+        public IContractAttachmentsRepository ContractAttachment { get; }
+
+        public ITechServicesRepository TechServices { get;}
 
         void Save();
     }

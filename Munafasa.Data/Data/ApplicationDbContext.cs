@@ -11,9 +11,24 @@ public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
     }
 
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        modelBuilder.Entity<Contract>().Navigation(e => e.Owner).AutoInclude();
+        modelBuilder.Entity<Contract>().Navigation(e => e.Cheques).AutoInclude();
+        modelBuilder.Entity<Contract>().Navigation(e => e.Requests).AutoInclude();
+        modelBuilder.Entity<Contract>().Navigation(e => e.Attacments).AutoInclude();
+
+        modelBuilder.Entity<Client>().Navigation(e => e.Contract).AutoInclude();
+        modelBuilder.Entity<Technician>().Navigation(e => e.TechnicianServices).AutoInclude();
+
+
+        base.OnModelCreating(modelBuilder);
+    }
+
     public DbSet<Service> Services { get; set; }
     public DbSet<Contract> Contracts { get; set; }
     public DbSet<ContractService> ContractServices { get; set; }
+    public DbSet<ContractAttacments> ContractAttacments { get; set; }
     public DbSet<Client> Clients { get; set; }
     public DbSet<Owner> Owners { get; set; }
     public DbSet<Cheque> Cheques { get; set; }

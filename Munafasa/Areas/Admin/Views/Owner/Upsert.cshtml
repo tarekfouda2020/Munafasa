@@ -1,0 +1,74 @@
+﻿@using Munafasa.Models.Tables
+@model Owner
+@{
+    var title = Model?.Id == null ? "Create" : "Update";
+    ViewData["Title"] = title + " Owner";
+    ViewData["PageSlug"] = "Owners";
+    ViewData["Back"] = "/Admin/Owner";
+}
+
+
+<div class="card">
+    <div class="card-header header-elements-inline">
+        <h4 class="card-title"> @title Owner</h4>
+    </div>
+
+    <div class="card-body">
+        <form asp-action="Upsert" enctype="multipart/form-data">
+            <input type="hidden" asp-for="Id" value="@(Model?.Id??0)" />
+            <input type="hidden" asp-for="ProfileImage" />
+
+            <fieldset class="mb-3">
+                <div class="form-group row">
+                    <label class="col-form-label col-lg-2" asp-for="UserName"></label>
+                    <div class="col-lg-10">
+                        <input type="text" asp-for="UserName" class="form-control">
+                        <span asp-validation-for="UserName" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-form-label col-lg-2" asp-for="Email"></label>
+                    <div class="col-lg-10">
+                        <input type="text" asp-for="Email" class="form-control">
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-form-label col-lg-2" asp-for="Phone"></label>
+                    <div class="col-lg-10">
+                        <input type="text" asp-for="Phone" class="form-control">
+                        <span asp-validation-for="Phone" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-form-label col-lg-2" asp-for="Password"></label>
+                    <div class="col-lg-10">
+                        <input type="text" asp-for="Password" class="form-control">
+                        <span asp-validation-for="Password" class="text-danger"></span>
+                    </div>
+                </div>
+
+            </fieldset>
+            <span asp-validation-for="Errors" class="text-danger"></span>
+            <div asp-validation-summary="All"></div>
+
+            <div class="text-right">
+                <button type="submit" class="btn btn-primary">Submit <i class="icon-paperplane ml-2"></i></button>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+
+
+
+
+@section AdminScripts{  @{
+        <partial name="_ValidationScriptsPartial" />
+}
+
+<script src="\js\adminJs\plugins\forms\styling\uniform.min.js"></script>
+<script src="\js\adminJs\demo_pages\form_inputs.js"></script>
+}

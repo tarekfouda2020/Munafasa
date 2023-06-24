@@ -267,6 +267,9 @@ namespace Munafasa.Migrations
                     b.Property<int>("ContractId")
                         .HasColumnType("int");
 
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime(6)");
+
                     b.Property<string>("Email")
                         .IsRequired()
                         .HasColumnType("longtext");
@@ -340,9 +343,11 @@ namespace Munafasa.Migrations
                     b.Property<double>("ContractPrice")
                         .HasColumnType("double");
 
-                    b.Property<string>("ContrctPassword")
-                        .IsRequired()
-                        .HasColumnType("longtext");
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<bool>("Deleted")
+                        .HasColumnType("tinyint(1)");
 
                     b.Property<string>("DesAr")
                         .IsRequired()
@@ -459,6 +464,9 @@ namespace Munafasa.Migrations
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime(6)");
 
                     b.Property<string>("Email")
                         .IsRequired()
@@ -623,6 +631,9 @@ namespace Munafasa.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime(6)");
+
                     b.Property<string>("Email")
                         .IsRequired()
                         .HasColumnType("longtext");
@@ -631,6 +642,10 @@ namespace Munafasa.Migrations
                         .HasColumnType("datetime(6)");
 
                     b.Property<string>("PassportImage")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("Password")
+                        .IsRequired()
                         .HasColumnType("longtext");
 
                     b.Property<string>("Phone")

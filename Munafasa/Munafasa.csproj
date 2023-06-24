@@ -48,6 +48,9 @@
     <None Remove="Areas\Admin\Views\Contact\" />
     <None Remove="Areas\Admin\Views\Setting\" />
     <None Remove="Areas\API\" />
+    <None Remove="Areas\Admin\Views\Owner\" />
+    <None Remove="Areas\Admin\Views\Client\" />
+    <None Remove="Areas\Admin\Views\Technician\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Areas\Site\" />
@@ -73,6 +76,12 @@
     <Folder Include="wwwroot\css\site\" />
     <Folder Include="wwwroot\css\adminCss\icons\" />
     <Folder Include="Areas\API\" />
+    <Folder Include="wwwroot\Images\Contracts\" />
+    <Folder Include="Areas\Admin\Views\Owner\" />
+    <Folder Include="wwwroot\Images\Owners\" />
+    <Folder Include="Areas\Admin\Views\Client\" />
+    <Folder Include="Areas\Admin\Views\Technician\" />
+    <Folder Include="wwwroot\Images\Tech\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\Images\" />
@@ -84,5 +93,8 @@
     <Content Remove="wwwroot\Images\Morals\" />
     <Content Remove="wwwroot\css\site\" />
     <Content Remove="wwwroot\css\adminCss\icons\" />
+    <Content Remove="wwwroot\Images\Contracts\" />
+    <Content Remove="wwwroot\Images\Owners\" />
+    <Content Remove="wwwroot\Images\Tech\" />
   </ItemGroup>
 </Project>
