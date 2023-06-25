@@ -25,14 +25,14 @@ namespace Munafasa.Data.Repositories
 
 
 
-        JwtSecurityToken IAuthService.CreateJWTToekn(int id, string phone, string email)
+        JwtSecurityToken IAuthService.CreateJWTToekn(int id, string phone, string userName)
         {
 
             var claims = new[]
             {
                 new Claim(JwtRegisteredClaimNames.Sub, id.ToString()),
                 new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
-                new Claim(JwtRegisteredClaimNames.Email, email),
+                new Claim(JwtRegisteredClaimNames.Email, userName),
                 new Claim("phone", phone),
             };
             //.Union(userClaims);

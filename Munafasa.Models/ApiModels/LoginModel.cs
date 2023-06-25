@@ -10,6 +10,7 @@ namespace Munafasa.Models.ApiModels
 		public string Phone { get; set; }
         [Required]
         public string Password { get; set; }
+        public string? ContractNumber { get; set; }
         [Required]
         public int Type { get; set; } = (int) UserType.client;
     }

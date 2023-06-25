@@ -84,6 +84,7 @@
     <Folder Include="Areas\Admin\Views\Technician\" />
     <Folder Include="wwwroot\Images\Tech\" />
     <Folder Include="Areas\Admin\Views\Cheque\" />
+    <Folder Include="wwwroot\Images\Clients\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\Images\" />
@@ -98,5 +99,6 @@
     <Content Remove="wwwroot\Images\Contracts\" />
     <Content Remove="wwwroot\Images\Owners\" />
     <Content Remove="wwwroot\Images\Tech\" />
+    <Content Remove="wwwroot\Images\Clients\" />
   </ItemGroup>
 </Project>

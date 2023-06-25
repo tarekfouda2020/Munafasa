@@ -11,6 +11,7 @@ using Munafasa.Models.ApiModels;
 using Munafasa.Models.Tables;
 using Munafasa.Utilities;
 using Newtonsoft.Json.Linq;
+using static System.Net.Mime.MediaTypeNames;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -23,13 +24,15 @@ namespace Munafasa.Areas.API
     {
         private readonly IUnitOfWork _unitOfWork;
         private readonly IAuthService _authService;
+        private readonly IWebHostEnvironment _hostEnvironment;
         private readonly UserManager<ApplicationUser> _userManager;
 
-        public AuthController(IAuthService authService, IUnitOfWork unitOfWork, UserManager<ApplicationUser> userManager)
+        public AuthController(IAuthService authService, IUnitOfWork unitOfWork, UserManager<ApplicationUser> userManager, IWebHostEnvironment hostEnvironment)
         {
             _authService = authService;
             _unitOfWork = unitOfWork;
             _userManager = userManager;
+            _hostEnvironment = hostEnvironment;
         }
 
         [HttpPost]
@@ -52,18 +55,13 @@ namespace Munafasa.Areas.API
                         {
                             return BadRequest(new { success = false, msg = new LocalizedValue(Messages.blockedCredentials, Messages.blockedCredentials) });
                         }
-                        var token = _authService.CreateJWTToekn(client.Id, client.Phone, client.Email);
-                        AuthModel authModel = new AuthModel
-                        {
-                            Email = client.Email,
-                            Phone = client.Phone,
-                            UserName = client.UserName,
-                            ProfileImage = client.ProfileImage,
-                            UserId = client.Id,
-                            ExpireAt = token.ValidTo,
-                            Token = new JwtSecurityTokenHandler().WriteToken(token),
-                        };
-                        return Ok(new { success = true, data = authModel });
+                        var token = _authService.CreateJWTToekn(client.Id, client.Phone, client.UserName);
+                        AuthModel authModel = AuthModel.fromClient(client, token);
+                        return Ok(new { success = true, isCreated = true , data = authModel });
+                    }
+                    else
+                    {
+                        return Ok(new { success = true, isCreated = false });
                     }
 
                 }
@@ -76,7 +74,7 @@ namespace Munafasa.Areas.API
                         {
                             return BadRequest(new { success = false, msg = new LocalizedValue(Messages.blockedCredentials, Messages.blockedCredentials) });
                         }
-                        var token = _authService.CreateJWTToekn(technician.Id, technician.Phone, technician.Email);
+                        var token = _authService.CreateJWTToekn(technician.Id, technician.Phone, technician.UserName);
                         AuthModel authModel = new AuthModel
                         {
                             Email = technician.Email,
@@ -87,7 +85,7 @@ namespace Munafasa.Areas.API
                             ExpireAt = token.ValidTo,
                             Token = new JwtSecurityTokenHandler().WriteToken(token),
                         };
-                        return Ok(new { success = true, data = authModel });
+                        return Ok(new { success = true, isCreated = true, data = authModel });
                     }
                 }
                 else
@@ -99,7 +97,7 @@ namespace Munafasa.Areas.API
                         {
                             return BadRequest(new { success = false, msg = new LocalizedValue(Messages.blockedCredentials, Messages.blockedCredentials) });
                         }
-                        var token = _authService.CreateJWTToekn(owner.Id, owner.Phone, owner.Email);
+                        var token = _authService.CreateJWTToekn(owner.Id, owner.Phone, owner.UserName);
                         AuthModel authModel = new AuthModel
                         {
                             Email = owner.Email,
@@ -110,7 +108,7 @@ namespace Munafasa.Areas.API
                             ExpireAt = token.ValidTo,
                             Token = new JwtSecurityTokenHandler().WriteToken(token),
                         };
-                        return Ok(new { success = true, data = authModel });
+                        return Ok(new { success = true, isCreated = true, data = authModel });
                     }
                 }
 
@@ -126,6 +124,33 @@ namespace Munafasa.Areas.API
         {
             return Ok(new { success = true });
         }
+
+        [HttpPost]
+        public async Task<IActionResult> CompleteClientProfile(ClientDto clientDto)
+        {
+            if (ModelState.IsValid)
+            {
+                var contract = _unitOfWork.Contract.GetFirstOrDefault(x => x.ContractNumber == clientDto.ContractNumber);
+                if (contract == null)
+                {
+                    return BadRequest(new { success = false, msg = new LocalizedValue(Messages.FailedCredentials, Messages.FailedCredentials) });
+                }
+                string? imageUrl = null;
+                if (clientDto.image != null)
+                {
+                    string imagePath = await new FileHelper(_hostEnvironment)
+                    .SaveFile(path: "Images/Clients/", file: clientDto.image);
+                    imageUrl = imagePath;
+                }
+                Client client = clientDto.toClient(contract.Id, imageUrl);
+                var token = _authService.CreateJWTToekn(client.Id, client.Phone, client.UserName);
+                AuthModel authModel = AuthModel.fromClient(client, token);
+
+                return Ok(new { success = true, data = authModel });
+            }
+            return BadRequest(new { success = false, errors = ModelState });
+        }
+
     }
 }
 

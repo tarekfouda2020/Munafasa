@@ -14,12 +14,15 @@ namespace Munafasa.Models.Tables
         [Required]
         [DisplayName("User Name")]
         public string UserName { get; set; }
-        [Required]
-        public string Email { get; set; }
+        public string? Email { get; set; }
         [Required]
         public string Phone { get; set; }
         [Required]
         public string Addresss { get; set; }
+        [Required]
+        public double Lat { get; set; }
+        [Required]
+        public double Lng { get; set; }
         [Required]
         public string Password { get; set; }
         public string? ProfileImage { get; set; }

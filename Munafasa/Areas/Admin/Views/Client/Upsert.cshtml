@@ -17,6 +17,8 @@
         <form asp-action="Upsert" enctype="multipart/form-data">
             <input type="hidden" asp-for="Client.Id" value="@(Model.Client?.Id)" />
             <input type="hidden" asp-for="Client.ProfileImage" />
+            <input type="hidden" asp-for="Client.Lat" value="0" />
+            <input type="hidden" asp-for="Client.Lng" value="0" />
 
             <fieldset class="mb-3">
                 <div class="form-group row">
