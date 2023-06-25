@@ -4,6 +4,7 @@
 /Volumes/Data/asp/publish/Munafasa.dll
 /Volumes/Data/asp/publish/Munafasa.runtimeconfig.json
 /Volumes/Data/asp/publish/Munafasa.pdb
+/Volumes/Data/asp/publish/Microsoft.AspNetCore.Authentication.JwtBearer.dll
 /Volumes/Data/asp/publish/Microsoft.AspNetCore.Cryptography.Internal.dll
 /Volumes/Data/asp/publish/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 /Volumes/Data/asp/publish/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
@@ -20,6 +21,13 @@
 /Volumes/Data/asp/publish/Microsoft.Extensions.Identity.Core.dll
 /Volumes/Data/asp/publish/Microsoft.Extensions.Identity.Stores.dll
 /Volumes/Data/asp/publish/Microsoft.Extensions.Options.dll
+/Volumes/Data/asp/publish/Microsoft.IdentityModel.Abstractions.dll
+/Volumes/Data/asp/publish/Microsoft.IdentityModel.JsonWebTokens.dll
+/Volumes/Data/asp/publish/Microsoft.IdentityModel.Logging.dll
+/Volumes/Data/asp/publish/Microsoft.IdentityModel.Protocols.dll
+/Volumes/Data/asp/publish/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Volumes/Data/asp/publish/Microsoft.IdentityModel.Tokens.dll
+/Volumes/Data/asp/publish/Microsoft.OpenApi.dll
 /Volumes/Data/asp/publish/MySqlConnector.dll
 /Volumes/Data/asp/publish/Newtonsoft.Json.dll
 /Volumes/Data/asp/publish/Newtonsoft.Json.Bson.dll
@@ -27,6 +35,10 @@
 /Volumes/Data/asp/publish/SQLitePCLRaw.batteries_v2.dll
 /Volumes/Data/asp/publish/SQLitePCLRaw.core.dll
 /Volumes/Data/asp/publish/SQLitePCLRaw.provider.e_sqlite3.dll
+/Volumes/Data/asp/publish/Swashbuckle.AspNetCore.Swagger.dll
+/Volumes/Data/asp/publish/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Volumes/Data/asp/publish/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Volumes/Data/asp/publish/System.IdentityModel.Tokens.Jwt.dll
 /Volumes/Data/asp/publish/System.Security.Permissions.dll
 /Volumes/Data/asp/publish/runtimes/alpine-arm/native/libe_sqlite3.so
 /Volumes/Data/asp/publish/runtimes/alpine-arm64/native/libe_sqlite3.so

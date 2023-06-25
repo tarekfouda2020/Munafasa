@@ -25,6 +25,8 @@ namespace Munafasa.Data.IRepositories
 
         public ITechServicesRepository TechServices { get;}
 
+        public IChequeRepository Cheque { get;}
+
         void Save();
     }
 }

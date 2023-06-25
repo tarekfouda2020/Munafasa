@@ -4,6 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
 using Microsoft.EntityFrameworkCore;
+using Munafasa.Utilities;
 
 namespace Munafasa.Models.Tables
 {
@@ -41,6 +42,8 @@ namespace Munafasa.Models.Tables
         [DisplayName("End Date")]
         public DateTime ToDate { get; set; }
         public DateTime CreatedAt { get; set; } = DateTime.Now;
+        [ValidateNever]
+        public int Status { get; set; } = (int)AdminStatusEnumeration.active;
         [Required]
         [DisplayName("Owner")]
         public int OwnerId { get; set; }

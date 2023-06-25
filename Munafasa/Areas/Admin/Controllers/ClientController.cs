@@ -24,7 +24,7 @@ namespace Munafasa.Areas.Admin.Controllers
 
         public IActionResult Index()
         {
-            var clients = _unitOfWork.Client.GetAll();
+            var clients = _unitOfWork.Client.GetAll(filter: (x)=> !x.Deleted);
             return View(clients);
         }
 
@@ -84,7 +84,7 @@ namespace Munafasa.Areas.Admin.Controllers
         public IActionResult Delete(int clientId)
         {
             var client = _unitOfWork.Client.GetFirstOrDefault(x => x.Id == clientId);
-            _unitOfWork.Client.Remove(client!);
+            client!.Deleted = true;
             _unitOfWork.Save();
             TempData["success"] = "Removed Successfuly";
             return RedirectToAction(nameof(Index));

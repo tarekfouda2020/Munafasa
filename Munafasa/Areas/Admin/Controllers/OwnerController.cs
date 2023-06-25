@@ -22,7 +22,7 @@ namespace Munafasa.Areas.Admin.Controllers
 
         public IActionResult Index()
         {
-            var owners = _unitOfWork.Owner.GetAll();
+            var owners = _unitOfWork.Owner.GetAll(filter: (x)=>!x.Deleted);
             return View(owners);
         }
 
@@ -61,7 +61,7 @@ namespace Munafasa.Areas.Admin.Controllers
         public IActionResult Delete(int ownerId)
         {
             var owner = _unitOfWork.Owner.GetFirstOrDefault(x => x.Id == ownerId);
-            _unitOfWork.Owner.Remove(owner!);
+            owner!.Deleted = true;
             _unitOfWork.Save();
             TempData["success"] = "Removed Successfuly";
             return RedirectToAction(nameof(Index));

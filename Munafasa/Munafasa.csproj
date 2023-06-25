@@ -51,6 +51,7 @@
     <None Remove="Areas\Admin\Views\Owner\" />
     <None Remove="Areas\Admin\Views\Client\" />
     <None Remove="Areas\Admin\Views\Technician\" />
+    <None Remove="Areas\Admin\Views\Cheque\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Areas\Site\" />
@@ -82,6 +83,7 @@
     <Folder Include="Areas\Admin\Views\Client\" />
     <Folder Include="Areas\Admin\Views\Technician\" />
     <Folder Include="wwwroot\Images\Tech\" />
+    <Folder Include="Areas\Admin\Views\Cheque\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\Images\" />

@@ -39,7 +39,7 @@ namespace Munafasa.Areas.Admin.Controllers
         {
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
 
-            IEnumerable<ApplicationUser> users = _unitofWork.ApplicationUser.GetAll(filter: x=> x.Id != userId);
+            IEnumerable<ApplicationUser> users = _unitofWork.ApplicationUser.GetAll(filter: x=> x.Id != userId && !x.Deleted);
 
             return View(users);
         }
@@ -125,7 +125,7 @@ namespace Munafasa.Areas.Admin.Controllers
         public IActionResult Delete(string userId)
         {
             var user = _unitofWork.ApplicationUser.GetFirstOrDefault(x => x.Id == userId);
-            _unitofWork.ApplicationUser.Remove(user!);
+            user!.Deleted = true;
             _unitofWork.Save();
             return RedirectToAction(nameof(Index));
         }

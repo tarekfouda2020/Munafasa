@@ -88,3 +88,15 @@
 /Volumes/Data/asp/Munafasa/Munafasa/obj/Release/net7.0/Munafasa.pdb
 /Volumes/Data/asp/Munafasa/Munafasa/obj/Release/net7.0/Munafasa.genruntimeconfig.cache
 /Volumes/Data/asp/Munafasa/Munafasa/obj/Release/net7.0/ref/Munafasa.dll
+/Volumes/Data/asp/Munafasa/Munafasa/bin/Release/net7.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Volumes/Data/asp/Munafasa/Munafasa/bin/Release/net7.0/Microsoft.IdentityModel.Abstractions.dll
+/Volumes/Data/asp/Munafasa/Munafasa/bin/Release/net7.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Volumes/Data/asp/Munafasa/Munafasa/bin/Release/net7.0/Microsoft.IdentityModel.Logging.dll
+/Volumes/Data/asp/Munafasa/Munafasa/bin/Release/net7.0/Microsoft.IdentityModel.Protocols.dll
+/Volumes/Data/asp/Munafasa/Munafasa/bin/Release/net7.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Volumes/Data/asp/Munafasa/Munafasa/bin/Release/net7.0/Microsoft.IdentityModel.Tokens.dll
+/Volumes/Data/asp/Munafasa/Munafasa/bin/Release/net7.0/Microsoft.OpenApi.dll
+/Volumes/Data/asp/Munafasa/Munafasa/bin/Release/net7.0/Swashbuckle.AspNetCore.Swagger.dll
+/Volumes/Data/asp/Munafasa/Munafasa/bin/Release/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Volumes/Data/asp/Munafasa/Munafasa/bin/Release/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Volumes/Data/asp/Munafasa/Munafasa/bin/Release/net7.0/System.IdentityModel.Tokens.Jwt.dll

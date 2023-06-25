@@ -3,6 +3,7 @@ using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
+using Munafasa.Utilities;
 
 namespace Munafasa.Models.Tables
 {
@@ -26,7 +27,10 @@ namespace Munafasa.Models.Tables
         [DisplayName("Arabic Name")]
         public string NameAr { get; set; }
         public DateTime CreatedAt { get; set; } = DateTime.Now;
-
+        [ValidateNever]
+        public int Status { get; set; } = (int)AdminStatusEnumeration.active;
+        [ValidateNever]
+        public bool Deleted { get; set; } = false;
         [NotMapped]
         public string? Errors { get; set; }
         [ValidateNever]

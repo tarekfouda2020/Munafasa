@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ovC/d8Yt6B2QA3RsxR98Ban0x2aT6s7ycMG8dkrqpQk=",
+  "Hash": "OaigYm5XLtlZ42lDOx6mdotGJz8b2vxr0D1dLGyiqSQ=",
   "Source": "Munafasa",
   "BasePath": "_content/Munafasa",
   "Mode": "Default",
@@ -2854,6 +2854,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/Images/Services/25cdfead-d3ce-4642-bb34-f59123e742a8.png"
+    },
+    {
+      "Identity": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/Images/Services/27124f72-d3cc-473d-8e72-39e983a32046.jpg",
+      "SourceId": "Munafasa",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/",
+      "BasePath": "_content/Munafasa",
+      "RelativePath": "Images/Services/27124f72-d3cc-473d-8e72-39e983a32046.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Images/Services/27124f72-d3cc-473d-8e72-39e983a32046.jpg"
     },
     {
       "Identity": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/Images/Services/492b5d51-e73c-4908-b6ce-5b4ba6037275.webp",

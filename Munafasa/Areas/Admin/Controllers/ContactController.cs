@@ -18,14 +18,14 @@ namespace Munafasa.Areas.Admin.Controllers
         // GET: /<controller>/
         public IActionResult Index()
         {
-            var contacts = _unitOfWork.Contact.GetAll();
+            var contacts = _unitOfWork.Contact.GetAll(filter: (x)=>!x.Deleted);
             return View(contacts);
         }
 
         public IActionResult Delete(int contactId)
         {
             var contact = _unitOfWork.Contact.GetFirstOrDefault(x => x.Id == contactId);
-            _unitOfWork.Contact.Remove(contact!);
+            contact!.Deleted = true;
             _unitOfWork.Save();
             TempData["success"] = "Removed Successfuly";
             return RedirectToAction(nameof(Index));

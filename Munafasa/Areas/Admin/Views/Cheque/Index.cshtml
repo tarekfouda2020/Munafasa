@@ -1,0 +1,71 @@
+﻿@using Munafasa.Models.Tables
+@model IEnumerable<Cheque>
+@{
+    ViewData["Title"] = "Cheques";
+    ViewData["PageSlug"] = "Cheques";
+    ViewData["Back"] = "/Admin/Contract";
+}
+
+
+
+<div class="card">
+    <div class="card-header header-elements-inline">
+        <h5 class="card-title">Cheques</h5>
+        <div class="header-elements">
+            <a class="btn btn-success" asp-area="Admin" asp-controller="Cheque" asp-route-contractId="@ViewBag.contractId" asp-action="Upsert">Add Cheque</a>
+        </div>
+    </div>
+
+
+
+    <table class="table datatable-show-all">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Date</th>
+                <th>Price</th>
+                <th>Contract</th>
+                <th>Created At</th>
+                <th class="text-center">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Id </td>
+                    <td>@item.DateTime.ToString("MM/dd/yyyy")</td>
+                    <td>@item.Price.ToString("C")</td>
+                    <td>@item.Contract.ContractNumber</td>
+                    <td>@item.CreatedAt.ToString("MM/dd/yyyy")</td>
+                    <td class="text-center">
+                        <div class="list-icons">
+                            <div class="dropdown">
+                                <a href="#" class="list-icons-item" data-toggle="dropdown">
+                                    <i class="icon-menu9"></i>
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-right">
+                                    <a asp-area="Admin" asp-action="Upsert" asp-route-chequeId="@item.Id" class="dropdown-item"><i class="icon-pencil5"></i> Edit</a>
+                                    <a asp-action="Delete" asp-route-chequeId="@item.Id" class="dropdown-item"><i class="icon-trash"></i> Remove</a>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+</div>
+
+
+
+
+@section AdminScripts{
+
+    <script src="\js\adminJs\plugins\tables\datatables\datatables.min.js"></script>
+    <script src="\js\adminJs\plugins\forms\selects\select2.min.js"></script>
+    <script src="\js\adminJs\demo_pages\datatables_advanced.js"></script>
+
+}

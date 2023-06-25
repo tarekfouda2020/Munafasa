@@ -20,6 +20,7 @@ namespace Munafasa.Data.Repositories
             Contract = new ContractRepository(db);
             ContractAttachment = new ContractAttachmentsRepository(db);
             TechServices = new TechServicesRepository(db);
+            Cheque = new ChequeRepository(db);
         }
 
         //Repositories
@@ -45,6 +46,9 @@ namespace Munafasa.Data.Repositories
         public IContractAttachmentsRepository ContractAttachment { get; private set; }
 
         public ITechServicesRepository TechServices { get; private set; }
+
+        public IChequeRepository Cheque { get; private set; }
+
 
         public void Save()
         {

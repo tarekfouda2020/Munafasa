@@ -26,7 +26,7 @@ namespace Munafasa.Areas.Admin.Controllers
         // GET: /<controller>/
         public IActionResult Index()
         {
-            var services = _unitOfWork.Service.GetAll();
+            var services = _unitOfWork.Service.GetAll(filter:(x)=> !x.Deleted);
             return View(services);
         }
 
@@ -76,7 +76,7 @@ namespace Munafasa.Areas.Admin.Controllers
         public IActionResult Delete(int serviceId)
         {
             var service = _unitOfWork.Service.GetFirstOrDefault(x => x.Id == serviceId);
-            _unitOfWork.Service.Remove(service!);
+            service!.Deleted = true;
             _unitOfWork.Save();
             TempData["success"] = "Removed Successfuly";
             return RedirectToAction(nameof(Index));

@@ -29,7 +29,7 @@ namespace Munafasa.Areas.Admin.Controllers
 
         public IActionResult Index()
         {
-            var clients = _unitOfWork.Technicain.GetAll();
+            var clients = _unitOfWork.Technicain.GetAll(filter: (x)=> !x.Deleted);
             return View(clients);
         }
 
@@ -110,7 +110,7 @@ namespace Munafasa.Areas.Admin.Controllers
         public IActionResult Delete(int techId)
         {
             var technician = _unitOfWork.Technicain.GetFirstOrDefault(x => x.Id == techId);
-            _unitOfWork.Technicain.Remove(technician!);
+            technician!.Deleted = true;
             _unitOfWork.Save();
             TempData["success"] = "Removed Successfuly";
             return RedirectToAction(nameof(Index));

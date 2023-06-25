@@ -9,6 +9,30 @@
       "PackagePath": "staticwebassets/.DS_Store"
     },
     {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/Images/.DS_Store",
+      "PackagePath": "staticwebassets/Images/.DS_Store"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/Images/Contracts/09613b4c-98dd-4bd6-b22a-5719d97b9526.sql",
+      "PackagePath": "staticwebassets/Images/Contracts/09613b4c-98dd-4bd6-b22a-5719d97b9526.sql"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/Images/Contracts/8669bdce-b229-4508-a7b0-98d9a312b21b.csv",
+      "PackagePath": "staticwebassets/Images/Contracts/8669bdce-b229-4508-a7b0-98d9a312b21b.csv"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/Images/Contracts/a5bd28f5-5d33-42bd-9318-f05a398a0056.log",
+      "PackagePath": "staticwebassets/Images/Contracts/a5bd28f5-5d33-42bd-9318-f05a398a0056.log"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/Images/Contracts/b4996209-f2b3-4781-87fe-3c8e36288128.jpeg",
+      "PackagePath": "staticwebassets/Images/Contracts/b4996209-f2b3-4781-87fe-3c8e36288128.jpeg"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/Images/Contracts/fa09766d-d39a-4925-971d-913c76965357.log",
+      "PackagePath": "staticwebassets/Images/Contracts/fa09766d-d39a-4925-971d-913c76965357.log"
+    },
+    {
       "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/Images/Morals/27927c85-f88d-44b9-be2f-c7892a9ea8f3.png",
       "PackagePath": "staticwebassets/Images/Morals/27927c85-f88d-44b9-be2f-c7892a9ea8f3.png"
     },
@@ -23,6 +47,10 @@
     {
       "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/Images/Services/25cdfead-d3ce-4642-bb34-f59123e742a8.png",
       "PackagePath": "staticwebassets/Images/Services/25cdfead-d3ce-4642-bb34-f59123e742a8.png"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/Images/Services/27124f72-d3cc-473d-8e72-39e983a32046.jpg",
+      "PackagePath": "staticwebassets/Images/Services/27124f72-d3cc-473d-8e72-39e983a32046.jpg"
     },
     {
       "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/Images/Services/492b5d51-e73c-4908-b6ce-5b4ba6037275.webp",
@@ -57,6 +85,10 @@
       "PackagePath": "staticwebassets/Images/Services/a05a17d9-35af-4e5d-9d67-f7e37a5fd733.png"
     },
     {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/Images/Services/cea1dfc1-d5b0-4f04-87e7-a3286604b5d4.jpeg",
+      "PackagePath": "staticwebassets/Images/Services/cea1dfc1-d5b0-4f04-87e7-a3286604b5d4.jpeg"
+    },
+    {
       "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/Images/Services/d17e112c-bb7e-4a40-9f7a-517e538a716b.png",
       "PackagePath": "staticwebassets/Images/Services/d17e112c-bb7e-4a40-9f7a-517e538a716b.png"
     },
@@ -67,6 +99,22 @@
     {
       "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/Images/Setting/6714430f-7e67-4b73-b03a-64d976e4ca08.png",
       "PackagePath": "staticwebassets/Images/Setting/6714430f-7e67-4b73-b03a-64d976e4ca08.png"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/Images/default.png",
+      "PackagePath": "staticwebassets/Images/default.png"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/Images/logo.png",
+      "PackagePath": "staticwebassets/Images/logo.png"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/Images/logo_icon_light.png",
+      "PackagePath": "staticwebassets/Images/logo_icon_light.png"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/Images/logo_light.png",
+      "PackagePath": "staticwebassets/Images/logo_light.png"
     },
     {
       "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/.DS_Store",
@@ -101,6 +149,138 @@
       "PackagePath": "staticwebassets/css/adminCss/extras/animate.min.css"
     },
     {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/adminCss/icons/fontawesome/fonts/fa-brands-400-1.eot",
+      "PackagePath": "staticwebassets/css/adminCss/icons/fontawesome/fonts/fa-brands-400-1.eot"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/adminCss/icons/fontawesome/fonts/fa-brands-400-1.txt",
+      "PackagePath": "staticwebassets/css/adminCss/icons/fontawesome/fonts/fa-brands-400-1.txt"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/adminCss/icons/fontawesome/fonts/fa-brands-400-2.txt",
+      "PackagePath": "staticwebassets/css/adminCss/icons/fontawesome/fonts/fa-brands-400-2.txt"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/adminCss/icons/fontawesome/fonts/fa-brands-400.eot",
+      "PackagePath": "staticwebassets/css/adminCss/icons/fontawesome/fonts/fa-brands-400.eot"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/adminCss/icons/fontawesome/fonts/fa-brands-400.svg",
+      "PackagePath": "staticwebassets/css/adminCss/icons/fontawesome/fonts/fa-brands-400.svg"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/adminCss/icons/fontawesome/fonts/fa-brands-400.txt",
+      "PackagePath": "staticwebassets/css/adminCss/icons/fontawesome/fonts/fa-brands-400.txt"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/adminCss/icons/fontawesome/fonts/fa-regular-400-1.eot",
+      "PackagePath": "staticwebassets/css/adminCss/icons/fontawesome/fonts/fa-regular-400-1.eot"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/adminCss/icons/fontawesome/fonts/fa-regular-400-1.txt",
+      "PackagePath": "staticwebassets/css/adminCss/icons/fontawesome/fonts/fa-regular-400-1.txt"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/adminCss/icons/fontawesome/fonts/fa-regular-400-2.txt",
+      "PackagePath": "staticwebassets/css/adminCss/icons/fontawesome/fonts/fa-regular-400-2.txt"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/adminCss/icons/fontawesome/fonts/fa-regular-400.eot",
+      "PackagePath": "staticwebassets/css/adminCss/icons/fontawesome/fonts/fa-regular-400.eot"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/adminCss/icons/fontawesome/fonts/fa-regular-400.svg",
+      "PackagePath": "staticwebassets/css/adminCss/icons/fontawesome/fonts/fa-regular-400.svg"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/adminCss/icons/fontawesome/fonts/fa-regular-400.txt",
+      "PackagePath": "staticwebassets/css/adminCss/icons/fontawesome/fonts/fa-regular-400.txt"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/adminCss/icons/fontawesome/fonts/fa-solid-900-1.eot",
+      "PackagePath": "staticwebassets/css/adminCss/icons/fontawesome/fonts/fa-solid-900-1.eot"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/adminCss/icons/fontawesome/fonts/fa-solid-900-1.txt",
+      "PackagePath": "staticwebassets/css/adminCss/icons/fontawesome/fonts/fa-solid-900-1.txt"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/adminCss/icons/fontawesome/fonts/fa-solid-900-2.txt",
+      "PackagePath": "staticwebassets/css/adminCss/icons/fontawesome/fonts/fa-solid-900-2.txt"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/adminCss/icons/fontawesome/fonts/fa-solid-900.eot",
+      "PackagePath": "staticwebassets/css/adminCss/icons/fontawesome/fonts/fa-solid-900.eot"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/adminCss/icons/fontawesome/fonts/fa-solid-900.svg",
+      "PackagePath": "staticwebassets/css/adminCss/icons/fontawesome/fonts/fa-solid-900.svg"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/adminCss/icons/fontawesome/fonts/fa-solid-900.txt",
+      "PackagePath": "staticwebassets/css/adminCss/icons/fontawesome/fonts/fa-solid-900.txt"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/adminCss/icons/fontawesome/styles.min.css",
+      "PackagePath": "staticwebassets/css/adminCss/icons/fontawesome/styles.min.css"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/adminCss/icons/icomoon/fonts/icomoon-1.eot",
+      "PackagePath": "staticwebassets/css/adminCss/icons/icomoon/fonts/icomoon-1.eot"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/adminCss/icons/icomoon/fonts/icomoon-1.txt",
+      "PackagePath": "staticwebassets/css/adminCss/icons/icomoon/fonts/icomoon-1.txt"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/adminCss/icons/icomoon/fonts/icomoon.eot",
+      "PackagePath": "staticwebassets/css/adminCss/icons/icomoon/fonts/icomoon.eot"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/adminCss/icons/icomoon/fonts/icomoon.svg",
+      "PackagePath": "staticwebassets/css/adminCss/icons/icomoon/fonts/icomoon.svg"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/adminCss/icons/icomoon/fonts/icomoon.txt",
+      "PackagePath": "staticwebassets/css/adminCss/icons/icomoon/fonts/icomoon.txt"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/adminCss/icons/icomoon/styles.min.css",
+      "PackagePath": "staticwebassets/css/adminCss/icons/icomoon/styles.min.css"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/adminCss/icons/material/fonts/material-icons-1.txt",
+      "PackagePath": "staticwebassets/css/adminCss/icons/material/fonts/material-icons-1.txt"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/adminCss/icons/material/fonts/material-icons.svg",
+      "PackagePath": "staticwebassets/css/adminCss/icons/material/fonts/material-icons.svg"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/adminCss/icons/material/fonts/material-icons.txt",
+      "PackagePath": "staticwebassets/css/adminCss/icons/material/fonts/material-icons.txt"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/adminCss/icons/material/styles.min.css",
+      "PackagePath": "staticwebassets/css/adminCss/icons/material/styles.min.css"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/adminCss/icons/summernote/summernote-1.eot",
+      "PackagePath": "staticwebassets/css/adminCss/icons/summernote/summernote-1.eot"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/adminCss/icons/summernote/summernote-1.txt",
+      "PackagePath": "staticwebassets/css/adminCss/icons/summernote/summernote-1.txt"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/adminCss/icons/summernote/summernote.eot",
+      "PackagePath": "staticwebassets/css/adminCss/icons/summernote/summernote.eot"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/adminCss/icons/summernote/summernote.txt",
+      "PackagePath": "staticwebassets/css/adminCss/icons/summernote/summernote.txt"
+    },
+    {
       "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/site/.DS_Store",
       "PackagePath": "staticwebassets/css/site/.DS_Store"
     },
@@ -109,24 +289,12 @@
       "PackagePath": "staticwebassets/css/site/fonts/Kalligraaf.ttf"
     },
     {
-      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/site/imgs/Component-1.png",
-      "PackagePath": "staticwebassets/css/site/imgs/Component-1.png"
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/site/fonts/OpenSans.ttf",
+      "PackagePath": "staticwebassets/css/site/fonts/OpenSans.ttf"
     },
     {
-      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/site/imgs/Component-2.png",
-      "PackagePath": "staticwebassets/css/site/imgs/Component-2.png"
-    },
-    {
-      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/site/imgs/Component-3.png",
-      "PackagePath": "staticwebassets/css/site/imgs/Component-3.png"
-    },
-    {
-      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/site/imgs/Frame1.png",
-      "PackagePath": "staticwebassets/css/site/imgs/Frame1.png"
-    },
-    {
-      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/site/imgs/Frame2.png",
-      "PackagePath": "staticwebassets/css/site/imgs/Frame2.png"
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/site/imgs/.DS_Store",
+      "PackagePath": "staticwebassets/css/site/imgs/.DS_Store"
     },
     {
       "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/site/imgs/Group 26 (1).png",
@@ -149,28 +317,8 @@
       "PackagePath": "staticwebassets/css/site/imgs/aln.png"
     },
     {
-      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/site/imgs/angular.png",
-      "PackagePath": "staticwebassets/css/site/imgs/angular.png"
-    },
-    {
-      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/site/imgs/anood.png",
-      "PackagePath": "staticwebassets/css/site/imgs/anood.png"
-    },
-    {
-      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/site/imgs/arman.png",
-      "PackagePath": "staticwebassets/css/site/imgs/arman.png"
-    },
-    {
       "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/site/imgs/contact us En.png",
       "PackagePath": "staticwebassets/css/site/imgs/contact us En.png"
-    },
-    {
-      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/site/imgs/kanto.png",
-      "PackagePath": "staticwebassets/css/site/imgs/kanto.png"
-    },
-    {
-      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/site/imgs/logo.png",
-      "PackagePath": "staticwebassets/css/site/imgs/logo.png"
     },
     {
       "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/site/imgs/logoSmall.png",
@@ -179,26 +327,6 @@
     {
       "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/site/imgs/naqlah.png",
       "PackagePath": "staticwebassets/css/site/imgs/naqlah.png"
-    },
-    {
-      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/site/imgs/rease1.png",
-      "PackagePath": "staticwebassets/css/site/imgs/rease1.png"
-    },
-    {
-      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/site/imgs/rease2.png",
-      "PackagePath": "staticwebassets/css/site/imgs/rease2.png"
-    },
-    {
-      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/site/imgs/servese1.png",
-      "PackagePath": "staticwebassets/css/site/imgs/servese1.png"
-    },
-    {
-      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/site/imgs/servese2.png",
-      "PackagePath": "staticwebassets/css/site/imgs/servese2.png"
-    },
-    {
-      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/site/imgs/servese3.png",
-      "PackagePath": "staticwebassets/css/site/imgs/servese3.png"
     },
     {
       "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/css/site/imgs/servicerequestbanner.png",
@@ -211,6 +339,10 @@
     {
       "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/favicon.ico",
       "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/global_assets/.DS_Store",
+      "PackagePath": "staticwebassets/global_assets/.DS_Store"
     },
     {
       "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/global_assets/css/icons/fontawesome/fonts/fa-brands-400-1.eot",
@@ -347,6 +479,10 @@
     {
       "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/.DS_Store",
       "PackagePath": "staticwebassets/js/.DS_Store"
+    },
+    {
+      "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/.DS_Store",
+      "PackagePath": "staticwebassets/js/adminJs/.DS_Store"
     },
     {
       "Id": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/js/adminJs/demo_pages/alpaca_advanced.js",
