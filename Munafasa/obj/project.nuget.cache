@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "zxi6OBvWVrl14IgDovrCMejzsYgGmNv79lZqxj9Dsr1Gn7kmsN3z7zJqKANNOqW4bkLsPVffuLeM8KzTMIwv3A==",
+  "dgSpecHash": "E/eT0P8WFl3tXa75EfNrod+TKrO3iPvHNluQDcSURB8yK2V0bGc6tYoBy1y0WNpkdWd8c3pluhpmt6yzZejRtQ==",
   "success": true,
   "projectFilePath": "/Volumes/Data/asp/Munafasa/Munafasa/Munafasa.csproj",
   "expectedPackageFiles": [
@@ -10,7 +10,7 @@
     "/Users/tarekfouda/.nuget/packages/microsoft.aspnetcore.authentication.abstractions/2.2.0/microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "/Users/tarekfouda/.nuget/packages/microsoft.aspnetcore.authentication.cookies/2.2.0/microsoft.aspnetcore.authentication.cookies.2.2.0.nupkg.sha512",
     "/Users/tarekfouda/.nuget/packages/microsoft.aspnetcore.authentication.core/2.2.0/microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
-    "/Users/tarekfouda/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/7.0.7/microsoft.aspnetcore.authentication.jwtbearer.7.0.7.nupkg.sha512",
+    "/Users/tarekfouda/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/7.0.8/microsoft.aspnetcore.authentication.jwtbearer.7.0.8.nupkg.sha512",
     "/Users/tarekfouda/.nuget/packages/microsoft.aspnetcore.authorization/2.2.0/microsoft.aspnetcore.authorization.2.2.0.nupkg.sha512",
     "/Users/tarekfouda/.nuget/packages/microsoft.aspnetcore.authorization.policy/2.2.0/microsoft.aspnetcore.authorization.policy.2.2.0.nupkg.sha512",
     "/Users/tarekfouda/.nuget/packages/microsoft.aspnetcore.cryptography.internal/7.0.7/microsoft.aspnetcore.cryptography.internal.7.0.7.nupkg.sha512",

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Munafasa.Data.IRepositories;
@@ -38,9 +39,19 @@ namespace Munafasa.Areas.API
             {
                 if (loginModel.Type == (int)UserType.client)
                 {
+                    var contract = _unitOfWork.Contract.GetFirstOrDefault(x => x.ContractNumber == loginModel.ContractNumber);
+                    if (contract == null)
+                    {
+                        return BadRequest(new { success = false, msg = new LocalizedValue(Messages.FailedCredentials, Messages.FailedCredentials) });
+                    }
                     var client = _unitOfWork.Client.GetFirstOrDefault(x=> x.Phone == loginModel.Phone);
+               
                     if (client != null)
                     {
+                        if (client.Deleted || client.Status == (int)AdminStatusEnumeration.suspended)
+                        {
+                            return BadRequest(new { success = false, msg = new LocalizedValue(Messages.blockedCredentials, Messages.blockedCredentials) });
+                        }
                         var token = _authService.CreateJWTToekn(client.Id, client.Phone, client.Email);
                         AuthModel authModel = new AuthModel
                         {
@@ -52,7 +63,7 @@ namespace Munafasa.Areas.API
                             ExpireAt = token.ValidTo,
                             Token = new JwtSecurityTokenHandler().WriteToken(token),
                         };
-                        return Ok(new { success = false, data = authModel });
+                        return Ok(new { success = true, data = authModel });
                     }
 
                 }
@@ -61,6 +72,10 @@ namespace Munafasa.Areas.API
                     var technician = _unitOfWork.Technicain.GetFirstOrDefault(x => x.Phone == loginModel.Phone);
                     if (technician != null)
                     {
+                        if (technician.Deleted || technician.Status == (int)AdminStatusEnumeration.suspended)
+                        {
+                            return BadRequest(new { success = false, msg = new LocalizedValue(Messages.blockedCredentials, Messages.blockedCredentials) });
+                        }
                         var token = _authService.CreateJWTToekn(technician.Id, technician.Phone, technician.Email);
                         AuthModel authModel = new AuthModel
                         {
@@ -72,7 +87,7 @@ namespace Munafasa.Areas.API
                             ExpireAt = token.ValidTo,
                             Token = new JwtSecurityTokenHandler().WriteToken(token),
                         };
-                        return Ok(new { success = false, data = authModel });
+                        return Ok(new { success = true, data = authModel });
                     }
                 }
                 else
@@ -80,6 +95,10 @@ namespace Munafasa.Areas.API
                     var owner = _unitOfWork.Owner.GetFirstOrDefault(x => x.Phone == loginModel.Phone);
                     if (owner != null)
                     {
+                        if (owner.Deleted || owner.Status == (int)AdminStatusEnumeration.suspended)
+                        {
+                            return BadRequest(new { success = false, msg = new LocalizedValue(Messages.blockedCredentials, Messages.blockedCredentials) });
+                        }
                         var token = _authService.CreateJWTToekn(owner.Id, owner.Phone, owner.Email);
                         AuthModel authModel = new AuthModel
                         {
@@ -91,15 +110,21 @@ namespace Munafasa.Areas.API
                             ExpireAt = token.ValidTo,
                             Token = new JwtSecurityTokenHandler().WriteToken(token),
                         };
-                        return Ok(new { success = false, data = authModel });
+                        return Ok(new { success = true, data = authModel });
                     }
                 }
 
-                return BadRequest(new { success = true, msg = Messages.FailedCredentials });
-
+                return BadRequest(new { success = false, msg = new LocalizedValue(Messages.FailedCredentials, Messages.FailedCredentials) });
             }
-            return BadRequest(new { success = true, errors = ModelState });
+            return BadRequest(new { success = false, errors = ModelState });
 
+        }
+
+        [HttpGet]
+        [Authorize]
+        public IActionResult CheckAuth()
+        {
+            return Ok(new { success = true });
         }
     }
 }
