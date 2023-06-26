@@ -33,10 +33,31 @@ namespace Munafasa.Areas.API
         }
 
         [HttpGet]
-        public IActionResult GetAll()
+        public IActionResult GetClientRquests()
         {
-            var requests = _unitOfWork.Request.GetAll().Select(RequestDto.FromRequest);
+            var userId = int.Parse(User.FindFirst("userId")?.Value!);
+            var requests = _unitOfWork.Request.GetAll(x=> x.ClientId == userId).Select(RequestDto.FromRequest);
             return Ok(new ResponseModel(success: true, data: requests));
+        }
+
+        [HttpGet]
+        public IActionResult GetClientStatusRequests()
+        {
+            var userId = int.Parse(User.FindFirst("userId")?.Value!);
+            var allReqs = _unitOfWork.Request.GetAll(x => x.ClientId == userId).Select(RequestDto.FromRequest);
+            var newReqs = allReqs.Where(x=> x.Status == (int)StatusEnumeration.New);
+            var inProgressReqs = allReqs.Where(x => x.Status >= (int)StatusEnumeration.PendingAdminApproval && x.Status >= (int)StatusEnumeration.Done);
+            var doneReqs = allReqs.Where(x => x.Status == (int)StatusEnumeration.Done);
+            var canceledReqs = allReqs.Where(x => x.Status == (int)StatusEnumeration.Canceled);
+
+
+            return Ok(new ResponseModel(success: true, data: new
+            {
+                newReqs,
+                inProgressReqs,
+                doneReqs,
+                canceledReqs
+            }));
         }
 
         [HttpPost]

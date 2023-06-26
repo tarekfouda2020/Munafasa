@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mPuLONCW3I6/zk79js6y3W4sbZGox5k0fnLLUNOqcY0=",
+  "Hash": "dXIFPip4UmmAGdJkOpCZahtie7FygIxFRWiwjPJodH8=",
   "Source": "Munafasa",
   "BasePath": "_content/Munafasa",
   "Mode": "Default",
@@ -2922,6 +2922,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/Images/Requests/3c152f8e-4a27-4de2-85f9-6ef4b20872e0.svg"
+    },
+    {
+      "Identity": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/Images/Requests/3c5e4a87-58a4-4dc8-8431-e417a62f77a4.svg",
+      "SourceId": "Munafasa",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/",
+      "BasePath": "_content/Munafasa",
+      "RelativePath": "Images/Requests/3c5e4a87-58a4-4dc8-8431-e417a62f77a4.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Images/Requests/3c5e4a87-58a4-4dc8-8431-e417a62f77a4.svg"
+    },
+    {
+      "Identity": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/Images/Requests/5fd693fb-3bb5-4a70-9178-1f0f78ecee3b.png",
+      "SourceId": "Munafasa",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/",
+      "BasePath": "_content/Munafasa",
+      "RelativePath": "Images/Requests/5fd693fb-3bb5-4a70-9178-1f0f78ecee3b.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Images/Requests/5fd693fb-3bb5-4a70-9178-1f0f78ecee3b.png"
     },
     {
       "Identity": "/Volumes/Data/asp/Munafasa/Munafasa/wwwroot/Images/Requests/7336a0f6-e9e6-4db6-96fc-3a1f02e65b57.png",
