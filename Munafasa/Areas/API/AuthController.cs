@@ -21,6 +21,7 @@ namespace Munafasa.Areas.API
     [ApiController]
     [Route(Routes.AuthRoute)]
     [ApiExplorerSettings(GroupName = "Auth")]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     public class AuthController : ControllerBase
     {
         private readonly IUnitOfWork _unitOfWork;
@@ -37,6 +38,7 @@ namespace Munafasa.Areas.API
         }
 
         [HttpPost]
+        [AllowAnonymous]
         public IActionResult Login([FromBody] LoginModel loginModel)
         {
             if (ModelState.IsValid)
@@ -120,13 +122,13 @@ namespace Munafasa.Areas.API
         }
 
         [HttpGet]
-        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         public IActionResult CheckAuth()
         {
             return Ok(new { success = true });
         }
 
         [HttpPost]
+        [AllowAnonymous]
         public async Task<IActionResult> CompleteClientProfile(ClientDto clientDto)
         {
             if (ModelState.IsValid)

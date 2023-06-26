@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -14,6 +15,7 @@ using Munafasa.Models.ViewModels;
 namespace Munafasa.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize()]
     public class DashboardController : Controller
     {
         private readonly SignInManager<ApplicationUser> _signInManager;
@@ -28,7 +30,7 @@ namespace Munafasa.Areas.Admin.Controllers
         {
             return View();
         }
-
+        [AllowAnonymous]
         public async Task<IActionResult> Login(string returnUrl = null)
         {
             LoginModel loginModel = new LoginModel();
@@ -41,6 +43,7 @@ namespace Munafasa.Areas.Admin.Controllers
         }
 
         [HttpPost]
+        [AllowAnonymous]
         public async Task<IActionResult> Login(LoginModel loginModel)
         {
             loginModel.ReturnUrl ??= Url.Content("~/");
