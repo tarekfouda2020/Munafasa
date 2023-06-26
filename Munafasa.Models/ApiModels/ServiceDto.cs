@@ -11,20 +11,16 @@ namespace Munafasa.Models.ApiModels
 
         public int Id { get; set; }
         public string ImageUrl { get; set; }
-        public string DesEn { get; set; }
-        public string DesAr { get; set; }
-        public string NameEn { get; set; }
-        public string NameAr { get; set; }
+        public LocalizedValue Des { get; set; }
+        public LocalizedValue Name { get; set; }
 
 
         public static ServiceDto FromService(Service service)
         {
             return new ServiceDto()
             {
-                DesAr = service.DesAr,
-                DesEn = service.DesEn,
-                NameAr = service.NameAr,
-                NameEn = service.NameEn,
+                Des = new LocalizedValue(service.DesAr, service.DesEn) ,
+                Name = new LocalizedValue(service.NameAr, service.NameEn),
                 Id = service.Id,
                 ImageUrl = service.ImageUrl,
             };

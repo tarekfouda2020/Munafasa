@@ -1,0 +1,89 @@
+﻿@using Munafasa.Models.Tables
+@using Munafasa.Utilities
+@model IEnumerable<Request>
+@{
+    ViewData["Title"] = "New Requests";
+    ViewData["PageSlug"] = "NewRequests";
+    ViewData["Back"] = "/Admin/Dashboard";
+}
+
+
+
+<div class="card">
+    <div class="card-header header-elements-inline">
+        <h5 class="card-title">Requests</h5>
+        <div class="header-elements">
+        </div>
+    </div>
+
+
+
+    <table class="table datatable-show-all">
+        <thead>
+            <tr>
+                <th>Request Number</th>
+                <th>Contract Number</th>
+                <th>Service</th>
+                <th>Client</th>
+                <th>Tecnical</th>
+                <th>Owner</th>
+                <th>Additional Price</th>
+                <th>Status</th>
+                <th class="text-center">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.Client.Contract.ContractNumber</td>
+                    <td>@item.Service.NameEn</td>
+                    <td>@item.Client.UserName</td>
+                    <td>@(item.Technician != null? item.Technician?.UserName : "Not Assigned")</td>
+                    <td>@item.Client.Contract.Owner.UserName</td>
+                    <td>@(item.AdditionalPrice != null? item.AdditionalPrice?.ToString("C") : "No Price")</td>
+                    <td>
+                        @if (item.Status == (int)StatusEnumeration.New)
+                        {
+                            <span class="badge badge-secondary">@Enum.GetName(typeof(StatusEnumeration), item.Status)</span>
+                        }
+                        else if (item.Status >= (int)StatusEnumeration.PendingOwnerApproval && item.Status <= (int)StatusEnumeration.TechnicalFinished)
+                        {
+                            <span class="badge badge-info">@Enum.GetName(typeof(StatusEnumeration), item.Status)</span>
+
+                        }
+                        else if (item.Status == (int)StatusEnumeration.Done)
+                        {
+                            <span class="badge badge-success">@Enum.GetName(typeof(StatusEnumeration), item.Status)</span>
+                        }
+                        else
+                        {
+                            <span class="badge badge-danger">@Enum.GetName(typeof(StatusEnumeration), item.Status)</span>
+
+                        }
+                    </td>
+                    <td class="text-center">
+                        <div class="list-icons">
+                            <div class="dropdown">
+                                <a href="#" class="list-icons-item" data-toggle="dropdown">
+                                    <i class="icon-menu9"></i>
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-right">
+                                    <a asp-area="Admin" asp-action="Edit" asp-route-requestId="@item.Id" class="dropdown-item"><i class="icon-pencil5"></i> Edit</a>
+                                    <a asp-action="Delete" asp-route-requestId="@item.Id" class="dropdown-item"><i class="icon-trash"></i> Remove</a>
+                                    <a asp-area="Admin" asp-action="Details" asp-route-requestId="@item.Id" class="dropdown-item"><i class="icon-file-text2"></i> Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+</div>
+
+
+<partial name="_DatatableResponsive" />

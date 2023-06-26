@@ -36,7 +36,7 @@
                 <tr>
                     <td>@service.Id</td>
                     <td>
-                        <img src="~/@service.ImageUrl" width="80px" height="80px"/>
+                        <img src="~/@service.ImageUrl" width="80px" height="80px" />
                     </td>
                     <td>@service.NameAr</td>
                     <td>@service.NameEn</td>
@@ -64,11 +64,4 @@
 
 
 
-
-@section AdminScripts{
-
-    <script src="\js\adminJs\plugins\tables\datatables\datatables.min.js"></script>
-    <script src="\js\adminJs\plugins\forms\selects\select2.min.js"></script>
-    <script src="\js\adminJs\demo_pages\datatables_advanced.js"></script>
-
-}
+<partial name="_DatatableResponsive" />

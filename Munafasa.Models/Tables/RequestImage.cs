@@ -13,6 +13,7 @@ namespace Munafasa.Models.Tables
 		public string Url { get; set; }
 		[Required]
 		public int RequestId { get; set; }
+		public bool IsAfter { get; set; } = false;
 		[ForeignKey("RequestId")]
 		public Request Request { get; set; }
 	}

@@ -36,7 +36,7 @@ namespace Munafasa.Areas.API
         public IActionResult GetClientRquests()
         {
             var userId = int.Parse(User.FindFirst("userId")?.Value!);
-            var requests = _unitOfWork.Request.GetAll(x=> x.ClientId == userId).Select(RequestDto.FromRequest);
+            var requests = _unitOfWork.Request.GetAll(x=> x.ClientId == userId && !x.Deleted).Select(RequestDto.FromRequest);
             return Ok(new ResponseModel(success: true, data: requests));
         }
 
@@ -44,9 +44,9 @@ namespace Munafasa.Areas.API
         public IActionResult GetClientStatusRequests()
         {
             var userId = int.Parse(User.FindFirst("userId")?.Value!);
-            var allReqs = _unitOfWork.Request.GetAll(x => x.ClientId == userId).Select(RequestDto.FromRequest);
+            var allReqs = _unitOfWork.Request.GetAll(x => x.ClientId == userId && !x.Deleted).Select(RequestDto.FromRequest);
             var newReqs = allReqs.Where(x=> x.Status == (int)StatusEnumeration.New);
-            var inProgressReqs = allReqs.Where(x => x.Status >= (int)StatusEnumeration.PendingAdminApproval && x.Status >= (int)StatusEnumeration.Done);
+            var inProgressReqs = allReqs.Where(x => x.Status >= (int)StatusEnumeration.PendingOwnerApproval && x.Status >= (int)StatusEnumeration.TechnicalFinished);
             var doneReqs = allReqs.Where(x => x.Status == (int)StatusEnumeration.Done);
             var canceledReqs = allReqs.Where(x => x.Status == (int)StatusEnumeration.Canceled);
 

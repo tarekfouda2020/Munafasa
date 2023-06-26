@@ -1,0 +1,179 @@
+﻿@using Munafasa.Models.Tables
+@model Request
+@{
+    ViewData["Title"] = "Request Details";
+    ViewData["PageSlug"] = "RequestDetails";
+    ViewData["Back"] = "/Admin/Request";
+}
+
+
+<div class="card">
+
+    <div class="card-header header-elements-inline">
+        <h5 class="card-title">Requests</h5>
+        <div class="header-elements">
+            <button type="button" class="btn btn-primary">Send To Owner <i class="icon-paperplane ml-2"></i></button>
+        </div>
+    </div>
+
+
+    <div class="card-body">
+        <form>
+
+            <fieldset class="mb-3 row">
+
+                <div class="form-group col-md-6">
+                    <label asp-for="Id"></label>
+                    <input type="text" disabled asp-for="Id" class="form-control" placeholder="">
+                </div>
+
+                <div class="form-group col-md-6">
+                    <label asp-for="Client.Contract.ContractNumber"></label>
+                    <input type="text" disabled asp-for="Client.Contract.ContractNumber" class="form-control" placeholder="">
+                </div>
+
+                <div class="form-group col-md-6">
+                    <label asp-for="Client.Contract.Owner.UserName"></label>
+                    <input type="text" disabled asp-for="Client.Contract.Owner.UserName" class="form-control" placeholder="">
+                </div>
+
+                <div class="form-group col-md-6">
+                    <label asp-for="Client.UserName"></label>
+                    <input type="text" disabled asp-for="Client.UserName" class="form-control" placeholder="">
+                </div>
+
+                @if (Model.Technician != null)
+                {
+                    <div class="form-group col-md-6">
+                        <label asp-for="Technician!.UserName"></label>
+                        <input type="text" disabled asp-for="Technician!.UserName" class="form-control" placeholder="">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label asp-for="Technician!.Phone"></label>
+                        <input type="text" disabled asp-for="Technician!.Phone" class="form-control" placeholder="">
+                    </div>
+                }
+
+                <div class="form-group col-md-6">
+                    <label asp-for="VisitDateFrom"></label>
+                    <input type="text" disabled asp-for="VisitDateFrom" class="form-control" placeholder="">
+                </div>
+
+                <div class="form-group col-md-6">
+                    <label asp-for="VisitDateTo"></label>
+                    <input type="text" disabled asp-for="VisitDateFrom" class="form-control" placeholder="">
+                </div>
+
+                <div class="form-group col-md-6">
+                    <label asp-for="Client.Contract.MaxSparePrice"></label>
+                    <input type="text" disabled asp-for="Client.Contract.MaxSparePrice" class="form-control" placeholder="">
+                </div>
+
+                <div class="form-group col-md-6">
+                    <label asp-for="AdditionalPrice"></label>
+                    <input type="text" disabled asp-for="AdditionalPrice" class="form-control" placeholder="">
+                </div>
+
+                <div class="form-group col-md-12">
+                    <label class="col-form-label" asp-for="Desc"></label>
+                    <textarea type="text" disabled asp-for="Desc" class="form-control" placeholder=""></textarea>
+                </div>
+
+                <div class="form-group col-md-12">
+                    <label class="col-form-label" asp-for="OwnerNote"></label>
+                    <textarea type="text" disabled asp-for="OwnerNote" class="form-control" placeholder=""></textarea>
+                </div>
+
+                <div class="form-group col-md-12">
+                    <label class="col-form-label" asp-for="TecnicianNote"></label>
+                    <textarea type="text" disabled asp-for="TecnicianNote" class="form-control" placeholder=""></textarea>
+                </div>
+
+
+
+                @if (Model.RequestImages.Where(x => !x.IsAfter).Count() != 0)
+                {
+                    <div class="form-group col-md-12">
+                        <label>Images Before</label>
+                        <div class="row">
+                            @foreach (var item in Model.RequestImages.Where(x => !x.IsAfter))
+                            {
+                                <div class="col-sm-6 col-lg-3">
+                                    <div class="card">
+                                        <div class="card-img-actions m-1" style=" display: flex;">
+                                            <img class="card-img img-fluid" src="~/@item.Url" alt="" style="height: 220px; flex-shrink: 0;">
+                                            <div class="card-img-actions-overlay card-img">
+                                                <a href="~/@item.Url" class="btn btn-outline bg-white text-white border-white border-2 btn-icon rounded-round" data-popup="lightbox" rel="group">
+                                                    <i class="icon-plus3"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                }
+
+                @if (Model.RequestImages.Where(x => x.IsAfter).Count() != 0)
+                    {
+                    <div class="form-group col-md-12">
+                        <label>Images After</label>
+                        <div class="row">
+                            @foreach (var item in Model.RequestImages.Where(x=>x.IsAfter))
+                            {
+                                <div class="col-sm-6 col-lg-3">
+                                    <div class="card">
+                                        <div class="card-img-actions m-1" style=" display: flex;">
+                                            <img class="card-img img-fluid" src="~/@item.Url" alt="" style="height: 220px; flex-shrink: 0;">
+                                            <div class="card-img-actions-overlay card-img">
+                                                <a href="~/@item.Url" class="btn btn-outline bg-white text-white border-white border-2 btn-icon rounded-round" data-popup="lightbox" rel="group">
+                                                    <i class="icon-plus3"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                }
+
+            </fieldset>
+
+        </form>
+    </div>
+</div>
+
+
+
+
+
+
+
+@section AdminScripts{  @{
+        <partial name="_ValidationScriptsPartial" />
+}
+
+<script src="\js\adminJs\plugins\forms\styling\uniform.min.js"></script>
+<script src="\js\adminJs\demo_pages\form_inputs.js"></script>
+<script src="\js\adminJs\plugins\media\fancybox.min.js"></script>
+<script src="\js\adminJs\demo_pages\gallery.js"></script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+
+<script type="text/javascript">function RemoveAttachment(id) {
+        $.ajax({
+            url: "/Admin/Contract/DeleteAttachment?attachId=" + id,
+            type: "DELETE",
+            success: function (data) {
+                if (data.success) {
+                    toastr.success(data.msg);
+                    $("#attach_" + id).hide();
+                } else {
+                    toastr.error(data.msg);
+                }
+            }
+        });
+    }</script>
+}

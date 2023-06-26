@@ -12,7 +12,7 @@ namespace Munafasa.Models.Tables
         [Key]
         public int Id { get; set; }
         [Required]
-        [DisplayName("User Name")]
+        [DisplayName("Client Name")]
         public string UserName { get; set; }
         public string? Email { get; set; }
         [Required]

@@ -18,6 +18,7 @@ namespace Munafasa.Models.ApiModels
         public int Status { get; set; } = (int)StatusEnumeration.New;
         public int Rate { get; set; }
         public AuthModel? Technician { get; set; }
+        public ContractDto Contract { get; set; }
         public IEnumerable<RequestImageDto> Images { get; set; }
 
 
@@ -35,6 +36,8 @@ namespace Munafasa.Models.ApiModels
                 VisitDateTo = request.VisitDateTo,
                 Images = request.RequestImages.Select(RequestImageDto.FromRequestImage),
                 Status = request.Status,
+                Contract = ContractDto.FromContract(request.Client.Contract),
+                Desc = request.Desc,
             };
         }
     }
