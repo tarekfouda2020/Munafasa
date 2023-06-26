@@ -536,12 +536,15 @@ namespace Munafasa.Migrations
                     b.Property<int>("ClientId")
                         .HasColumnType("int");
 
-                    b.Property<int>("ContractId")
+                    b.Property<int?>("ContractId")
                         .HasColumnType("int");
 
                     b.Property<string>("Desc")
                         .IsRequired()
                         .HasColumnType("longtext");
+
+                    b.Property<bool>("IsUrget")
+                        .HasColumnType("tinyint(1)");
 
                     b.Property<string>("OwnerNote")
                         .HasColumnType("longtext");
@@ -555,13 +558,16 @@ namespace Munafasa.Migrations
                     b.Property<int>("Status")
                         .HasColumnType("int");
 
-                    b.Property<int>("TechnicianId")
+                    b.Property<int?>("TechnicianId")
                         .HasColumnType("int");
 
                     b.Property<string>("TecnicianNote")
                         .HasColumnType("longtext");
 
-                    b.Property<DateTime>("VisitDate")
+                    b.Property<DateTime>("VisitDateFrom")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<DateTime>("VisitDateTo")
                         .HasColumnType("datetime(6)");
 
                     b.HasKey("Id");
@@ -854,11 +860,9 @@ namespace Munafasa.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Munafasa.Models.Tables.Contract", "Contract")
+                    b.HasOne("Munafasa.Models.Tables.Contract", null)
                         .WithMany("Requests")
-                        .HasForeignKey("ContractId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("ContractId");
 
                     b.HasOne("Munafasa.Models.Tables.Service", "Service")
                         .WithMany("Requests")
@@ -868,13 +872,9 @@ namespace Munafasa.Migrations
 
                     b.HasOne("Munafasa.Models.Tables.Technician", "Technician")
                         .WithMany("Requests")
-                        .HasForeignKey("TechnicianId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("TechnicianId");
 
                     b.Navigation("Client");
-
-                    b.Navigation("Contract");
 
                     b.Navigation("Service");
 

@@ -9,10 +9,6 @@ namespace Munafasa.Models.Tables
 	{
 		[Key]
 		public int Id { get; set; }
-		[Required]
-		public int ContractId { get; set; }
-		[ForeignKey("ContractId")]
-		public Contract Contract { get; set; }
         [Required]
         public int ServiceId { get; set; }
         [ForeignKey("ServiceId")]
@@ -22,16 +18,18 @@ namespace Munafasa.Models.Tables
         [ForeignKey("ClientId")]
         public Client Client { get; set; }
         [Required]
-        public DateTime VisitDate { get; set; }
+        public DateTime VisitDateFrom { get; set; }
+        [Required]
+        public DateTime VisitDateTo { get; set; }
         [Required]
         public string Desc { get; set; }
+        public bool IsUrget { get; set; }
         public string? OwnerNote { get; set; }
         public string? TecnicianNote { get; set; }
         public double AdditionalPrice { get; set; }
         public int Status { get; set; } = (int) StatusEnumeration.New;
         public int Rate { get; set; }
-        [Required]
-        public int TechnicianId { get; set; }
+        public int? TechnicianId { get; set; }
         [ForeignKey("TechnicianId")]
         public Technician? Technician { get; set; }
         public List<RequestImage> RequestImages { get; set; }

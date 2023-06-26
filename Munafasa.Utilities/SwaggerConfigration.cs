@@ -20,6 +20,8 @@ namespace Munafasa.Utilities
             };
 
             c.SwaggerDoc("Auth", info);
+            c.SwaggerDoc("Service", info);
+            c.SwaggerDoc("Request", info);
 
 
             c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
@@ -54,6 +56,10 @@ namespace Munafasa.Utilities
 
             options.RoutePrefix = "Swagger";
             options.SwaggerEndpoint("/swagger/Auth/swagger.json", "Auth APIs");
+            options.SwaggerEndpoint("/swagger/Service/swagger.json", "Service APIs");
+            options.SwaggerEndpoint("/swagger/Request/swagger.json", "Request APIs");
+
+
 
         }
     }

@@ -20,9 +20,9 @@ namespace Munafasa.Models.ApiModels
         public string? Floor { get; set; }
         public string? Apartment { get; set; }
 
-        public static AuthModel fromClient(Client client, JwtSecurityToken jwtSecurity)
+        public static AuthModel FromClient(Client client, JwtSecurityToken? jwtSecurity = null)
         {
-            return new AuthModel
+            var model = new AuthModel
             {
                 Email = client.Email,
                 Phone = client.Phone,
@@ -33,11 +33,52 @@ namespace Munafasa.Models.ApiModels
                 Apartment = client.Apartment,
                 Floor = client.Floor,
                 Building = client.Building,
-                ExpireAt = jwtSecurity.ValidTo,
-                Token = new JwtSecurityTokenHandler().WriteToken(jwtSecurity),
             };
-        } 
+            if (jwtSecurity != null)
+            {
+                model.ExpireAt = jwtSecurity.ValidTo;
+                model.Token = new JwtSecurityTokenHandler().WriteToken(jwtSecurity);
+            }
+            return model;
+        }
 
+        public static AuthModel FromTechnician(Technician technician, JwtSecurityToken? jwtSecurity = null)
+        {
+            var model = new AuthModel
+            {
+                Email = technician.Email,
+                Phone = technician.Phone,
+                UserName = technician.UserName,
+                ProfileImage = technician.ProfileImage,
+                UserId = technician.Id,
+            };
+            if (jwtSecurity != null)
+            {
+                model.ExpireAt = jwtSecurity.ValidTo;
+                model.Token = new JwtSecurityTokenHandler().WriteToken(jwtSecurity);
+            }
+            return model;
+        }
+
+        public static AuthModel FromOwner(Owner owner, JwtSecurityToken? jwtSecurity = null)
+        {
+            var model = new AuthModel
+            {
+                Email = owner.Email,
+                Phone = owner.Phone,
+                UserName = owner.UserName,
+                ProfileImage = owner.ProfileImage,
+                UserId = owner.Id,
+            };
+            if (jwtSecurity != null)
+            {
+                model.ExpireAt = jwtSecurity.ValidTo;
+                model.Token = new JwtSecurityTokenHandler().WriteToken(jwtSecurity);
+            }
+            return model;
+        }
+
+    
     }
 }
 

@@ -15,9 +15,15 @@ public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         modelBuilder.Entity<Contract>().Navigation(e => e.Owner).AutoInclude();
         modelBuilder.Entity<Contract>().Navigation(e => e.Cheques).AutoInclude();
-        modelBuilder.Entity<Contract>().Navigation(e => e.Requests).AutoInclude();
+        //modelBuilder.Entity<Contract>().Navigation(e => e.Requests).AutoInclude();
         modelBuilder.Entity<Contract>().Navigation(e => e.Attacments).AutoInclude();
         modelBuilder.Entity<Contract>().Navigation(e => e.Cheques).AutoInclude();
+
+        modelBuilder.Entity<Request>().Navigation(e => e.Client).AutoInclude();
+        modelBuilder.Entity<Request>().Navigation(e => e.Technician).AutoInclude();
+        modelBuilder.Entity<Request>().Navigation(e => e.Service).AutoInclude();
+        modelBuilder.Entity<Request>().Navigation(e => e.RequestImages).AutoInclude();
+
 
         modelBuilder.Entity<Client>().Navigation(e => e.Contract).AutoInclude();
         modelBuilder.Entity<Technician>().Navigation(e => e.TechnicianServices).AutoInclude();

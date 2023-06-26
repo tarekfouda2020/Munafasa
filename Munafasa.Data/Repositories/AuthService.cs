@@ -34,6 +34,8 @@ namespace Munafasa.Data.Repositories
                 new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
                 new Claim(JwtRegisteredClaimNames.Email, userName),
                 new Claim("phone", phone),
+                new Claim("userId", id.ToString()),
+
             };
             //.Union(userClaims);
 

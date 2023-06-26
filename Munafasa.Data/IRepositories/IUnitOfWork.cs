@@ -27,6 +27,9 @@ namespace Munafasa.Data.IRepositories
 
         public IChequeRepository Cheque { get;}
 
+        public IRequestRepository Request { get;}
+
+        public IRequestImagesRepository RequestImages { get;}
         void Save();
     }
 }
