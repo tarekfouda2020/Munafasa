@@ -24,7 +24,7 @@ namespace Munafasa.Areas.Admin.Controllers
 
         public IActionResult Index(int contractId)
         {
-            var cheques = _unitOfWork.Cheque.GetAll(filter: (x) => !x.Deleted);
+            var cheques = _unitOfWork.Cheque.GetAll(filter: (x) => !x.Deleted && x.ContractId == contractId , x=> x.Contract);
             ViewBag.contractId = contractId;
              return View(cheques);
         }
@@ -35,7 +35,7 @@ namespace Munafasa.Areas.Admin.Controllers
             cheque.ContractId = contractId;
             if (chequeId != null)
             {
-                cheque = _unitOfWork.Cheque.GetFirstOrDefault(x => x.Id == chequeId)!;
+                cheque = _unitOfWork.Cheque.GetFirstOrDefault(x => x.Id == chequeId, x => x.Contract)!;
             }
             return View(cheque);
         }

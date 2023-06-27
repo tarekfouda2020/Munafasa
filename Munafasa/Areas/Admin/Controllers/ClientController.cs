@@ -24,7 +24,13 @@ namespace Munafasa.Areas.Admin.Controllers
 
         public IActionResult Index()
         {
-            var clients = _unitOfWork.Client.GetAll(filter: (x)=> !x.Deleted);
+            var clients = _unitOfWork.Client.GetAll(filter: (x)=> !x.Deleted, x=> x.Contract);
+            return View(clients);
+        }
+
+        public IActionResult Details(int clientId)
+        {
+            var clients = _unitOfWork.Client.GetFirstOrDefault(filter: (x) => x.Id == clientId, x => x.Contract, x=> x.Requests, x => x.Contract.Owner);
             return View(clients);
         }
 
@@ -34,7 +40,7 @@ namespace Munafasa.Areas.Admin.Controllers
             var contracts = _unitOfWork.Contract.GetAll();
             if (clientId != null)
             {
-                client = _unitOfWork.Client.GetFirstOrDefault(x => x.Id == clientId)!;
+                client = _unitOfWork.Client.GetFirstOrDefault(x => x.Id == clientId, x => x.Contract)!;
             }
             ClientViewModel viewModel = new ClientViewModel()
             {

@@ -1,11 +1,9 @@
 /Volumes/Data/asp/Munafasa/Munafasa/bin/Debug/net7.0/appsettings.Development.json
 /Volumes/Data/asp/Munafasa/Munafasa/bin/Debug/net7.0/appsettings.json
-/Volumes/Data/asp/Munafasa/Munafasa/bin/Debug/net7.0/Munafasa.staticwebassets.runtime.json
 /Volumes/Data/asp/Munafasa/Munafasa/bin/Debug/net7.0/Munafasa
 /Volumes/Data/asp/Munafasa/Munafasa/bin/Debug/net7.0/Munafasa.deps.json
 /Volumes/Data/asp/Munafasa/Munafasa/bin/Debug/net7.0/Munafasa.runtimeconfig.json
 /Volumes/Data/asp/Munafasa/Munafasa/bin/Debug/net7.0/Munafasa.dll
-/Volumes/Data/asp/Munafasa/Munafasa/bin/Debug/net7.0/Munafasa.pdb
 /Volumes/Data/asp/Munafasa/Munafasa/bin/Debug/net7.0/Humanizer.dll
 /Volumes/Data/asp/Munafasa/Munafasa/bin/Debug/net7.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
 /Volumes/Data/asp/Munafasa/Munafasa/bin/Debug/net7.0/Microsoft.AspNetCore.Cryptography.Internal.dll
@@ -95,8 +93,10 @@
 /Volumes/Data/asp/Munafasa/Munafasa/obj/Debug/net7.0/scopedcss/bundle/Munafasa.styles.css
 /Volumes/Data/asp/Munafasa/Munafasa/obj/Debug/net7.0/scopedcss/projectbundle/Munafasa.bundle.scp.css
 /Volumes/Data/asp/Munafasa/Munafasa/obj/Debug/net7.0/Munafasa.csproj.CopyComplete
+/Volumes/Data/asp/Munafasa/Munafasa/obj/Debug/net7.0/Munafasa.genruntimeconfig.cache
+/Volumes/Data/asp/Munafasa/Munafasa/bin/Debug/net7.0/Munafasa.staticwebassets.runtime.json
+/Volumes/Data/asp/Munafasa/Munafasa/bin/Debug/net7.0/Munafasa.pdb
 /Volumes/Data/asp/Munafasa/Munafasa/obj/Debug/net7.0/Munafasa.dll
 /Volumes/Data/asp/Munafasa/Munafasa/obj/Debug/net7.0/refint/Munafasa.dll
 /Volumes/Data/asp/Munafasa/Munafasa/obj/Debug/net7.0/Munafasa.pdb
-/Volumes/Data/asp/Munafasa/Munafasa/obj/Debug/net7.0/Munafasa.genruntimeconfig.cache
 /Volumes/Data/asp/Munafasa/Munafasa/obj/Debug/net7.0/ref/Munafasa.dll

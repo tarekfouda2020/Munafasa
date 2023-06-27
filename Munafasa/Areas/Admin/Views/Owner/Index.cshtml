@@ -18,7 +18,7 @@
 
 
 
-    <table class="table datatable-show-all">
+    <table class="table datatable-responsive">
         <thead>
             <tr>
                 <th>ID</th>
@@ -35,7 +35,9 @@
             @foreach (var item in Model)
             {
                 <tr>
-                    <td>@item.Id</td>
+                    <td>
+                        <a asp-area="Admin" asp-action="Details" asp-route-ownerId="@item.Id">@item.Id</a>
+                    </td>
                     <td>
                         <img src="~/@item.ProfileImage" width="50px" height="50px" />
                     </td>

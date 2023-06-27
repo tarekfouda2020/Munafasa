@@ -1,0 +1,68 @@
+﻿@using Munafasa.Models.Tables
+@model Owner
+@{
+    ViewData["Title"] = "Owner Details";
+    ViewData["PageSlug"] = "Owners";
+    ViewData["Back"] = "/Admin/Owner";
+}
+
+
+<div class="card">
+    <div class="card-header header-elements-inline">
+        <h4 class="card-title">Owner Details</h4>
+    </div>
+
+    <div class="card-body">
+        <div class="row">
+            <div class="col-lg-9">
+                <form>
+                    <fieldset class="mb-3">
+                        <div class="form-group">
+                            <label asp-for="UserName"></label>
+                            <input type="text" disabled asp-for="UserName" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Email"></label>
+                            <input type="text" disabled asp-for="Email" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Phone"></label>
+                            <input type="text" disabled asp-for="Phone" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Contracts">Number of contacts</label>
+                            <input type="text" disabled asp-for="Contracts" class="form-control" value="@Model.Contracts.Count">
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+            <div class="col-lg-3 mt-4">
+                <div class="card">
+                    <div class="card-img-actions m-1" style=" display: flex;">
+                        <img class="card-img img-fluid" src="~/@Model.ProfileImage" alt="" style="height: 220px; flex-shrink: 0;">
+                        <div class="card-img-actions-overlay card-img">
+                            <a href="~/@Model.ProfileImage" class="btn btn-outline bg-white text-white border-white border-2 btn-icon rounded-round" data-popup="lightbox" rel="group">
+                                <i class="icon-plus3"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+
+
+
+
+@section AdminScripts{
+
+    <script src="\js\adminJs\plugins\forms\styling\uniform.min.js"></script>
+    <script src="\js\adminJs\demo_pages\form_inputs.js"></script>
+    <script src="\js\adminJs\plugins\media\fancybox.min.js"></script>
+    <script src="\js\adminJs\demo_pages\gallery.js"></script>
+}

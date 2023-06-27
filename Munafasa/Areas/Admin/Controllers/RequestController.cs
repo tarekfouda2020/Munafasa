@@ -19,37 +19,73 @@ namespace Munafasa.Areas.Admin.Controllers
         // GET: /<controller>/
         public IActionResult Index()
         {
-            var requests = _unitOfWork.Request.GetAll(filter: (x)=>!x.Deleted);
+            var requests = _unitOfWork.Request.GetAll(
+                filter: (x)=>!x.Deleted,
+                x=> x.Client, x=> x.Service,
+                x=> x.Technician,
+                x => x.RequestImages,
+                x => x.Client.Contract.Owner,
+                x => x.Client.Contract);
             return View(requests);
         }
 
         public IActionResult NewRequests()
         {
-            var requests = _unitOfWork.Request.GetAll(filter: (x) => !x.Deleted && x.Status == (int)StatusEnumeration.New);
+            var requests = _unitOfWork.Request.GetAll(filter: (x) => !x.Deleted && x.Status == (int)StatusEnumeration.New,
+             x => x.Client, x => x.Service,
+                x => x.Technician,
+                x => x.RequestImages,
+                x => x.Client.Contract.Owner,
+                x => x.Client.Contract
+                );
             return View(requests);
         }
 
         public IActionResult InProgressRequests()
         {
-            var requests = _unitOfWork.Request.GetAll(filter: (x) => !x.Deleted && x.Status >= (int)StatusEnumeration.PendingOwnerApproval && x.Status <= (int)StatusEnumeration.TechnicalFinished);
+            var requests = _unitOfWork.Request.GetAll(filter: (x) => !x.Deleted && x.Status >= (int)StatusEnumeration.PendingOwnerApproval && x.Status <= (int)StatusEnumeration.TechnicalFinished,
+                x => x.Client, x => x.Service,
+                x => x.Technician,
+                x => x.RequestImages,
+                x => x.Client.Contract.Owner,
+                x => x.Client.Contract
+                );
             return View(requests);
         }
 
         public IActionResult DoneRequests()
         {
-            var requests = _unitOfWork.Request.GetAll(filter: (x) => !x.Deleted && x.Status == (int)StatusEnumeration.Done);
+            var requests = _unitOfWork.Request.GetAll(filter: (x) => !x.Deleted && x.Status == (int)StatusEnumeration.Done,
+                x => x.Client, x => x.Service,
+                x => x.Technician,
+                x => x.RequestImages,
+                x => x.Client.Contract.Owner,
+                x => x.Client.Contract
+                );
             return View(requests);
         }
 
         public IActionResult CanceledRequests()
         {
-            var requests = _unitOfWork.Request.GetAll(filter: (x) => !x.Deleted && x.Status == (int)StatusEnumeration.Canceled);
+            var requests = _unitOfWork.Request.GetAll(filter: (x) => !x.Deleted && x.Status == (int)StatusEnumeration.Canceled,
+                x => x.Client, x => x.Service,
+                x => x.Technician,
+                x => x.RequestImages,
+                x => x.Client.Contract.Owner,
+                x => x.Client.Contract
+                );
             return View(requests);
         }
 
         public IActionResult Details(int requestId)
         {
-            var request = _unitOfWork.Request.GetFirstOrDefault(x=> x.Id == requestId);
+            var request = _unitOfWork.Request.GetFirstOrDefault(x=> x.Id == requestId,
+                x => x.Client, x => x.Service,
+                x => x.Technician,
+                x => x.RequestImages,
+                x => x.Client.Contract.Owner,
+                x => x.Client.Contract
+                );
             return View(request);
         }
 

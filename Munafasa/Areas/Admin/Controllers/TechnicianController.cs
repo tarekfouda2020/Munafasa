@@ -29,7 +29,7 @@ namespace Munafasa.Areas.Admin.Controllers
 
         public IActionResult Index()
         {
-            var clients = _unitOfWork.Technicain.GetAll(filter: (x)=> !x.Deleted);
+            var clients = _unitOfWork.Technicain.GetAll(filter: (x)=> !x.Deleted, x => x.TechnicianServices);
             return View(clients);
         }
 
@@ -39,7 +39,7 @@ namespace Munafasa.Areas.Admin.Controllers
             var services = _unitOfWork.Service.GetAll();
             if (techId != null)
             {
-                technician = _unitOfWork.Technicain.GetFirstOrDefault(x => x.Id == techId)!;
+                technician = _unitOfWork.Technicain.GetFirstOrDefault(x => x.Id == techId, x=> x.TechnicianServices)!;
             }
             TechnicianViewModel viewModel = new TechnicianViewModel()
             {

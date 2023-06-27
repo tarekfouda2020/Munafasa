@@ -30,7 +30,14 @@ namespace Munafasa.Areas.Admin.Controllers
         // GET: /<controller>/
         public IActionResult Index()
         {
-            var contracts = _unitOfWork.Contract.GetAll(filter: (x)=> !x.Deleted);
+            var contracts = _unitOfWork.Contract.GetAll(filter: (x)=> !x.Deleted,
+                x=> x.Owner,
+                x => x.ContractServices,
+                x => x.Attacments,
+                x => x.Cheques,
+                x => x.Clients,
+                x => x.Requests
+                );
             return View(contracts);
         }
 
@@ -39,7 +46,13 @@ namespace Munafasa.Areas.Admin.Controllers
             Contract contract = new Contract();
             if (contractId != null)
             {
-                contract = _unitOfWork.Contract.GetFirstOrDefault(x => x.Id == contractId)!;
+                contract = _unitOfWork.Contract.GetFirstOrDefault(x => x.Id == contractId,
+                             x => x.Owner,
+                x => x.ContractServices,
+                x => x.Attacments,
+                x => x.Cheques,
+                x => x.Requests
+                    )!;
             }
             var owners = _unitOfWork.Owner.GetAll();
             ContractViewModel viewModel = new ContractViewModel()
@@ -52,6 +65,19 @@ namespace Munafasa.Areas.Admin.Controllers
                 }),
             };
             return View(viewModel);
+        }
+
+        public IActionResult Details(int contractId)
+        {
+            Contract contract = _unitOfWork.Contract.GetFirstOrDefault(x => x.Id == contractId,
+                             x => x.Owner,
+                x => x.ContractServices,
+                x => x.Attacments,
+                x => x.Cheques,
+                 x => x.Clients,
+                x => x.Requests
+                    )!;
+            return View(contract);
         }
 
         [HttpPost]

@@ -1,0 +1,129 @@
+﻿@using Munafasa.Models.Tables
+@model Contract
+@{
+    ViewData["Title"] = "Contract Details";
+    ViewData["PageSlug"] = "Contract";
+    ViewData["Back"] = "/Admin/Contract";
+}
+
+
+<div class="card">
+    <div class="card-header header-elements-inline">
+        <h4 class="card-title">Contract Details</h4>
+    </div>
+
+    <div class="card-body">
+        <form>
+            <fieldset class="mb-3 row">
+
+                @if (Model.Attacments.Count != 0)
+                {
+                    <div class="form-group col-md-12">
+                        <label for="image">Attachments</label>
+                        <div class="row mt-2">
+                            @foreach (var item in Model.Attacments)
+                            {
+                                <div class="col-md-2" id="attach_@item.Id">
+                                    <a href="~/@item.Url" target="_blank" style="color:black;"><i class="icon-files-empty2"></i> Attachemt</a>
+                                    <a href="#" onclick="RemoveAttachment(@item.Id)" style="margin-left: 5px; color: red;"><i class="icon-database-remove"></i></a>
+                                </div>
+                            }
+
+                        </div>
+
+                    </div>
+                }
+
+                <div class="form-group col-md-6">
+                    <label asp-for="NameAr"></label>
+                    <input type="text" disabled asp-for="NameAr" class="form-control" placeholder="">
+                </div>
+                <div class="form-group col-md-6">
+                    <label asp-for="NameEn"></label>
+                    <input type="text" disabled asp-for="NameEn" class="form-control" placeholder="">
+                </div>
+                <div class="form-group col-md-6">
+                    <label asp-for="ContractPrice"></label>
+                    <input type="text" disabled asp-for="ContractPrice" class="form-control" placeholder="">
+                </div>
+                <div class="form-group col-md-6">
+                    <label asp-for="MaxSparePrice"></label>
+                    <input type="text" disabled asp-for="MaxSparePrice" class="form-control" placeholder="">
+                </div>
+
+                <div class="form-group col-md-6">
+                    <label asp-for="Address"></label>
+                    <input type="text" disabled asp-for="Address" class="form-control" placeholder="">
+                </div>
+
+                <div class="form-group col-md-6">
+                    <label asp-for="OwnerId"></label>
+                    <input type="text" disabled asp-for="OwnerId" value="@Model.Owner.UserName" class="form-control" placeholder="">
+                </div>
+
+                <div class="form-group col-md-6">
+                    <label asp-for="FromDate"></label>
+                    <input type="date" disabled asp-for="FromDate" class="form-control" placeholder="">
+                </div>
+
+                <div class="form-group col-md-6">
+                    <label asp-for="ToDate"></label>
+                    <input type="date" disabled asp-for="ToDate" class="form-control" placeholder="">
+                </div>
+
+                <div class="form-group col-md-6">
+                    <label asp-for="Requests">Number of Requests</label>
+                    <input type="text" disabled asp-for="Requests" value="@Model.Requests.Count" class="form-control" placeholder="">
+                </div>
+
+                <div class="form-group col-md-6">
+                    <label asp-for="Clients">Number of Clients</label>
+                    <input type="text" disabled asp-for="Clients" value="@Model.Clients.Count" class="form-control" placeholder="">
+                </div>
+
+                <div class="form-group col-md-6">
+                    <label asp-for="Cheques">Number of cheques</label>
+                    <input type="text" disabled asp-for="Cheques" value="@Model.Cheques.Count" class="form-control" placeholder="">
+                </div>
+
+
+                <div class="card col-md-12">
+                    <div class="card-header header-elements-inline">
+                        <label class="card-title" asp-for="DesAr"></label>
+                    </div>
+
+                    <div class="card-body">
+                        @Html.Raw(Model.DesAr)
+                    </div>
+                </div>
+
+                <div class="card col-md-12">
+                    <div class="card-header header-elements-inline">
+                        <label class="card-title" asp-for="DesEn"></label>
+                    </div>
+
+                    <div class="card-body">
+                        @Html.Raw(Model.DesEn)
+                    </div>
+                </div>
+
+
+            </fieldset>
+            <div class="text-right">
+                <a asp-area="Admin" asp-controller="Cheque" asp-action="Index" asp-route-contractId="Id" class="btn btn-primary">Cheques</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+
+
+
+
+@section AdminScripts{ 
+<script src="\js\adminJs\plugins\forms\styling\uniform.min.js"></script>
+<script src="\js\adminJs\demo_pages\form_inputs.js"></script>
+
+}

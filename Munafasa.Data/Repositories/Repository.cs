@@ -22,33 +22,29 @@ namespace Munafasa.Data.Repositories
             _dbSet.Add(entity);
         }
 
-        IEnumerable<T> IRepository<T>.GetAll(Expression<Func<T, bool>>? filter, string? includeProperties)
+        IEnumerable<T> IRepository<T>.GetAll(Expression<Func<T, bool>>? filter, params Expression<Func<T, object>>[]? includes)
         {
             IQueryable<T> query = _dbSet;
             if (filter != null)
             {
                 query = query.Where(filter);
             }
-            if (includeProperties != null)
+            if (includes != null)
             {
-                foreach (var prop in includeProperties.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
-                {
-                    query.Include(prop);
-                }
+                query = includes.Aggregate(query,
+                          (current, include) => current.Include(include));
             }
             return query.ToList();
         }
 
-        T? IRepository<T>.GetFirstOrDefault(Expression<Func<T, bool>> filter, string? includeProperties)
+        T? IRepository<T>.GetFirstOrDefault(Expression<Func<T, bool>> filter, params Expression<Func<T, object>>[]? includes)
         {
             IQueryable<T> query = _dbSet;
             query = query.Where(filter);
-            if (includeProperties != null)
+            if (includes != null)
             {
-                foreach (var prop in includeProperties.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
-                {
-                    query.Include(prop);
-                }
+                query = includes.Aggregate(query,
+                          (current, include) => current.Include(include));
             }
             return query.FirstOrDefault();
         }
@@ -62,6 +58,8 @@ namespace Munafasa.Data.Repositories
         {
             _dbSet.RemoveRange(entities);
         }
+
     }
+
 }
 

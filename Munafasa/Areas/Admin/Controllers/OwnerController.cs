@@ -22,13 +22,19 @@ namespace Munafasa.Areas.Admin.Controllers
 
         public IActionResult Index()
         {
-            var owners = _unitOfWork.Owner.GetAll(filter: (x)=>!x.Deleted);
+            var owners = _unitOfWork.Owner.GetAll(filter: (x)=>!x.Deleted, x=> x.Contracts);
             return View(owners);
+        }
+
+        public IActionResult Details(int? ownerId)
+        {
+            var owner = _unitOfWork.Owner.GetFirstOrDefault(x => x.Id == ownerId, x => x.Contracts);
+            return View(owner);
         }
 
         public IActionResult UpSert(int? ownerId)
         {
-            var owner = _unitOfWork.Owner.GetFirstOrDefault(x => x.Id == ownerId);
+            var owner = _unitOfWork.Owner.GetFirstOrDefault(x => x.Id == ownerId, x => x.Contracts);
             return View(owner);
         }
 

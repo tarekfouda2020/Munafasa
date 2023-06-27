@@ -18,7 +18,7 @@
 
 
 
-    <table class="table datatable-show-all">
+    <table class="table datatable-responsive">
         <thead>
             <tr>
                 <th>Contract Number</th>
@@ -37,14 +37,18 @@
             @foreach (var item in Model)
             {
                 <tr>
-                    <td>@item.ContractNumber</td>
-                    <td>@item.NameAr</td>
+                    <td>
+                        <a asp-action="Details" asp-route-contractId="@item.Id">@item.ContractNumber</a>
+                    </td>
                     <td>@item.NameEn</td>
+                    <td>@item.NameAr</td>
                     <td>@item.ContractPrice.ToString("C")</td>
                     <td>@item.MaxSparePrice.ToString("C")</td>
                     <td>@item.FromDate.ToString("MM/dd/yyyy")</td>
                     <td>@item.ToDate.ToString("MM/dd/yyyy")</td>
-                    <td>@item.Owner.UserName</td>
+                    <td>
+                        <a asp-area="Admin" asp-controller="Owner" asp-action="Details" asp-route-ownerId="@item.Owner.Id">@item.Owner.UserName</a>
+                    </td>
                     <td class="text-center">
                         <div class="list-icons">
                             <div class="dropdown">

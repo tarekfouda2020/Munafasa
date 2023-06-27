@@ -17,8 +17,7 @@
     </div>
 
 
-
-    <table class="table datatable-show-all">
+    <table class="table datatable-responsive">
         <thead>
             <tr>
                 <th>Request Number</th>
@@ -37,12 +36,22 @@
             @foreach (var item in Model)
             {
                 <tr>
-                    <td>@item.Id</td>
-                    <td>@item.Client.Contract.ContractNumber</td>
-                    <td>@item.Service.NameEn</td>
-                    <td>@item.Client.UserName</td>
+                    <td>
+                        <a asp-area="Admin" asp-action="Details" asp-route-requestId="@item.Id">@item.Id</a>
+                    </td>
+                    <td>
+                        <a asp-area="Admin" asp-controller="Contract" asp-action="Details" asp-route-contractId="@item.Client.Contract.Id">@item.Client.Contract.ContractNumber</a>
+                    </td>
+                    <td>
+                        <a asp-area="Admin" asp-controller="Service" asp-action="Details" asp-route-serviceId="@item.Service.Id">@item.Service.NameEn</a>
+                    </td>
+                    <td>
+                        <a asp-area="Admin" asp-controller="Client" asp-action="Details" asp-route-clientId="@item.Client.Id">@item.Client.UserName</a>
+                    </td>
                     <td>@(item.Technician != null? item.Technician?.UserName : "Not Assigned")</td>
-                    <td>@item.Client.Contract.Owner.UserName</td>
+                    <td>
+                        <a asp-area="Admin" asp-controller="Owner" asp-action="Details" asp-route-ownerId="@item.Client.Contract.Owner.Id">@item.Client.Contract.Owner.UserName</a>
+                    </td>
                     <td>@(item.AdditionalPrice != null? item.AdditionalPrice?.ToString("C") : "No Price")</td>
                     <td>
                         @if (item.Status == (int)StatusEnumeration.New)
