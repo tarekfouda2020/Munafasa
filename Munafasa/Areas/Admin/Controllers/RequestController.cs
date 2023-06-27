@@ -29,6 +29,55 @@ namespace Munafasa.Areas.Admin.Controllers
             return View(requests);
         }
 
+        public IActionResult ContractRequests(int contractId)
+        {
+            var requests = _unitOfWork.Request.GetAll(
+                filter: (x) => !x.Deleted && x.Client.ContractId == contractId,
+                x => x.Client, x => x.Service,
+                x => x.Technician,
+                x => x.RequestImages,
+                x => x.Client.Contract.Owner,
+                x => x.Client.Contract);
+            return View(requests);
+        }
+
+        public IActionResult ClientRequests(int clientId)
+        {
+            var requests = _unitOfWork.Request.GetAll(
+                filter: (x) => !x.Deleted && x.Client.Id == clientId,
+                x => x.Client, x => x.Service,
+                x => x.Technician,
+                x => x.RequestImages,
+                x => x.Client.Contract.Owner,
+                x => x.Client.Contract);
+            return View(requests);
+        }
+
+        
+        public IActionResult TechniciansRequests(int techId)
+        {
+            var requests = _unitOfWork.Request.GetAll(
+                filter: (x) => !x.Deleted && x.TechnicianId == techId,
+                x => x.Client, x => x.Service,
+                x => x.Technician,
+                x => x.RequestImages,
+                x => x.Client.Contract.Owner,
+                x => x.Client.Contract);
+            return View(requests);
+        }
+
+        public IActionResult ServiceRequests(int serviceId)
+        {
+            var requests = _unitOfWork.Request.GetAll(
+                filter: (x) => !x.Deleted && x.ServiceId == serviceId,
+                x => x.Client, x => x.Service,
+                x => x.Technician,
+                x => x.RequestImages,
+                x => x.Client.Contract.Owner,
+                x => x.Client.Contract);
+            return View(requests);
+        }
+
         public IActionResult NewRequests()
         {
             var requests = _unitOfWork.Request.GetAll(filter: (x) => !x.Deleted && x.Status == (int)StatusEnumeration.New,

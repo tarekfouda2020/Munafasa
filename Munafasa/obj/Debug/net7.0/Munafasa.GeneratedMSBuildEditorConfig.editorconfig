@@ -32,6 +32,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQ2hlcXVlL1Vwc2VydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Volumes/Data/asp/Munafasa/Munafasa/Areas/Admin/Views/Client/ContractClients.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQ2xpZW50L0NvbnRyYWN0Q2xpZW50cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Volumes/Data/asp/Munafasa/Munafasa/Areas/Admin/Views/Client/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQ2xpZW50L0RldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -54,6 +58,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Volumes/Data/asp/Munafasa/Munafasa/Areas/Admin/Views/Contract/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQ29udHJhY3QvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Data/asp/Munafasa/Munafasa/Areas/Admin/Views/Contract/OwnerContracts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQ29udHJhY3QvT3duZXJDb250cmFjdHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Volumes/Data/asp/Munafasa/Munafasa/Areas/Admin/Views/Contract/Upsert.cshtml]
@@ -92,6 +100,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvUmVxdWVzdC9DYW5jZWxlZFJlcXVlc3RzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Volumes/Data/asp/Munafasa/Munafasa/Areas/Admin/Views/Request/ClientRequests.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvUmVxdWVzdC9DbGllbnRSZXF1ZXN0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Data/asp/Munafasa/Munafasa/Areas/Admin/Views/Request/ContractRequests.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvUmVxdWVzdC9Db250cmFjdFJlcXVlc3RzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Volumes/Data/asp/Munafasa/Munafasa/Areas/Admin/Views/Request/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvUmVxdWVzdC9EZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -112,12 +128,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvUmVxdWVzdC9OZXdSZXF1ZXN0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Volumes/Data/asp/Munafasa/Munafasa/Areas/Admin/Views/Request/ServiceRequests.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvUmVxdWVzdC9TZXJ2aWNlUmVxdWVzdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Data/asp/Munafasa/Munafasa/Areas/Admin/Views/Request/TechniciansRequests.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvUmVxdWVzdC9UZWNobmljaWFuc1JlcXVlc3RzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Volumes/Data/asp/Munafasa/Munafasa/Areas/Admin/Views/Service/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvU2VydmljZS9EZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Volumes/Data/asp/Munafasa/Munafasa/Areas/Admin/Views/Service/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvU2VydmljZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Data/asp/Munafasa/Munafasa/Areas/Admin/Views/Service/TechnicianServices.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvU2VydmljZS9UZWNobmljaWFuU2VydmljZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Volumes/Data/asp/Munafasa/Munafasa/Areas/Admin/Views/Service/Upsert.cshtml]
@@ -140,8 +168,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvU2V0dGluZy9WaXNpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Volumes/Data/asp/Munafasa/Munafasa/Areas/Admin/Views/Technician/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvVGVjaG5pY2lhbi9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Volumes/Data/asp/Munafasa/Munafasa/Areas/Admin/Views/Technician/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvVGVjaG5pY2lhbi9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Data/asp/Munafasa/Munafasa/Areas/Admin/Views/Technician/ServiceTechnicians.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvVGVjaG5pY2lhbi9TZXJ2aWNlVGVjaG5pY2lhbnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Volumes/Data/asp/Munafasa/Munafasa/Areas/Admin/Views/Technician/Upsert.cshtml]

@@ -29,8 +29,21 @@ namespace Munafasa.Areas.Admin.Controllers
 
         public IActionResult Index()
         {
-            var clients = _unitOfWork.Technicain.GetAll(filter: (x)=> !x.Deleted, x => x.TechnicianServices);
-            return View(clients);
+            var technicians = _unitOfWork.Technicain.GetAll(filter: (x)=> !x.Deleted, x => x.TechnicianServices, x => x.Requests);
+            return View(technicians);
+        }
+
+        public IActionResult ServiceTechnicians(int serviceId)
+        {
+            var techServices = _unitOfWork.TechServices.GetAll(filter: (x) => x.ServiceId == serviceId, x => x.Service, x => x.Technician);
+            var technicians = techServices.Select(x => x.Technician);
+            return View(technicians);
+        }
+
+        public IActionResult Details(int techId)
+        {
+            var technician = _unitOfWork.Technicain.GetFirstOrDefault(filter: (x) => x.Id == techId, x => x.TechnicianServices, x => x.Requests);
+            return View(technician);
         }
 
         public IActionResult UpSert(int? techId)

@@ -30,6 +30,13 @@ namespace Munafasa.Areas.Admin.Controllers
             return View(services);
         }
 
+        public IActionResult TechnicianServices(int techId)
+        {
+            var techServices = _unitOfWork.TechServices.GetAll(filter: (x) => x.TechnicianId == techId, x=> x.Service, x => x.Technician);
+            var services = techServices.Select(x => x.Service);
+            return View(services);
+        }
+
         public IActionResult Details(int? serviceId)
         {
             var service = _unitOfWork.Service.GetFirstOrDefault(x => x.Id == serviceId,x => x.Requests, x=> x.TechnicianServices);

@@ -41,6 +41,19 @@ namespace Munafasa.Areas.Admin.Controllers
             return View(contracts);
         }
 
+        public IActionResult OwnerContracts(int ownerId)
+        {
+            var contracts = _unitOfWork.Contract.GetAll(filter: (x) => !x.Deleted && x.OwnerId == ownerId,
+                x => x.Owner,
+                x => x.ContractServices,
+                x => x.Attacments,
+                x => x.Cheques,
+                x => x.Clients,
+                x => x.Requests
+                );
+            return View(contracts);
+        }
+
         public IActionResult UpSert(int? contractId)
         {
             Contract contract = new Contract();

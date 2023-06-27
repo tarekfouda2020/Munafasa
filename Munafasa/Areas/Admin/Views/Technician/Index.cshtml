@@ -21,13 +21,14 @@
     <table class="table datatable-responsive">
         <thead>
             <tr>
+                <th>ID</th>
                 <th>Image</th>
-                <th>Passport</th>
                 <th>User Name</th>
-                <th>Email</th>
                 <th>Phone</th>
                 <th>Salary</th>
                 <th>Join Date</th>
+                <th class="text-center">Services</th>
+                <th class="text-center">Requests</th>
                 <th class="text-center">Actions</th>
             </tr>
         </thead>
@@ -37,16 +38,21 @@
             {
                 <tr>
                     <td>
-                        <img src="~/@item.ProfileImage" width="50px" height="50px" />
+                        <a asp-area="Admin" asp-action="Details" asp-route-techId="@item.Id">@item.Id</a>
                     </td>
                     <td>
-                        <img src="~/@item.PassportImage" width="50px" height="50px" />
+                        <img src="~/@item.ProfileImage" style="width:50px; height:50px;" />
                     </td>
                     <td>@item.UserName</td>
-                    <td>@item.Email</td>
                     <td>@item.Phone</td>
                     <td>@item.Salary.ToString("C")</td>
                     <td>@item.JoinDate.ToString("MM/dd/yyyy")</td>
+                    <td>
+                        <a asp-area="Admin" asp-controller="Service" asp-action="TechnicianServices" asp-route-techId="@item.Id" class="dropdown-item"><i class="icon-floppy-disks"></i> Services</a>
+                    </td>
+                    <td>
+                        <a asp-area="Admin" asp-controller="Request" asp-action="TechniciansRequests" asp-route-techId="@item.Id" class="dropdown-item"><i class="icon-books"></i> Requests</a>
+                    </td>
                     <td class="text-center">
                         <div class="list-icons">
                             <div class="dropdown">

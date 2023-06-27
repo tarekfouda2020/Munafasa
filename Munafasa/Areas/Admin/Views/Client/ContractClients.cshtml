@@ -2,8 +2,8 @@
 @model IEnumerable<Client>
 @{
     ViewData["Title"] = "Clients";
-    ViewData["PageSlug"] = "Clients";
-    ViewData["Back"] = "/Admin/Dashboard";
+    ViewData["PageSlug"] = "Contracts";
+    ViewData["Back"] = "/Admin/Contract";
 }
 
 
@@ -28,7 +28,6 @@
                 <th>Phone</th>
                 <th>Contract</th>
                 <th>Created At</th>
-                <th class="text-center">Requests</th>
                 <th class="text-center">Actions</th>
             </tr>
         </thead>
@@ -47,10 +46,8 @@
                     <td>@item.Email</td>
                     <td>@item.Phone</td>
                     <td>@item.Contract.ContractNumber</td>
+
                     <td>@item.CreatedAt.ToString("MM/dd/yyyy")</td>
-                    <td>
-                        <a asp-area="Admin" asp-controller="Request" asp-action="ClientRequests" asp-route-clientId="@item.Id" class="dropdown-item"><i class="icon-books"></i> Requests</a>
-                    </td>
                     <td class="text-center">
                         <div class="list-icons">
                             <div class="dropdown">

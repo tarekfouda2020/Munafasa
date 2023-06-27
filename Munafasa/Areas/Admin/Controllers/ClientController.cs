@@ -28,6 +28,12 @@ namespace Munafasa.Areas.Admin.Controllers
             return View(clients);
         }
 
+        public IActionResult ContractClients(int contractId)
+        {
+            var clients = _unitOfWork.Client.GetAll(filter: (x) => !x.Deleted && x.ContractId == contractId, x => x.Contract);
+            return View(clients);
+        }
+
         public IActionResult Details(int clientId)
         {
             var clients = _unitOfWork.Client.GetFirstOrDefault(filter: (x) => x.Id == clientId, x => x.Contract, x=> x.Requests, x => x.Contract.Owner);

@@ -1,7 +1,7 @@
 ﻿@{
     string pageSlug = ViewData["PageSlug"]?.ToString()??"";
     bool isUser = pageSlug == "Admins" || pageSlug == "Owners" || pageSlug == "Clients" || pageSlug == "Technicians";
-    bool isSetting = pageSlug == "About" || pageSlug == "Vision" || pageSlug == "Mission" || pageSlug == "SitInfo";
+    bool isSetting = pageSlug == "About" || pageSlug == "Vision" || pageSlug == "Mission" || pageSlug == "SiteSetting";
     bool isRequest = pageSlug == "AllRequests" || pageSlug == "NewRequests" || pageSlug == "InProgressRequests" || pageSlug == "DoneRequests" || pageSlug == "CanceledRequests";
 
 }

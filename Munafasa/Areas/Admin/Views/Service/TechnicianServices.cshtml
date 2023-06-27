@@ -2,8 +2,8 @@
 @model IEnumerable<Service>
 @{
     ViewData["Title"] = "Services";
-    ViewData["PageSlug"] = "Service";
-    ViewData["Back"] = "/Admin/Dashboard";
+    ViewData["PageSlug"] = "Technicians";
+    ViewData["Back"] = "/Admin/Technician";
 }
 
 
@@ -26,8 +26,6 @@
                 <th>Arabic Name</th>
                 <th>English Name</th>
                 <th>Created At</th>
-                <th class="text-center">Technicians</th>
-                <th class="text-center">Requests</th>
                 <th class="text-center">Actions</th>
             </tr>
         </thead>
@@ -44,12 +42,6 @@
                     <td>@service.NameAr</td>
                     <td>@service.NameEn</td>
                     <td>@service.CreatedAt</td>
-                    <td>
-                        <a asp-area="Admin" asp-controller="Technician" asp-action="ServiceTechnicians" asp-route-serviceId="@service.Id" class="dropdown-item"><i class="icon-users"></i> Technician</a>
-                    </td>
-                    <td>
-                        <a asp-area="Admin" asp-controller="Request" asp-action="ServiceRequests" asp-route-serviceId="@service.Id" class="dropdown-item"><i class="icon-books"></i> Requests</a>
-                    </td>
                     <td class="text-center">
                         <div class="list-icons">
                             <div class="dropdown">
