@@ -1,4 +1,5 @@
 ﻿@using Munafasa.Models.Tables
+@using Munafasa.Utilities
 @model Request
 @{
     ViewData["Title"] = "Request Details";
@@ -12,7 +13,23 @@
     <div class="card-header header-elements-inline">
         <h5 class="card-title">Requests</h5>
         <div class="header-elements">
-            <button type="button" class="btn btn-primary">Send To Owner <i class="icon-paperplane ml-2"></i></button>
+            @if (Model.Status == (int)StatusEnumeration.New)
+            {
+                <a asp-action="ChangeStatus" asp-route-requestId="@Model.Id" asp-route-status="@((int)StatusEnumeration.Canceled)" class="btn btn-danger m-1">Cancel</a>
+                <a asp-action="ChangeStatus" asp-route-requestId="@Model.Id" asp-route-status="@((int)StatusEnumeration.PendingOwnerApproval)" class="btn btn-primary m-1">Send To Owner </a>
+            }
+            else if (Model.Status == (int)StatusEnumeration.PendingOwnerApproval)
+            {
+                <a asp-action="ChangeStatus" asp-route-requestId="@Model.Id" asp-route-status="@((int)StatusEnumeration.PendingAdminApproval)" class="btn btn-primary m-1">Accept </a>
+            }
+            else if (Model.Status == (int)StatusEnumeration.PendingAdminApproval && Model.Technician != null)
+            {
+                <a asp-action="ChangeStatus" asp-route-requestId="@Model.Id" asp-route-status="@((int)StatusEnumeration.PendingTechnical)" class="btn btn-primary m-1">Send To Technician </a>
+            }
+            else if (Model.Status == (int)StatusEnumeration.TechnicalFinished)
+            {
+                <a asp-action="ChangeStatus" asp-route-requestId="@Model.Id" asp-route-status="@((int)StatusEnumeration.Done)" class="btn btn-primary m-1">Donfirm </a>
+            }
         </div>
     </div>
 
@@ -116,11 +133,11 @@
                 }
 
                 @if (Model.RequestImages.Where(x => x.IsAfter).Count() != 0)
-                    {
+                {
                     <div class="form-group col-md-12">
                         <label>Images After</label>
                         <div class="row">
-                            @foreach (var item in Model.RequestImages.Where(x=>x.IsAfter))
+                            @foreach (var item in Model.RequestImages.Where(x => x.IsAfter))
                             {
                                 <div class="col-sm-6 col-lg-3">
                                     <div class="card">

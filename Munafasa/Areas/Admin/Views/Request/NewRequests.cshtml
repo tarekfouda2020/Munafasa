@@ -48,7 +48,17 @@
                     <td>
                         <a asp-area="Admin" asp-controller="Client" asp-action="Details" asp-route-clientId="@item.Client.Id">@item.Client.UserName</a>
                     </td>
-                    <td>@(item.Technician != null? item.Technician?.UserName : "Not Assigned")</td>
+                    @if (item.Technician != null)
+                    {
+                        <td>
+                            <a asp-area="Admin" asp-controller="Technician" asp-action="Details" asp-route-techId="@item.Technician!.Id">@item.Technician!.UserName</a>
+
+                        </td>
+                    }
+                    else
+                    {
+                        <td>Not Assigned</td>
+                    }
                     <td>
                         <a asp-area="Admin" asp-controller="Owner" asp-action="Details" asp-route-ownerId="@item.Client.Contract.Owner.Id">@item.Client.Contract.Owner.UserName</a>
                     </td>

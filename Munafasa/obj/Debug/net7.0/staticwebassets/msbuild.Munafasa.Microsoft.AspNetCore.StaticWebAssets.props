@@ -1808,22 +1808,6 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Requests\7336a0f6-e9e6-4db6-96fc-3a1f02e65b57.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Requests\77cfc6a1-890e-4528-bd06-004c99bd674c.png))">
-      <SourceType>Package</SourceType>
-      <SourceId>Munafasa</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Munafasa</BasePath>
-      <RelativePath>Images/Requests/77cfc6a1-890e-4528-bd06-004c99bd674c.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Requests\77cfc6a1-890e-4528-bd06-004c99bd674c.png))</OriginalItemSpec>
-    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\Requests\7a8b68a9-f146-4eeb-aaad-10d7ebdfa709.svg))">
       <SourceType>Package</SourceType>
       <SourceId>Munafasa</SourceId>
