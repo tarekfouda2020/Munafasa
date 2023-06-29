@@ -69,6 +69,28 @@
                 </li>
 
                 <li class="nav-item nav-item-submenu">
+                    <a href="#" class="nav-link @(isRequest?"active":"")"><i class="icon-rating3"></i> <span>Requests</span></a>
+
+                    <ul class="nav nav-group-sub" data-submenu-title="Layouts" style="display:@(isRequest?"block":"none")">
+                        <li class="nav-item"><a asp-area="Admin" asp-controller="Request" asp-action="Index" class="nav-link @(pageSlug == "AllRequests"?"active":"")">All Requests</a></li>
+                        <li class="nav-item"><a asp-area="Admin" asp-controller="Request" asp-action="NewRequests" class="nav-link @(pageSlug == "NewRequests"?"active":"")">New Requests</a></li>
+                        <li class="nav-item"><a asp-area="Admin" asp-controller="Request" asp-action="InProgressRequests" class="nav-link @(pageSlug == "InProgressRequests"?"active":"")">In Progress Requests</a></li>
+                        <li class="nav-item"><a asp-area="Admin" asp-controller="Request" asp-action="DoneRequests" class="nav-link @(pageSlug == "DoneRequests"?"active":"")">Done Requests</a></li>
+                        <li class="nav-item"><a asp-area="Admin" asp-controller="Request" asp-action="CanceledRequests" class="nav-link @(pageSlug == "CanceledRequests"?"active":"")">Canceled Requests</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a asp-area="Admin" asp-controller="Contract" asp-action="Index" class="nav-link @(pageSlug == "Contract"?"active":"")">
+                        <i class="icon-file-text2"></i>
+                        <span>
+                            Contracts
+                        </span>
+                    </a>
+                </li>
+
+
+                <li class="nav-item nav-item-submenu">
                     <a href="#" class="nav-link @(isSetting?"active":"")"><i class="icon-gear"></i> <span>Settings</span></a>
 
                     <ul class="nav nav-group-sub" data-submenu-title="Layouts" style="display:@(isSetting?"block":"none")">
@@ -98,33 +120,13 @@
                     </a>
                 </li>
 
-                <li class="nav-item">
-                    <a asp-area="Admin" asp-controller="Contract" asp-action="Index" class="nav-link @(pageSlug == "Contract"?"active":"")">
-                        <i class="icon-file-text2"></i>
-                        <span>
-                            Contracts
-                        </span>
-                    </a>
-                </li>
-
-                <li class="nav-item nav-item-submenu">
-                    <a href="#" class="nav-link @(isRequest?"active":"")"><i class="icon-rating3"></i> <span>Requests</span></a>
-
-                    <ul class="nav nav-group-sub" data-submenu-title="Layouts" style="display:@(isRequest?"block":"none")">
-                        <li class="nav-item"><a asp-area="Admin" asp-controller="Request" asp-action="Index" class="nav-link @(pageSlug == "AllRequests"?"active":"")">All Requests</a></li>
-                        <li class="nav-item"><a asp-area="Admin" asp-controller="Request" asp-action="NewRequests" class="nav-link @(pageSlug == "NewRequests"?"active":"")">New Requests</a></li>
-                        <li class="nav-item"><a asp-area="Admin" asp-controller="Request" asp-action="InProgressRequests" class="nav-link @(pageSlug == "InProgressRequests"?"active":"")">In Progress Requests</a></li>
-                        <li class="nav-item"><a asp-area="Admin" asp-controller="Request" asp-action="DoneRequests" class="nav-link @(pageSlug == "DoneRequests"?"active":"")">Done Requests</a></li>
-                        <li class="nav-item"><a asp-area="Admin" asp-controller="Request" asp-action="CanceledRequests" class="nav-link @(pageSlug == "CanceledRequests"?"active":"")">Canceled Requests</a></li>
-                    </ul>
-                </li>
 
 
                 <li class="nav-item">
                     <a asp-area="Admin" asp-controller="Contact" asp-action="Index" class="nav-link @(pageSlug == "Contact"?"active":"")">
                         <i class="icon-envelop4"></i>
                         <span>
-                            ContactUs
+                            Contact Us
                         </span>
                     </a>
                 </li>
