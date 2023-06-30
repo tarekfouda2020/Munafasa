@@ -30,6 +30,9 @@ namespace Munafasa.Data.IRepositories
         public IRequestRepository Request { get;}
 
         public IRequestImagesRepository RequestImages { get;}
+
+        public IContractServicesRepository ContractServices { get; }
+
         void Save();
     }
 }

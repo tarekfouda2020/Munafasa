@@ -13,6 +13,7 @@ public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        modelBuilder.Entity<ContractService>().Navigation(e => e.Service).AutoInclude();
         base.OnModelCreating(modelBuilder);
     }
 

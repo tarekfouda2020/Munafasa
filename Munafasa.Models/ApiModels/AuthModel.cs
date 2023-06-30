@@ -2,6 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.IdentityModel.Tokens.Jwt;
 using Munafasa.Models.Tables;
+using Munafasa.Utilities;
 using Newtonsoft.Json.Linq;
 
 namespace Munafasa.Models.ApiModels
@@ -19,6 +20,7 @@ namespace Munafasa.Models.ApiModels
         public string? Building { get; set; }
         public string? Floor { get; set; }
         public string? Apartment { get; set; }
+        public UserType type { get; set; }
 
         public static AuthModel FromClient(Client client, JwtSecurityToken? jwtSecurity = null)
         {
@@ -33,6 +35,7 @@ namespace Munafasa.Models.ApiModels
                 Apartment = client.Apartment,
                 Floor = client.Floor,
                 Building = client.Building,
+                type = UserType.client,
             };
             if (jwtSecurity != null)
             {
@@ -51,6 +54,7 @@ namespace Munafasa.Models.ApiModels
                 UserName = technician.UserName,
                 ProfileImage = technician.ProfileImage,
                 UserId = technician.Id,
+                type = UserType.technician,
             };
             if (jwtSecurity != null)
             {
@@ -69,6 +73,7 @@ namespace Munafasa.Models.ApiModels
                 UserName = owner.UserName,
                 ProfileImage = owner.ProfileImage,
                 UserId = owner.Id,
+                type = UserType.owner,
             };
             if (jwtSecurity != null)
             {

@@ -1,10 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.Contracts;
+using System.Drawing;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Munafasa.Data.IRepositories;
+using Munafasa.Migrations;
 using Munafasa.Models.ApiModels;
 using Munafasa.Models.Tables;
 using Munafasa.Utilities;
@@ -130,6 +133,42 @@ namespace Munafasa.Areas.API
             }
             return BadRequest(new ResponseModel(success: false, errors: ModelState));
         }
+
+        [HttpPut]
+        public async Task<IActionResult> UpdateClientProfile(ClientDto clientDto)
+        {
+            if (ModelState.IsValid)
+            {
+                var userId = int.Parse(User.FindFirst("userId")?.Value??"0");
+                var client = _unitOfWork.Client.GetFirstOrDefault(x => x.Id == userId);
+                if (client == null)
+                {
+                    return BadRequest(new ResponseModel(success: true,msg: new LocalizedValue(Messages.NotExist, Messages.NotExist)));
+                }
+
+                if (clientDto.image != null)
+                {
+                    string imagePath = await new FileHelper(_hostEnvironment)
+                    .SaveFile(path: "Images/Clients/", file: clientDto.image);
+                    client.UserName = imagePath;
+                }
+                client.Addresss = clientDto.Address;
+                client.Apartment = clientDto.Apartment;
+                client.Building = clientDto.Building;
+                client.Floor = clientDto.Floor;
+                client.Password = clientDto.Password;
+                client.Phone = clientDto.Phone;
+                client.UserName = clientDto.Name;
+                client.Email = clientDto.Email;
+                client.Lat = clientDto.Lat;
+                client.Lng = clientDto.Lng;
+                var token = _authService.CreateJWTToekn(client.Id, client.Phone, client.UserName);
+                AuthModel authModel = AuthModel.FromClient(client, token);
+                return Ok(new ResponseModel(success: true, data: authModel));
+            }
+            return BadRequest(new ResponseModel(success: false, errors: ModelState));
+        }
+
 
     }
 }

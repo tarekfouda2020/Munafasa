@@ -23,14 +23,14 @@
                 <div class="form-group col-md-12">
                     <label for="image">Attachments</label>
                     <input type="file" multiple class="form-control-uniform" name="attachments">
-                    @if (Model?.Contract?.Attacments.Count != 0)
+                    @if (Model?.Contract?.Attacments?.Count != null)
                     {
                         <div class="row mt-2">
                             @foreach (var item in Model.Contract.Attacments)
                             {
                                 <div class="col-md-2" id="attach_@item.Id">
                                     <a href="~/@item.Url" target="_blank" style="color:black;"><i class="icon-files-empty2"></i> Attachemt</a>
-                                    <a href="#"  onclick="RemoveAttachment(@item.Id)" style="margin-left: 5px; color: red;"><i class="icon-database-remove"></i></a>
+                                    <a href="#" onclick="RemoveAttachment(@item.Id)" style="margin-left: 5px; color: red;"><i class="icon-database-remove"></i></a>
                                 </div>
                             }
 
@@ -85,6 +85,13 @@
                     <label asp-for="Contract.ToDate"></label>
                     <input type="date" asp-for="Contract.ToDate" class="form-control" placeholder="">
                     <span asp-validation-for="Contract.ToDate" class="text-danger"></span>
+                </div>
+
+                <div class="form-group col-md-12">
+                    <label class="col-form-label" asp-for="ContractServices"></label>
+                    <select asp-for="ContractServices" asp-items="@Model.Services" multiple="multiple" class="form-control multiselect">
+                    </select>
+                    <span asp-validation-for="ContractServices" class="text-danger"></span>
                 </div>
 
 
@@ -144,9 +151,10 @@
 <script src="\js\adminJs\plugins\forms\selects\select2.min.js"></script>
 <script src="\js\adminJs\demo_pages\form_select2.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+<script src="\js\adminJs\plugins\forms\selects\bootstrap_multiselect.js"></script>
+<script src="\js\adminJs\demo_pages\form_multiselect.js"></script>
 
-<script type="text/javascript">
-    function RemoveAttachment(id) {
+<script type="text/javascript">function RemoveAttachment(id) {
         $.ajax({
             url: "/Admin/Contract/DeleteAttachment?attachId=" + id,
             type: "DELETE",

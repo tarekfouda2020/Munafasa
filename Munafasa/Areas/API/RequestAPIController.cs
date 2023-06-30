@@ -41,7 +41,17 @@ namespace Munafasa.Areas.API
         }
 
         [HttpGet]
-        public IActionResult GetClientStatusRequests()
+        public IActionResult GetStatusRequests(StatusEnumeration status)
+        {
+            var userId = int.Parse(User.FindFirst("userId")?.Value!);
+            var requests = _unitOfWork.Request.GetAll(x => x.ClientId == userId && !x.Deleted && x.Status == (int)status)
+                .Select(RequestDto.FromRequest);
+
+            return Ok(new ResponseModel(success: true, data: requests));
+        }
+
+        [HttpGet]
+        public IActionResult GetGroupedRequests()
         {
             var userId = int.Parse(User.FindFirst("userId")?.Value!);
             var allReqs = _unitOfWork.Request.GetAll(x => x.ClientId == userId && !x.Deleted).Select(RequestDto.FromRequest);
@@ -88,6 +98,15 @@ namespace Munafasa.Areas.API
                 return Ok(new ResponseModel(success: true));
             }
             return BadRequest(new ResponseModel(success: false, errors: ModelState));
+        }
+
+        [HttpPost]
+        public IActionResult ChangeStatus(int requestId, int status)
+        {
+            var request = _unitOfWork.Request.GetFirstOrDefault(x => x.Id == requestId);
+            request!.Status = status;
+            _unitOfWork.Save();
+            return Json(new ResponseModel(success: true, msg: new LocalizedValue(Messages.StatusChangedSuccessfully, Messages.StatusChangedSuccessfully)));
         }
     }
 }
