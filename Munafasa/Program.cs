@@ -83,12 +83,6 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.UseMigrationsEndPoint();
-    app.UseSwagger();
-    app.UseSwaggerUI(options =>
-    {
-        options.DocumentTitle = "Munafasa";
-        options.DisplayRequestDuration();
-    });
 }
 else
 {
@@ -97,8 +91,12 @@ else
     app.UseHsts();
 }
 
-//app.UseSession();
-//app.UseCookiePolicy();
+app.UseSwagger();
+app.UseSwaggerUI(options =>
+{
+    options.DocumentTitle = "Munafasa";
+    options.DisplayRequestDuration();
+});
 
 
 app.UseHttpsRedirection();
